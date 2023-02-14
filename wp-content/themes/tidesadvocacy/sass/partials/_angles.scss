@@ -1,0 +1,371 @@
+
+// $angle: The angle in degrees: 1 - 45
+// $angle-position-y: The Y position of the angle: top | bottom | both
+// $angle-position-x: The X position of the angle: left | right
+// $angle-position-bottom-x: The X position of the bottom angle if using 'both' for $angle-position-y: left | right
+// $fallback: Create a fallback for older browsers: true | false
+// $fallback-color: Fallback colour for older browsers: Hex color
+
+@mixin angle-edge($angle, $angle-position-y, $angle-position-x, $angle-position-bottom-x: '', $fallback: true, $fallback-color: $white) {
+  
+    position: relative;
+    overflow: hidden;
+  
+    // Converts degrees to VW, 100vw = 45deg using this technique
+    @if $angle > 45 {
+      $angle: 0;
+      @error 'Invalid angle, it must be between 1-45';
+    }
+    @if $angle < 46 {
+      $angle: convertDegToVW($angle);
+    }
+  
+    @if $angle-position-bottom-x == '' {
+      $angle-position-bottom-x: $angle-position-x;
+    }
+  
+    $angle-calc-top: calc(0% + #{$angle}vw);
+    $angle-calc-bottom: calc(100% - #{$angle}vw);
+  
+    $clip-path-top: 0 0, 100% 0;
+    $clip-path-bottom: 100% 100%, 0 100%;
+  
+    $border-width-top: '';
+    $border-width-bottom: '';
+    $border-color-top: '';
+    $border-color-bottom: '';
+  
+  
+    @if $angle-position-y == 'top' or $angle-position-y == 'both' {
+  
+      @if $angle-position-x == 'left' {
+        $clip-path-top: 0 $angle-calc-top, 100% 0;
+  
+        $border-width-top: #{$angle + 1}vw 100vw 0 0;
+      }
+  
+      @if $angle-position-x == 'right' {
+        $clip-path-top: 0 0, 100% $angle-calc-top;
+  
+        $border-width-top: #{$angle + 1}vw 0 0 100vw;
+      }
+  
+      $border-color-top: $fallback-color transparent transparent transparent;
+    }
+  
+  
+    @if $angle-position-y == 'bottom' or $angle-position-y == 'both' {
+  
+      @if $angle-position-y == 'both' and $angle-position-x != $angle-position-bottom-x {
+        $angle-position-x: $angle-position-bottom-x;
+      }
+  
+      @if $angle-position-x == 'left' {
+        $clip-path-bottom: 100% 100%, 0 $angle-calc-bottom;
+  
+        $border-width-bottom: 0 100vw #{$angle + 1}vw 0;
+      }
+  
+      @if $angle-position-x == 'right' {
+        $clip-path-bottom: 100% $angle-calc-bottom, 0 100%;
+  
+        $border-width-bottom: 0 0 #{$angle + 1}vw 100vw;
+      }
+  
+      $border-color-bottom: transparent transparent $fallback-color transparent;
+    }
+  
+    $clip-path: polygon($clip-path-top, $clip-path-bottom);
+    clip-path: $clip-path;
+    -webkit-clip-path: $clip-path;
+  
+  
+    // Fallback for clip-path with solid colours
+    @if $fallback {
+  
+      @supports not ((clip-path: $clip-path) or (-webkit-clip-path: $clip-path)) {
+  
+        &::before, &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          z-index: 10;
+          display: block;
+          border-style: solid;
+        }
+  
+        @if $angle-position-y == 'top' or $angle-position-y == 'both' {
+          &::before {
+            top: 0;
+            border-width: $border-width-top;
+            border-color: $border-color-top;
+          }
+        }
+  
+        @if $angle-position-y == 'bottom' or $angle-position-y == 'both' {
+          &::after {
+            bottom: 0;
+            border-width: $border-width-bottom;
+            border-color: $border-color-bottom;
+          }
+        }
+  
+      }
+  
+    }
+  
+  }
+  
+  // Converts degrees to VW, 100vw = 45deg using this technique
+  @function convertDegToVW($angle){
+    @return round($angle*2.22);
+  }
+  
+  
+  // Classes
+  .angle--top-left {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'top', $angle-position-x: 'left');
+    }
+  }
+  
+  .angle--top-right {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'top', $angle-position-x: 'right');
+    }
+  }
+  
+  .angle--bottom-left {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+    }
+  }
+  
+  .angle--bottom-right {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'right');
+    }
+  }
+
+  /** Angled images  */
+  .angle--top-left {
+    .fl-photo-content,      
+    .fl-html {
+      width: 100%;
+      @include angle-edge($angle: 3.5, $angle-position-y: 'top', $angle-position-x: 'left');
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  //category archives
+   /** Angled images  */
+   .archive.category,
+   .archive.author {
+    .fl-post-feed-image {
+      width: 100%;
+      @include angle-edge($angle: 3.5, $angle-position-y: 'top', $angle-position-x: 'left');
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  .angle--top-right {
+    .fl-photo-content,
+    .fl-html {
+      width: 100%;
+      @include angle-edge($angle: 3.5, $angle-position-y: 'top', $angle-position-x: 'right');
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .angle--bottom-left {
+    .fl-photo-content,
+    .fl-html {
+      width: 100%;
+      @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  .angle--bottom-right {
+    .fl-photo-content,
+    .fl-html {
+      width: 100%;
+      @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'right');
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  .angle--both-left-left {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'both', $angle-position-x: 'left');
+    }
+  }
+  
+  .angle--both-right-right {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'both', $angle-position-x: 'right');
+    }
+  }
+  
+  .angle--both-left-right {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'both', $angle-position-x: 'left', $angle-position-bottom-x: 'right');
+    }
+  }
+  
+  .angle--both-right-left {
+    .fl-row-content {
+      @include angle-edge($angle: 3.5, $angle-position-y: 'both', $angle-position-x: 'right', $angle-position-bottom-x: 'left');
+    }
+  }
+
+  .angle__content {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .angle--colour .fl-row-content {
+    color: $white;
+    background-color: white;
+    background-color:rgba(9, 211, 241, .6);
+    min-height: 400px;
+    padding: 200px 0;
+    //margin: 20px; //need to test this out on mobile
+  }
+  
+
+  /** Our Focus Areas - Home page  */
+  .section-bluebkg-redsign,
+  .section-bluebkg-whitetext {
+    z-index: 10;
+    background-image: url("/wp-content/uploads/2018/08/our_focus_areas_bkg.png");
+    background-repeat: no-repeat;
+    background-position: right 30% top;
+    background-attachment: scroll;
+    background-size: initial;
+    padding-top: 220px;
+    .fl-row-content-wrap {
+      padding: 100px 0;
+      @media (min-width: 768px) {
+        padding: 150px 0;
+      }
+      @media (min-width: 992px) {
+        padding: 200px 0;
+      }
+    }
+  }
+  body:not(.fl-builder-edit) {
+    .section-bluebkg-redsign,
+    .section-bluebkg-whitetext {
+      .fl-row-content-wrap {
+        @include alpha-attribute('background-color', rgba(10, 210, 241, .9), white);
+        @include angle-edge($angle: 3.5, $angle-position-y: 'both', $angle-position-x: 'left');
+      }
+    }
+  }
+
+  /** Our Services Areas - Home page  */
+  .section-redbkg-bluesign,
+  .section-pinkbkg-whitetext {
+    z-index: 10;
+    background-image: url("/wp-content/uploads/2018/08/our_services_bkg.png");
+    background-repeat: no-repeat;
+    background-position: right 30% top;
+    background-attachment: scroll;
+    background-size: contain;
+    padding-top: 30vw;
+    .fl-row-content-wrap {
+      padding: 110px 0 200px 0;
+    }
+  }
+  body:not(.fl-builder-edit) {
+    .section-redbkg-bluesign,
+    .section-pinkbkg-whitetext {
+      .fl-row-content-wrap {
+        @include alpha-attribute('background-color', rgba(235, 13, 140, .9), white);
+        @include angle-edge($angle: 5.5, $angle-position-y: 'both', $angle-position-x: 'right');
+      }
+    }
+  }
+  
+
+  /** Hero styles */
+  .hero-bkg {
+    .fl-row-content-wrap {
+      padding-top: 40px;
+      padding-bottom: 180px;
+    }
+  }
+  body:not(.fl-builder-edit) {
+    .hero-bkg {
+      .fl-row-content-wrap {
+        @include alpha-attribute('background-color', $lightblue, white);
+        @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+      }
+      
+    }
+  }
+
+  .hero-bkg-lightblue {
+    .fl-row-content-wrap {
+      padding-top: 40px;
+      padding-bottom: 180px;
+    }
+  }
+  body:not(.fl-builder-edit) {
+    .hero-bkg-lightblue {
+      .fl-row-content-wrap {
+        @include alpha-attribute('background-color', $lightblue, white);
+        @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+      }
+      
+    }
+  }
+
+  .hero-bkg-blue {
+    .fl-row-content-wrap {
+      padding-top: 40px;
+      padding-bottom: 180px;
+      background-color: $blue;
+    }
+  }
+  body:not(.fl-builder-edit) {
+    .hero-bkg-blue {
+      .fl-row-content-wrap {
+        @include alpha-attribute('background-color', $blue, white);
+        @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'left');
+      }
+      
+    }
+  }
+
+  .footer-signup {
+    padding: 40px 0 70px 0;  
+    @include alpha-attribute('background-color', $blue, $lightblue);
+    @include angle-edge($angle: 3.5, $angle-position-y: 'bottom', $angle-position-x: 'right', $fallback: true, $fallback-color: $lightblue);
+    @media (min-width: 768px) {
+      padding-bottom: 100px;
+    }
+    @media (min-width: 992px) {
+      padding-bottom: 120px;
+    }
+  }

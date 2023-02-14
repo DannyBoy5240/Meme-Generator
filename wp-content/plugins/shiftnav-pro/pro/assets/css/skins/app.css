@@ -1,0 +1,123 @@
+.shiftnav-skin-app ul.shiftnav-menu {
+  padding: 0 10px;
+}
+.shiftnav-skin-app ul.shiftnav-menu li.menu-item > .shiftnav-target,
+.shiftnav-skin-app ul.shiftnav-menu li.shiftnav-retract > .shiftnav-target {
+  padding: 6px 5px;
+}
+.shiftnav-skin-app ul.shiftnav-menu > li.menu-item > .shiftnav-target {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.shiftnav-skin-app ul.shiftnav-menu > li.menu-item {
+  padding-bottom: 20px;
+}
+.shiftnav.shiftnav-skin-app {
+  font-size: 11px;
+  line-height: 1.3em;
+  background: #2a2a31;
+  color: #eeeeee;
+}
+.shiftnav.shiftnav-skin-app .shiftnav-site-title {
+  font-size: 30px;
+  text-align: left;
+  padding: 40px 25px;
+  font-weight: normal;
+  color: #eeeeee;
+}
+.shiftnav.shiftnav-skin-app .shiftnav-activated-style {
+  color: #2d9ad8;
+  background: transparent;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: #444444;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item > .shiftnav-target {
+  color: #aaaaaa;
+  font-size: 11px;
+  font-weight: bold;
+  border-top: none;
+  border-bottom: 2px solid #444444;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation {
+  background: rgba(0, 0, 0, 0.1);
+  color: #555555;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #eeeeee;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-submenu-activation,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-submenu-activation {
+  background: rgba(0, 0, 0, 0.1);
+  color: #eeeeee;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item.shiftnav-highlight > .shiftnav-target,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item ul.sub-menu .shiftnav-highlight > .shiftnav-target {
+  color: #12cc98;
+  background: transparent;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-target,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-target {
+  color: #2d9ad8;
+  background: transparent;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: #444444;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item.current-menu-item > .shiftnav-target,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.menu-item ul.sub-menu .current-menu-item .shiftnav-target {
+  color: #2d9ad8;
+  background: transparent;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu > li.menu-item > .shiftnav-target {
+  text-transform: uppercase;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu > li.shiftnav-sub-accordion.current-menu-ancestor > .shiftnav-target,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu > li.shiftnav-sub-shift.current-menu-ancestor > .shiftnav-target {
+  color: #2d9ad8;
+  background: transparent;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: #444444;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu li.shiftnav-retract .shiftnav-target {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-transform: normal;
+  font-size: 12px;
+  text-align: right;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu ul.sub-menu {
+  color: #eeeeee;
+  background: transparent;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  color: #ffffff;
+  border-width: 1px;
+  border-top-color: transparent;
+  border-bottom-color: rgba(155, 155, 155, 0.07);
+  font-weight: normal;
+  font-size: 13px;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 50px;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 75px;
+}
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 100px;
+}
+.shiftnav.shiftnav-skin-app.shiftnav-left-edge {
+  border-right: none;
+}
+.shiftnav.shiftnav-skin-app.shiftnav-right-edge {
+  border-left: none;
+}
+.shiftnav.shiftnav-skin-app.shiftnav-nojs ul.shiftnav-menu li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu.shiftnav-active-on-hover li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-app ul.shiftnav-menu.shiftnav-active-highlight li.menu-item > .shiftnav-target:active {
+  color: #2d9ad8;
+  background: transparent;
+  border-top-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: #444444;
+}

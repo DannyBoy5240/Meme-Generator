@@ -1,0 +1,15 @@
+/* Grid */
+.edd.fl-post-grid-edd-meta {
+	padding-bottom: 5px;
+}
+.fl-module-post-grid .edd.fl-post-grid-edd-button {
+	padding-top: 10px;
+}
+
+/* Feed */
+.fl-post-feed-edd-meta {
+	overflow: hidden;
+}
+.fl-module-post-grid .edd.fl-post-feed-edd-button {
+	margin-top: 20px;
+}

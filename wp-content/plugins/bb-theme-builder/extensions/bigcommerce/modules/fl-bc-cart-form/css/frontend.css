@@ -1,0 +1,6 @@
+.fl-module-fl-bc-cart-form .bc-product-card {
+	margin: 0;
+}
+.fl-module-fl-bc-cart-form .bc-form .bc-form__label.bc-form-control-required {
+	display: block;
+}

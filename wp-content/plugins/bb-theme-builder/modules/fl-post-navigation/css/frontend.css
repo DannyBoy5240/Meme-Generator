@@ -1,0 +1,10 @@
+.fl-module-fl-post-navigation .screen-reader-text {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.fl-module-fl-post-navigation nav.post-navigation {
+    overflow: hidden;
+}

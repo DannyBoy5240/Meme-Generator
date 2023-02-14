@@ -1,0 +1,1422 @@
+# Copyright (C) 2022 Chris Mavricos, SevenSpark
+# This file is distributed under the same license as the ShiftNav Pro - Responsive Mobile Menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShiftNav Pro - Responsive Mobile Menu 1.7.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shiftnav-pro\n"
+"POT-Creation-Date: 2022-12-27 13:41:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/settings.config.php:40 pro/admin/settings.pro.php:405
+msgid "Click to select, then %s or %s to copy to clipboard"
+msgstr ""
+
+#: admin/settings.config.php:46 pro/admin/settings.pro.php:411
+msgid ""
+"Pick the appropriate code and add to your template or content where you "
+"want the toggle to appear.  The menu panel itself is loaded automatically.  "
+"You can add the toggle code as many times as you like."
+msgstr ""
+
+#: admin/settings.config.php:58
+msgid "Assigned Menu"
+msgstr ""
+
+#: admin/settings.config.php:66
+msgid "Display Main ShiftNav Panel"
+msgstr ""
+
+#: admin/settings.config.php:67
+msgid ""
+"Do not uncheck this unless you want to disable the main ShiftNav panel "
+"entirely."
+msgstr ""
+
+#: admin/settings.config.php:79 pro/admin/settings.pro.php:461
+msgid "Edge"
+msgstr ""
+
+#: admin/settings.config.php:81
+msgid "Which edge of the viewport should the ShiftNav panel appear on?"
+msgstr ""
+
+#: admin/settings.config.php:95 pro/admin/settings.pro.php:485
+msgid "Skin"
+msgstr ""
+
+#: admin/settings.config.php:107 pro/admin/settings.pro.php:538
+msgid "Indent Always Visible Submenus"
+msgstr ""
+
+#: admin/settings.config.php:108 pro/admin/settings.pro.php:539
+msgid "Check this to indent submenu items of always-visible submenus"
+msgstr ""
+
+#: admin/settings.config.php:117 pro/admin/settings.pro.php:558
+msgid "Display Site Title"
+msgstr ""
+
+#: admin/settings.config.php:118
+msgid "Display the site title in the menu panel"
+msgstr ""
+
+#: admin/settings.config.php:127 pro/admin/settings.pro.php:578
+msgid "Display Panel Close Button"
+msgstr ""
+
+#: admin/settings.config.php:128 pro/admin/settings.pro.php:579
+msgid "Display an &times; close button in the upper right of the ShiftNav panel"
+msgstr ""
+
+#: admin/settings.config.php:138
+msgid "Custom Toggle Integration Code"
+msgstr ""
+
+#: admin/settings.config.php:168
+msgid "Display Toggle Bar"
+msgstr ""
+
+#: admin/settings.config.php:169
+msgid ""
+"Uncheck this to disable the default toggle bar and add your own custom "
+"toggle"
+msgstr ""
+
+#: admin/settings.config.php:177
+msgid "Toggle Bar Style"
+msgstr ""
+
+#: admin/settings.config.php:178
+msgid ""
+"Choose whether to have a full width bar, which can include a title and "
+"other content, or just a hamburger button only which will appear in the "
+"upper corner of the site."
+msgstr ""
+
+#: admin/settings.config.php:181
+msgid "Full Bar"
+msgstr ""
+
+#: admin/settings.config.php:182
+msgid "Hamburger button only"
+msgstr ""
+
+#: admin/settings.config.php:190
+msgid "Toggle Breakpoint"
+msgstr ""
+
+#: admin/settings.config.php:191
+msgid ""
+"Show the toggle bar only below this pixel width. 960 is a good default for "
+"most sites.  Leave blank to show the toggle bar at all times.  No need to "
+"include \"px\""
+msgstr ""
+
+#: admin/settings.config.php:191
+msgid "Set this to use ShiftNav only at mobile sizes"
+msgstr ""
+
+#: admin/settings.config.php:199
+msgid "Hide Theme Menu"
+msgstr ""
+
+#: admin/settings.config.php:200
+msgid ""
+"Enter the selector of the theme's menu if you wish to hide it below the "
+"breakpoint above.  For example, <code>#primary-nav</code> or "
+"<code>.topnav</code>. "
+msgstr ""
+
+#: admin/settings.config.php:200 admin/settings.config.php:209
+msgid ""
+"This setting requires you to set the <strong>Toggle Breakpoint</strong> "
+"setting for it to have an effect"
+msgstr ""
+
+#: admin/settings.config.php:208
+msgid "Hide UberMenu 3"
+msgstr ""
+
+#: admin/settings.config.php:209
+msgid ""
+"Hide all UberMenu 3 instances when ShiftNav is displayed.  If you would "
+"like to only hide a specific UberMenu, use the setting above with a "
+"specific UberMenu ID."
+msgstr ""
+
+#: admin/settings.config.php:219 pro/admin/settings.pro.php:548
+msgid "Toggle Content"
+msgstr ""
+
+#: admin/settings.config.php:220
+msgid ""
+"The content to display in the main toggle bar (only valid for Full Width "
+"toggle bar style).  Can contain shortcodes and HTML, including <img> tags.  "
+"Default: [shift_toggle_title] will print the site title"
+msgstr ""
+
+#: admin/settings.config.php:232
+msgid "Toggle Target"
+msgstr ""
+
+#: admin/settings.config.php:233
+msgid ""
+"The area which will trigger the ShiftNav Panel to open.  (Not relevant for "
+"Full Bar toggle style)"
+msgstr ""
+
+#: admin/settings.config.php:236
+msgid "Bars/Burger Icon Only"
+msgstr ""
+
+#: admin/settings.config.php:237
+msgid "Entire Bar"
+msgstr ""
+
+#: admin/settings.config.php:244
+msgid "Close Icon"
+msgstr ""
+
+#: admin/settings.config.php:245
+msgid "When the toggle is open, choose which icon to display."
+msgstr ""
+
+#: admin/settings.config.php:258
+msgid "Toggle Bar Position"
+msgstr ""
+
+#: admin/settings.config.php:259
+msgid ""
+"Choose Fixed if you'd like the toggle bar to always be visible, or Absolute "
+"if you'd like it only to be visible when scrolled to the very top of the "
+"page"
+msgstr ""
+
+#: admin/settings.config.php:262
+msgid "Fixed (always in viewport)"
+msgstr ""
+
+#: admin/settings.config.php:263
+msgid "Absolute (scrolls out of viewport)"
+msgstr ""
+
+#: admin/settings.config.php:272
+msgid "Align Text"
+msgstr ""
+
+#: admin/settings.config.php:273
+msgid "Align text left, right, or center.  Applies to inline elements only."
+msgstr ""
+
+#: admin/settings.config.php:287
+msgid "Background Color"
+msgstr ""
+
+#: admin/settings.config.php:298
+msgid "Transparent Background"
+msgstr ""
+
+#: admin/settings.config.php:299
+msgid ""
+"Make the toggle bar transparent.  Note that this only make sense if you are "
+"using a hamburger-only Toggle Bar Style, or remove the Toggle Bar Gap"
+msgstr ""
+
+#: admin/settings.config.php:310
+msgid "Text/Burger Color"
+msgstr ""
+
+#: admin/settings.config.php:320
+msgid "Font Size"
+msgstr ""
+
+#: admin/settings.config.php:321
+msgid "Override the default font size of the toggle bar by setting a value here."
+msgstr ""
+
+#: admin/settings.config.php:331
+msgid "Hamburger Size"
+msgstr ""
+
+#: admin/settings.config.php:332
+msgid "Size of the hamburger icon in pixels (font size)."
+msgstr ""
+
+#: admin/settings.config.php:343
+msgid "Toggle Bar Gap"
+msgstr ""
+
+#: admin/settings.config.php:344
+msgid ""
+"By default, ShiftNav will automatically determine if a gap is needed - in "
+"short, space is left for the full bar toggle, and is not left for a "
+"burger-only toggle.  If you wish to override this, you can do so here."
+msgstr ""
+
+#: admin/settings.config.php:347
+msgid "Automatic"
+msgstr ""
+
+#: admin/settings.config.php:348
+msgid "Disable Gap"
+msgstr ""
+
+#: admin/settings.config.php:349
+msgid "Enable Gap"
+msgstr ""
+
+#: admin/settings.config.php:358
+msgid "Toggle Button ARIA Label"
+msgstr ""
+
+#: admin/settings.config.php:359
+msgid "The value for the aria-label attribute"
+msgstr ""
+
+#: admin/settings.config.php:392
+msgid "CSS Tweaks"
+msgstr ""
+
+#: admin/settings.config.php:393
+msgid "Add custom CSS here, which will be printed in the site head."
+msgstr ""
+
+#: admin/settings.config.php:400
+msgid "Shift Body"
+msgstr ""
+
+#: admin/settings.config.php:401
+msgid ""
+"Shift the body of the site when the menu is revealed.  For some themes, "
+"this may negatively affect the site content, so this can be disabled."
+msgstr ""
+
+#: admin/settings.config.php:408
+msgid "Shift Body Wrapper"
+msgstr ""
+
+#: admin/settings.config.php:409
+msgid ""
+"Leave this blank to automatically create a ShiftNav Wrapper via javascript "
+"(this may have side effects).  Set a selector here to turn a specific div "
+"(which must wrap all body contents) into the wrapper.  Please note that if "
+"the wrapper you select is also styled by the theme, this may cause a "
+"conflict."
+msgstr ""
+
+#: admin/settings.config.php:416
+msgid "Footer Content"
+msgstr ""
+
+#: admin/settings.config.php:417
+msgid ""
+"Add HTML or Shortcodes here and it will be injected at the wp_footer() "
+"hook.  Useful for fixed position elements"
+msgstr ""
+
+#: admin/settings.config.php:424
+msgid "Mobile Only"
+msgstr ""
+
+#: admin/settings.config.php:425
+msgid ""
+"Only display ShiftNav when a mobile device is detected via wp_is_mobile().  "
+"If you are using a caching plugin, make sure you have separate mobile and "
+"desktop caches."
+msgstr ""
+
+#: admin/settings.config.php:425
+msgid ""
+"This is NOT the preferred way to make your menu appear on mobile devices.  "
+"For 99% of users, you will want to set a Toggle Breakpoint in the Toggle "
+"Bar Panel, rather than using this setting."
+msgstr ""
+
+#: admin/settings.config.php:432
+msgid "Button Size"
+msgstr ""
+
+#: admin/settings.config.php:433
+msgid ""
+"The size of the padding on the links in the menu.  The larger the setting, "
+"the easier to click; but fewer menu items will appear on the screen at a "
+"time."
+msgstr ""
+
+#: admin/settings.config.php:446
+msgid "Text Size"
+msgstr ""
+
+#: admin/settings.config.php:447
+msgid "The size of the font on the links in the menu (will override all levels)."
+msgstr ""
+
+#: admin/settings.config.php:461
+msgid "Icon Size"
+msgstr ""
+
+#: admin/settings.config.php:462
+msgid "The size of the icons in the menu."
+msgstr ""
+
+#: admin/settings.config.php:478
+msgid "Disable Transforms &amp; Transitions"
+msgstr ""
+
+#: admin/settings.config.php:479
+msgid ""
+"Disable CSS3 transformations and transitions.  This will disable smooth "
+"animations, but may work better on browsers that don't properly implement "
+"CSS3 transforms, especially old non-standard Android browsers.  Note that "
+"ShiftNav attempts to detect these browsers and fall back automatically, but "
+"some browsers have incomplete implementations of CSS3 transforms, which "
+"produce false positives when testing."
+msgstr ""
+
+#: admin/settings.config.php:486
+msgid "Touch-off close"
+msgstr ""
+
+#: admin/settings.config.php:487
+msgid ""
+"Close the ShiftNav panel or search dropdown when touching any content not "
+"in the panel."
+msgstr ""
+
+#: admin/settings.config.php:495
+msgid "Close panel on menu link click"
+msgstr ""
+
+#: admin/settings.config.php:496
+msgid ""
+"Immediately close the panel when a link in the menu is clicked (prior to "
+"redirect)"
+msgstr ""
+
+#: admin/settings.config.php:503
+msgid "Scroll Offset"
+msgstr ""
+
+#: admin/settings.config.php:504
+msgid ""
+"When using the ScrollTo functionality, this is the number of pixels to "
+"offset the scroll by, to account for the toggle bar and any spacing you "
+"want."
+msgstr ""
+
+#: admin/settings.config.php:519
+msgid "Open Current Accordion Submenu"
+msgstr ""
+
+#: admin/settings.config.php:520
+msgid ""
+"Open the submenu of the current menu item on page load (accordion submenus "
+"only)."
+msgstr ""
+
+#: admin/settings.config.php:527
+msgid "Collapse Accordions"
+msgstr ""
+
+#: admin/settings.config.php:528
+msgid ""
+"When an accordion menu is opened, collapse any other accordions on that "
+"level."
+msgstr ""
+
+#: admin/settings.config.php:535
+msgid "Scroll Shift Submenus to Top"
+msgstr ""
+
+#: admin/settings.config.php:536
+msgid ""
+"When a Shift submenu is activated, scroll that item to the top to maximize "
+"submenu visibility."
+msgstr ""
+
+#: admin/settings.config.php:544
+msgid "Highlight Targets on Hover"
+msgstr ""
+
+#: admin/settings.config.php:545
+msgid ""
+"With this setting enabled, the links will be highlighted when hovered or "
+"touched."
+msgstr ""
+
+#: admin/settings.config.php:552
+msgid "Highlight Targets on :active"
+msgstr ""
+
+#: admin/settings.config.php:553
+msgid ""
+"With this setting enabled, the links will be highlighted while in the "
+":active state.  May not be desirable for touch scrolling."
+msgstr ""
+
+#: admin/settings.config.php:560
+msgid "Back Button Tag"
+msgstr ""
+
+#: admin/settings.config.php:561
+msgid ""
+"By default the tag is an anchor.  Some themes will try to add JS to the "
+"anchor and break the back button functionality, so you can also switch this "
+"to a span to avoid the issue."
+msgstr ""
+
+#: admin/settings.config.php:572
+msgid "Back Button Text"
+msgstr ""
+
+#: admin/settings.config.php:573
+msgid ""
+"By default, the Back button text will read \"Back\".  You can change this "
+"here.  Note that if you set a value here, it will no longer be translatable."
+msgstr ""
+
+#: admin/settings.config.php:579
+msgid "Top Back Button"
+msgstr ""
+
+#: admin/settings.config.php:580
+msgid "Display a back button at the top of shift submenus (below the parent item)"
+msgstr ""
+
+#: admin/settings.config.php:586
+msgid "Bottom Back Button"
+msgstr ""
+
+#: admin/settings.config.php:587
+msgid ""
+"Display a back button at the bottom of shift submenus.  Note that you must "
+"leave at least one back button enabled for users to be able to move back up "
+"a level."
+msgstr ""
+
+#: admin/settings.config.php:594
+msgid "Show Tips to Admins"
+msgstr ""
+
+#: admin/settings.config.php:595
+msgid "Display tips to admin users"
+msgstr ""
+
+#: admin/settings.config.php:602
+msgid "Lock Horizontal Scroll"
+msgstr ""
+
+#: admin/settings.config.php:603
+msgid ""
+"Attempt to prevent the content from scrolling horizontally when the menu is "
+"active.  On some themes, may also prevent vertical scrolling.  May not "
+"prevent touch scrolling in Chrome.  No effect if <strong>Shift "
+"Body</strong> is disabled."
+msgstr ""
+
+#: admin/settings.config.php:610
+msgid "Lock Scroll"
+msgstr ""
+
+#: admin/settings.config.php:611
+msgid ""
+"Lock both vertical and horizontal scrolling on site content when menu is "
+"active.  No effect if <strong>Shift Body</strong> is disabled."
+msgstr ""
+
+#: admin/settings.config.php:618
+msgid "Load Font Awesome"
+msgstr ""
+
+#: admin/settings.config.php:619
+msgid ""
+"If you are already loading Font Awesome 4 elsewhere in your setup, you can "
+"disable this."
+msgstr ""
+
+#: admin/settings.config.php:626
+msgid "Inherit UberMenu Conditionals"
+msgstr ""
+
+#: admin/settings.config.php:627
+msgid "Display menu items based on UberMenu Conditionals settings"
+msgstr ""
+
+#: admin/settings.config.php:634
+msgid "Process UberMenu Menu Segments"
+msgstr ""
+
+#: admin/settings.config.php:635
+msgid ""
+"Most UberMenu Advanced Items will be ignored by ShiftNav, as they are "
+"UberMenu-specific.  However, ShiftNav can process UberMenu Menu Segments "
+"with this setting enabled."
+msgstr ""
+
+#: admin/settings.config.php:643
+msgid "Force Filter Menu Args"
+msgstr ""
+
+#: admin/settings.config.php:644
+msgid ""
+"Some themes will filter the menu arguments on all menus on the site, which "
+"can break things.  This will re-filter those arguments for ShiftNav menus "
+"only."
+msgstr ""
+
+#: admin/settings.config.php:651
+msgid "Kill Menu Class Filter"
+msgstr ""
+
+#: admin/settings.config.php:652
+msgid ""
+"Some themes filter the menu item classes and strip out core WordPress "
+"functionality.  This will change the structure of ShiftNav and prevent "
+"styles from being applies.  This will prevent any actions on the "
+"<code>nav_menu_css_class</code> filter."
+msgstr ""
+
+#: admin/settings.config.php:691
+msgid "Scroll Top Boundary"
+msgstr ""
+
+#: admin/settings.config.php:692
+msgid ""
+"(Unrelated to ScrollTo or Scroll Offset).  Pixel distance from the top of "
+"the viewport at which the user is considered to have scrolled to the top.  "
+"Used for the Hide Toggle Bar on Scroll Down setting."
+msgstr ""
+
+#: admin/settings.config.php:699
+msgid "Scroll Tolerance"
+msgstr ""
+
+#: admin/settings.config.php:700
+msgid ""
+"(Unrelated to ScrollTo or Scroll Offset).  Pixel distance the user must "
+"scroll to trigger an up/down direction change.  Used for the Hide Toggle "
+"Bar on Scroll Down setting."
+msgstr ""
+
+#: admin/settings.config.php:736
+msgid "Main ShiftNav Settings"
+msgstr ""
+
+#: admin/settings.config.php:740
+msgid "Toggle Bar"
+msgstr ""
+
+#: admin/settings.config.php:748
+msgid "General Settings"
+msgstr ""
+
+#: admin/settings.config.php:773
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/settings.menu.php:273
+msgid "Disable Link"
+msgstr ""
+
+#: admin/settings.menu.php:276
+msgid ""
+"Check this box to remove the link from this item; clicking a disabled link "
+"will not result in any URL being followed.  Instead, this item will act as "
+"a toggle for its submenu, if one exists."
+msgstr ""
+
+#: admin/settings.menu.php:281
+msgid "Highlight Link"
+msgstr ""
+
+#: admin/settings.menu.php:284
+msgid "Highlight this menu item"
+msgstr ""
+
+#: admin/settings.menu.php:300
+msgid "Scroll To"
+msgstr ""
+
+#: admin/settings.menu.php:303
+msgid ""
+"The selector for an item to scroll to when clicked, if present.  Example: "
+"<code>#section-1</code>"
+msgstr ""
+
+#: admin/settings.menu.php:308
+msgid "Disable Current"
+msgstr ""
+
+#: admin/settings.menu.php:311
+msgid "Disable the current menu item classes for this item"
+msgstr ""
+
+#: admin/settings.menu.php:316
+msgid "Disable Item"
+msgstr ""
+
+#: admin/settings.menu.php:319
+msgid ""
+"Hide this item.  Useful if this menu is being reused in multiple locations, "
+"but item should not be displayed in ShiftNav"
+msgstr ""
+
+#: admin/settings.menu.php:334 pro/admin/item.settings.pro.php:48
+msgid "Submenu Type"
+msgstr ""
+
+#: admin/settings.menu.php:337
+msgid ""
+"[Requires Pro Version] Overrides the default submenu type.  For the Lite "
+"version, only \"Always visible\" is available.  Can be changed to "
+"\"Accordion\" or \"Shift\" with the Pro version."
+msgstr ""
+
+#: admin/settings.menu.php:339 pro/admin/item.settings.pro.php:53
+msgid "Menu Default"
+msgstr ""
+
+#: admin/settings.menu.php:340 pro/admin/item.settings.pro.php:54
+#: pro/admin/settings.pro.php:206 pro/admin/settings.pro.php:501
+msgid "Always visible"
+msgstr ""
+
+#: admin/settings.menu.php:346
+msgid "Disable Submenu"
+msgstr ""
+
+#: admin/settings.menu.php:349
+msgid "Disable the submenu for this menu item within ShiftNav."
+msgstr ""
+
+#: customizer/customizer.php:15
+msgid "ShiftNav - Toggle Bar"
+msgstr ""
+
+#: customizer/customizer.php:19 customizer/customizer.php:58
+msgid "Configuration"
+msgstr ""
+
+#: customizer/customizer.php:24
+msgid "Styles"
+msgstr ""
+
+#: customizer/customizer.php:52
+msgid "ShiftNav - Panel"
+msgstr ""
+
+#: customizer/customizer.php:64
+msgid "Content"
+msgstr ""
+
+#: customizer/customizer.php:71
+msgid "Styles - Panel"
+msgstr ""
+
+#: customizer/customizer.php:76
+msgid "Styles - Menu Items"
+msgstr ""
+
+#: customizer/customizer.php:81
+msgid "Styles - Activators &amp; Retractors"
+msgstr ""
+
+#: customizer/customizer.php:86
+msgid "Styles - Submenus"
+msgstr ""
+
+#: customizer/customizer.php:91
+msgid "Styles - Font"
+msgstr ""
+
+#: includes/ShiftNavWalker.class.php:68
+msgid "Back"
+msgstr ""
+
+#: includes/functions.php:313
+msgid "ShiftNav [Main]"
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:15
+msgid "Icon"
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:23
+msgid "Custom Icon Class"
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:40
+msgid "Custom URL"
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:43
+msgid ""
+"Customize your link URL - you can use shortcodes here.  Your setting will "
+"be escaped with the esc_url() function"
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:51
+msgid ""
+"Overrides the default submenu type, which can be set in the Control Panel "
+"for each menu. "
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:55 pro/admin/settings.pro.php:207
+#: pro/admin/settings.pro.php:502
+msgid "Accordion"
+msgstr ""
+
+#: pro/admin/item.settings.pro.php:56 pro/admin/settings.pro.php:208
+#: pro/admin/settings.pro.php:503
+msgid "Shift"
+msgstr ""
+
+#: pro/admin/settings.pro.php:202 pro/admin/settings.pro.php:497
+msgid "Submenu Type Default"
+msgstr ""
+
+#: pro/admin/settings.pro.php:203 pro/admin/settings.pro.php:498
+msgid ""
+"This submenu type will be used by any Menu Item whose Submenu Type is set "
+"to \"Menu Default\""
+msgstr ""
+
+#: pro/admin/settings.pro.php:237 pro/admin/settings.pro.php:513
+msgid "Accordion Toggle Open Icon"
+msgstr ""
+
+#: pro/admin/settings.pro.php:238 pro/admin/settings.pro.php:514
+msgid "The icon that, when tapped, will open the accordion submenu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:271 pro/admin/settings.pro.php:525
+msgid "Accordion Toggle Close Icon"
+msgstr ""
+
+#: pro/admin/settings.pro.php:272 pro/admin/settings.pro.php:526
+msgid "The icon that, when tapped, will close the accordion submenu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:285 pro/admin/settings.pro.php:475
+msgid "Disable Menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:286
+msgid ""
+"Check this to disable the menu entirely; the panel will still be displayed "
+"and can be used for custom content"
+msgstr ""
+
+#: pro/admin/settings.pro.php:295 pro/admin/settings.pro.php:588
+msgid "Top Image"
+msgstr ""
+
+#: pro/admin/settings.pro.php:305 pro/admin/settings.pro.php:598
+msgid "Pad Image"
+msgstr ""
+
+#: pro/admin/settings.pro.php:306 pro/admin/settings.pro.php:599
+msgid ""
+"Add padding to align image with menu item text.  Uncheck to expand to the "
+"edges of the panel."
+msgstr ""
+
+#: pro/admin/settings.pro.php:315 pro/admin/settings.pro.php:608
+msgid "Image Link (URL)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:316 pro/admin/settings.pro.php:609
+msgid "Make the image a link to this URL."
+msgstr ""
+
+#: pro/admin/settings.pro.php:325 pro/admin/settings.pro.php:618
+msgid "Custom Content Before Menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:336 pro/admin/settings.pro.php:629
+msgid "Custom Content After Menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:353
+msgid "Hide Toggle Bar on Scroll Down"
+msgstr ""
+
+#: pro/admin/settings.pro.php:354
+msgid "Move the toggle bar off-screen while the user scrolls down."
+msgstr ""
+
+#: pro/admin/settings.pro.php:363
+msgid "Toggle Content Left Edge"
+msgstr ""
+
+#: pro/admin/settings.pro.php:364
+msgid ""
+"For the Full Bar toggle style, this content will appear at the left edge of "
+"the toggle bar, to the right of the toggle icon.  To pad your custom "
+"content vertically, use the class <code>shiftnav-toggle-main-block</code>."
+msgstr ""
+
+#: pro/admin/settings.pro.php:375
+msgid "Toggle Content Right Edge"
+msgstr ""
+
+#: pro/admin/settings.pro.php:376
+msgid ""
+"For the Full Bar toggle style, this content will appear at the right edge "
+"of the toggle bar.  To pad your custom content vertically, use the class "
+"<code>shiftnav-toggle-main-block</code>."
+msgstr ""
+
+#: pro/admin/settings.pro.php:417
+msgid "Integration Code"
+msgstr ""
+
+#: pro/admin/settings.pro.php:423
+msgid "Instance Name"
+msgstr ""
+
+#: pro/admin/settings.pro.php:432
+msgid "Automatically Generate Panel"
+msgstr ""
+
+#: pro/admin/settings.pro.php:433
+msgid ""
+"Automatically generate this ShiftNav instance.  It'll be added to each page "
+"of the site"
+msgstr ""
+
+#: pro/admin/settings.pro.php:441
+msgid "Display Menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:451
+msgid "Theme Location"
+msgstr ""
+
+#: pro/admin/settings.pro.php:452
+msgid ""
+"Select the Theme Location to display.  The Menu setting will override this "
+"setting if a menu is selected."
+msgstr ""
+
+#: pro/admin/settings.pro.php:462
+msgid "Select which edge of your site to display the menu on"
+msgstr ""
+
+#: pro/admin/settings.pro.php:476
+msgid ""
+"Check this to disable the menu entirely; the panel can be used for custom "
+"content"
+msgstr ""
+
+#: pro/admin/settings.pro.php:486
+msgid "Select which skin to use for this instance"
+msgstr ""
+
+#: pro/admin/settings.pro.php:549
+msgid ""
+"Enter the content to be displayed in the toggle, which you will insert into "
+"your template with the integration code at the top of this tab."
+msgstr ""
+
+#: pro/admin/settings.pro.php:559
+msgid "Display the site title in the menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:568
+msgid "Display Instance Name"
+msgstr ""
+
+#: pro/admin/settings.pro.php:569
+msgid "Display the instance name in the menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:657
+msgid "Delete Instance"
+msgstr ""
+
+#: pro/admin/settings.pro.php:658
+msgid "Permanently Delete Instance"
+msgstr ""
+
+#: pro/admin/settings.pro.php:705
+msgid "Panel Background Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:716
+msgid "Panel Default Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:717
+msgid ""
+"The default font color for custom content within the panel (menu-specific "
+"styles will override this for menu items)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:732
+msgid "Panel Title Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:733
+msgid "The font color for the header/title within the panel."
+msgstr ""
+
+#: pro/admin/settings.pro.php:743
+msgid "Panel Title Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:744 pro/admin/settings.pro.php:969
+msgid "The font size for the header/title within the panel."
+msgstr ""
+
+#: pro/admin/settings.pro.php:754
+msgid "Panel Title Text Alignment"
+msgstr ""
+
+#: pro/admin/settings.pro.php:755
+msgid "The alignment of the text in the header/title within the panel."
+msgstr ""
+
+#: pro/admin/settings.pro.php:758 pro/admin/settings.pro.php:775
+#: pro/admin/settings.pro.php:888 pro/admin/settings.pro.php:972
+#: pro/admin/settings.pro.php:1058 pro/admin/settings.pro.php:1144
+msgid "Default"
+msgstr ""
+
+#: pro/admin/settings.pro.php:759 pro/admin/settings.pro.php:1059
+msgid "Center"
+msgstr ""
+
+#: pro/admin/settings.pro.php:760 pro/admin/settings.pro.php:1060
+msgid "Left"
+msgstr ""
+
+#: pro/admin/settings.pro.php:761 pro/admin/settings.pro.php:1061
+msgid "Right"
+msgstr ""
+
+#: pro/admin/settings.pro.php:771
+msgid "Panel Title Font Weight"
+msgstr ""
+
+#: pro/admin/settings.pro.php:772
+msgid "The font weight of the text in the header/title within the panel."
+msgstr ""
+
+#: pro/admin/settings.pro.php:776 pro/admin/settings.pro.php:889
+#: pro/admin/settings.pro.php:1145
+msgid "Normal"
+msgstr ""
+
+#: pro/admin/settings.pro.php:777 pro/admin/settings.pro.php:890
+#: pro/admin/settings.pro.php:1146
+msgid "Bold"
+msgstr ""
+
+#: pro/admin/settings.pro.php:794
+msgid "Menu Item Background Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:795
+msgid ""
+"The color of the menu item background.  Normally not necessary to set "
+"unless you want it to differ from the panel background"
+msgstr ""
+
+#: pro/admin/settings.pro.php:803
+msgid "Menu Item Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:804
+msgid "The color of the menu item text."
+msgstr ""
+
+#: pro/admin/settings.pro.php:814
+msgid "Menu Item Background Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:815
+msgid "The color of the menu item background when activated."
+msgstr ""
+
+#: pro/admin/settings.pro.php:823
+msgid "Menu Item Font Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:824
+msgid "The color of the menu item text when activated."
+msgstr ""
+
+#: pro/admin/settings.pro.php:834
+msgid "Menu Item Background Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:835
+msgid "The background color of current menu items."
+msgstr ""
+
+#: pro/admin/settings.pro.php:843
+msgid "Menu Item Font Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:844
+msgid "The font color of current menu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:854
+msgid "Menu Item Background Color [Highlight]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:855
+msgid "The background color of highlighted menu items."
+msgstr ""
+
+#: pro/admin/settings.pro.php:863
+msgid "Menu Item Font Color [Highlight]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:864
+msgid "The color of highlighted menu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:875
+msgid "Menu Item Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:876
+msgid "The size of the menu item text."
+msgstr ""
+
+#: pro/admin/settings.pro.php:884
+msgid "Menu Item Font Weight"
+msgstr ""
+
+#: pro/admin/settings.pro.php:885
+msgid "The weight of the menu item text."
+msgstr ""
+
+#: pro/admin/settings.pro.php:898
+msgid "Menu Item Padding"
+msgstr ""
+
+#: pro/admin/settings.pro.php:899
+msgid "The padding around the menu item text."
+msgstr ""
+
+#: pro/admin/settings.pro.php:907
+msgid "Menu Item Top Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:908
+msgid "The color of the top border of the menu item."
+msgstr ""
+
+#: pro/admin/settings.pro.php:916
+msgid "Menu Item Top Border Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:917
+msgid "The color of the top border of an active menu item."
+msgstr ""
+
+#: pro/admin/settings.pro.php:925
+msgid "Menu Item Bottom Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:926
+msgid "The color of the bottom border of the menu item."
+msgstr ""
+
+#: pro/admin/settings.pro.php:935
+msgid "Menu Item Bottom Border Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:936
+msgid "The color of the bottom border of the active menu item."
+msgstr ""
+
+#: pro/admin/settings.pro.php:945 pro/admin/settings.pro.php:1121
+msgid "Disable Menu Item Borders"
+msgstr ""
+
+#: pro/admin/settings.pro.php:946 pro/admin/settings.pro.php:1122
+msgid "Remove the borders between menu items."
+msgstr ""
+
+#: pro/admin/settings.pro.php:956
+msgid "Disable Menu Item Text Shadow"
+msgstr ""
+
+#: pro/admin/settings.pro.php:957
+msgid "Remove the text shadow on the menu items."
+msgstr ""
+
+#: pro/admin/settings.pro.php:968
+msgid "Top Level Menu Item Text Transform"
+msgstr ""
+
+#: pro/admin/settings.pro.php:973
+msgid "None"
+msgstr ""
+
+#: pro/admin/settings.pro.php:974
+msgid "Uppercase"
+msgstr ""
+
+#: pro/admin/settings.pro.php:989
+msgid "Menu Item Activator Button Background"
+msgstr ""
+
+#: pro/admin/settings.pro.php:990
+msgid "The background color of the button used to open and close the submenus"
+msgstr ""
+
+#: pro/admin/settings.pro.php:998
+msgid "Menu Item Activator Button Background [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:999
+msgid ""
+"The active background color of the button used to open and close the "
+"submenus"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1007
+msgid "Menu Item Activator Arrow Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1008
+msgid "The arrow color of the button used to open and close the submenus"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1016
+msgid "Menu Item Activator Arrow Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1017
+msgid "The active arrow color of the button used to open and close the submenus"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1036
+msgid "Submenu Retractor / Back Button Background"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1037
+msgid "The background color of the submenu retractor button"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1045
+msgid "Submenu Retractor / Back Button Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1046
+msgid "The font color of the submenu retractor button"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1054
+msgid "Submenu Retractor / Back Button Alignment"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1055
+msgid "The alignment of the submenu retractor button text"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1073
+msgid "Submenu Background Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1074
+msgid "The background color of the submenu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1083
+msgid "Submenu Item Background Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1084
+msgid "The background color of the individual submenu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1093
+msgid "Submenu Item Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1094
+msgid "The font color of the submenu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1102
+msgid "Submenu Item Top Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1103
+msgid "The color of the submenu item top border"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1111
+msgid "Submenu Item Bottom Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1112
+msgid "The color of the bottom border of the submenu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1131
+msgid "Submenu Item Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1132
+msgid "The font size of the submenu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1140
+msgid "Submenu Item Font Weight"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1141
+msgid "The font weight of the submenu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1157
+msgid "Font Family"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1158
+msgid ""
+"The font family the panel.  This should be a system font or else the font "
+"assets should already be loaded on your site, via @font-face or Google "
+"Fonts for example."
+msgstr ""
+
+#: pro/search.php:23 pro/search.php:66
+msgid "Search..."
+msgstr ""
+
+#: pro/updates/EDD_SL_Plugin_Updater.php:177
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: pro/updates/EDD_SL_Plugin_Updater.php:184
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: pro/updates/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: pro/updates/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: pro/updates/backup.php:169
+msgid ""
+"ShiftNav: Could not restore custom.css file, as the directory is not "
+"writable.  You can manually restore the file from the "
+"wp-content/uploads/shiftnav_backups directory"
+msgstr ""
+
+#: pro/updates/backup.php:172
+msgid "ShiftNav: Successfully restored custom.css file"
+msgstr ""
+
+#: pro/updates/backup.php:183
+msgid ""
+"ShiftNav: Could not restore custom.less file, as the directory is not "
+"writable.  You can manually restore the file from the "
+"wp-content/uploads/shiftnav_backups directory"
+msgstr ""
+
+#: pro/updates/backup.php:186
+msgid "ShiftNav: Successfully restored custom.less file"
+msgstr ""
+
+#: pro/updates/backup.php:197
+msgid ""
+"ShiftNav: Could not restore custom.js file, as the directory is not "
+"writable.  You can manually restore the file from the "
+"wp-content/uploads/shiftnav_backups directory"
+msgstr ""
+
+#: pro/updates/backup.php:200
+msgid "ShiftNav: Successfully restored custom.js file"
+msgstr ""
+
+#: pro/updates/updater.php:45
+msgid "Updates"
+msgstr ""
+
+#: pro/updates/updater.php:57
+msgid "Enter your license code to receive updates"
+msgstr ""
+
+#: pro/updates/updater.php:129
+msgid "License Invalid"
+msgstr ""
+
+#: pro/updates/updater.php:138
+msgid "License Expired"
+msgstr ""
+
+#: pro/updates/updater.php:143
+msgid "License is valid"
+msgstr ""
+
+#: pro/updates/updater.php:207
+msgid "Backup custom assets"
+msgstr ""
+
+#: pro/updates/updater.php:208
+msgid ""
+"Automatically backup custom.css and custom.less so that they can be "
+"restored after updating the plugin"
+msgstr ""
+
+#: pro/updates/updater.php:216
+msgid "Automatic backups status"
+msgstr ""
+
+#: pro/updates/updater.php:234
+msgid "License Code"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ShiftNav Pro - Responsive Mobile Menu"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://shiftnav.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An off-canvas mobile menu for WordPress with advanced functionality"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Chris Mavricos, SevenSpark"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://sevenspark.com"
+msgstr ""

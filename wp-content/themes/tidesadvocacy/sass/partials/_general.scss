@@ -1,0 +1,224 @@
+body {
+  //fix for nav drop causing scroll bar
+  overflow-x: hidden;
+}
+
+/** Override BB nonsense  - testing what*/
+@media (max-width: 768px) {
+  .fl-col-small {
+    max-width: 100% !important;
+  }
+  .fl-module-content {
+    //margin: 10px 15px;
+  }
+}
+
+
+@media (width: 768px) {
+  .fix-768 .fl-module-content {
+    margin-left: 40px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .fl-row-content.fl-row-fixed-width {
+      margin-left: 25px;
+      margin-right: 25px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  .fl-full-width .container,
+  .container {
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .fl-row-content.fl-row-fixed-width {
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media (min-width: 1280px) {
+  .fl-row-fixed-width { 
+    max-width: 1210px;
+  }
+}
+
+.fl-builder-module-template {
+	margin: 0 auto;
+	max-width: 1220px;
+	padding: 20px;
+}
+
+.fl-page-header-logo-col {
+  padding-left: 0;
+}
+.fl-logo-img {
+  max-width: 276px;
+  //padding-bottom: 35px;
+}
+.fl-page-header-fixed {
+  .fl-logo-img {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .fl-row {
+    margin-bottom: 30px;
+  }
+  .fl-row.no-margin-bottom {
+    margin-bottom: 0;
+  }
+}
+
+.fl-page-header-container {
+	padding-bottom: 0px;
+	padding-top: 30px;
+}
+
+/* at desktop remove left/right padding on header so it goes to edge */
+@media (min-width: 992px) {
+  .fl-page-headaer-row {
+    .col-md-6 {
+      //padding-right: 0;
+      //padding-left: 0;
+    }
+  }
+}
+
+/** FL Buttons */
+a.fl-button, a.fl-button:visited, .fl-builder-content a.fl-button, .fl-builder-content a.fl-button:visited {
+	@include btnsolid($white, $blue);
+}
+
+/*
+.fl-module-photo {
+  margin-top: 50px;
+  @media (min-width: 992px) {
+    margin-top: 100px;
+  }
+}*/
+
+.breadcrumbs {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: $gray;
+  font-size: 16px;
+  a {
+    text-transform: uppercase;
+    padding-right: 5px;
+    padding-left: 5px;
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    color: $black;
+    padding-left: 5px;
+  }
+  span:first-child {
+    padding-left: 0;
+  }
+}
+
+.pullquote {
+  display: block;
+  margin: 30px auto;
+	width: 100%;
+  font-size: 20px;
+  font-family: $nowayitalic;
+  color: $pink;
+  line-height: 1.1;
+  text-align: center;
+  border-top: 2px solid $blue;
+  border-bottom: 2px solid $blue;
+  padding: 20px 5px;
+  @media (min-width: 768px) {
+    width: 85%;
+  }
+  @media (min-width: 992px) {
+    font-size: 30px;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+/*
+blockquote {
+  margin-left: 30px;
+  font-size: 20px !important;
+  color: $gray;
+  border-left: 2px solid $blue;
+  padding-left: 20px;
+  @media (min-width: 768px) {
+    width: 85%;
+    margin-left: 60px;
+  }
+  @media (min-width: 992px) {
+    font-size: 30px !important;
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+blockquote p {
+  font-size: 20px !important;
+  @media (min-width: 992px) {
+    font-size: 26px !important;
+  }
+}*/
+
+blockquote {
+  border-left: 2px solid $blue;
+  font-family: $nowayitalic;
+}
+
+blockquote cite, blockquote p + p:last-child {
+	color: $gray;
+  padding-left: 20px;
+}
+
+.button-blue a {
+  margin: 15px 0;
+  @include btnsolid($white, $blue);
+}
+.button-pink a {
+  margin: 15px 0;
+  @include btnsolid($white, $pink);
+}
+.button-mixed a {
+  margin: 15px 0;
+  @include btnmixed($pink, $blue);
+}
+
+.single-post-content {
+  h1 {
+    line-height: 1.1;
+  }
+  @media (min-width: 768px) {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 600px;
+    p, ul {
+      font-size: 20px;
+      line-height: 1.6;
+      margin: 0 0 25px;
+    }
+  }
+}
+
+.wp-caption {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 14px;
+}

@@ -1,0 +1,61 @@
+/* General */
+.shiftnav-toggle,
+.shiftnav-toggle *,
+.shiftnav,
+.shiftnav *{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	line-height: 1.3em;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	padding:0;
+	margin:0;
+	background:none transparent;
+}
+.shiftnav-wrap{
+	padding:0;
+	margin:0;
+	background:none;
+	position:relative;
+	max-width:100%;
+	overflow:hidden;
+}
+
+body.shiftnav-lock-x.shiftnav-enabled{
+	overflow-x:hidden;
+}
+body.shiftnav-lock.shiftnav-open{
+	overflow:hidden;
+}
+body.shiftnav-open{
+	/*overflow:hidden;*/
+}
+body.shiftnav-transition{
+	overflow:visible;
+}
+
+body.shiftnav-enabled.shiftnav-open.admin-bar,
+body.shiftnav-enabled.shiftnav-transition.admin-bar{
+	/*margin-top:-28px;*/
+}
+
+.shiftnav,
+.shiftnav-wrap,
+#shiftnav-toggle-main{
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	-ms-transition: -ms-transform 0.5s;
+	-o-transition: -o-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+
+/* Force Font Awesome 4 for time being */
+.shiftnav .fa,
+.shiftnav-toggle .fa{
+    font-family:FontAwesome;
+		font-weight:normal;
+}

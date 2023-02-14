@@ -1,0 +1,8 @@
+.fl-module-fl-the-events-calendar-countdown .tribe-countdown-text {
+	display: none;
+}
+.fl-module-fl-the-events-calendar-countdown .tribe-countdown-timer {
+	display: inline-block;
+	min-height: 0;
+	padding: 0;
+}

@@ -1,0 +1,11 @@
+.fl-module-fl-the-events-calendar-tickets .tribe-back,
+.fl-module-fl-the-events-calendar-tickets .tribe-events-single-event-title,
+.fl-module-fl-the-events-calendar-tickets .tribe-events-schedule {
+	display: none;
+}
+table.tribe-events-tickets {
+	width: 100%;
+}
+.fl-module-fl-the-events-calendar-tickets button.tribe-button {
+	border: none;
+}

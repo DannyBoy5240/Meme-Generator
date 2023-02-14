@@ -1,0 +1,42 @@
+#wordfenceAstWorking {
+	padding: 2px 8px 2px 24px;
+	z-index: 100000;  
+	position: fixed; 
+	right: 2px; 
+	bottom: 2px; 
+	border: 1px solid #000; 
+	background-color: #F00; 
+	color: #FFF; 
+	font-size: 12px; 
+	font-weight: bold; 
+	font-family: Arial; 
+	text-align: center;
+	background-image: url('../images/ajaxRed16.gif');
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+}
+.wfAstBlock p {
+	border-bottom: 1px solid #AAA;
+	padding: 5px 5px 30px 5px;
+	width: 600px;
+}
+
+.wordfence-assistant-waiting {
+	line-height: 32px;
+	border-bottom: 0px !important;
+}
+
+.wordfence-assistant-waiting img {
+	vertical-align: middle;
+}
+
+#toplevel_page_WFAssistant .wp-menu-image img {
+	max-width: 16px;
+	max-height: 16px;
+	box-sizing: content-box;
+}
+
+.wf-assistant-checkbox {
+	display: block;
+	margin-bottom: 8px;
+}

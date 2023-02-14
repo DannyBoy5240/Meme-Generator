@@ -1,0 +1,74 @@
+/* Skin */
+
+/* #c2636d Red */
+
+/* #85AA76 Green */
+
+/* #639CC2 Blue */
+
+/* #AE8EB8 Purple */
+
+.shiftnav.shiftnav-skin-slate .shiftnav-site-title{
+	font-size:30px;
+	text-align:center;
+	/*padding:40px ;*/
+	font-weight: normal;
+	color:#eee;
+}
+
+.shiftnav.shiftnav-skin-slate{
+	font-size:13px;
+	line-height:1.3em;
+}
+.shiftnav.shiftnav-skin-slate{
+	background:#2b303b;
+	color:#eee;
+}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu ul.sub-menu{
+	color:#ccc;
+	background:#1c1f26; /*2C2C31;*/
+}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu li.menu-item > .shiftnav-target{
+	display:block;
+	color:#eee;
+}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu > li.menu-item.shiftnav-highlight > .shiftnav-target{
+	color:#c2636d;
+}
+.shiftnav.shiftnav-nojs.shiftnav-skin-slate ul.shiftnav-menu li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-target,
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu > li.shiftnav-sub-accordion.current-menu-ancestor > .shiftnav-target,
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu > li.shiftnav-sub-shift.current-menu-ancestor > .shiftnav-target,
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-target,
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu li.menu-item.current-menu-item > .shiftnav-target{
+	color:#eee;
+	background:#929292;
+}
+
+
+
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu > li.menu-item > .shiftnav-target{
+	text-transform: uppercase;
+}
+
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu ul.sub-menu li.menu-item > .shiftnav-target{
+	color:#ccc;
+}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu ul.sub-menu ul.sub-menu li.menu-item > a{							padding-left:50px;	}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > a{				padding-left:75px;	}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > a{	padding-left:100px;	}
+
+
+.shiftnav.shiftnav-skin-slate li.menu-item .shiftnav-submenu-activation{
+	background:rgba(0,0,0,.1);
+}
+.shiftnav.shiftnav-skin-slate li.menu-item .shiftnav-submenu-activation:hover{
+	/*background:#1c1f26;*/
+}
+.shiftnav.shiftnav-skin-slate ul.shiftnav-menu li.shiftnav-retract .shiftnav-target{
+	background:rgba(0,0,0,.2);
+	color:#fff;
+	text-transform:uppercase;
+	font-size:12px;
+	text-align:right;
+}

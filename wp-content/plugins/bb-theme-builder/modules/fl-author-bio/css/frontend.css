@@ -1,0 +1,19 @@
+.fl-module-fl-author-bio .fl-module-content {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.fl-module-fl-author-bio .fl-author-bio-thumb {
+	padding-right: 20px;
+}
+.fl-module-fl-author-bio .fl-author-bio-thumb img {
+	max-width: none;
+}
+.fl-module-fl-author-bio h3.fl-author-bio-name {
+	margin: 0 0 10px;
+}
+.fl-module-fl-author-bio .fl-author-bio-content {
+	width: 100%;
+}

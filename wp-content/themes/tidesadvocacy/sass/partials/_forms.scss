@@ -1,0 +1,125 @@
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="number"], input[type="search"], input[type="url"], textarea {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #808080;
+	vertical-align: middle;
+	background-color: #fcfcfc;
+	background-image: none;
+	border: 1px solid #e6e6e6;
+	-moz-transition: all ease-in-out .15s;
+	-webkit-transition: all ease-in-out .15s;
+	transition: all ease-in-out .15s;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.fa-search {
+  font-family: "icomoon" !important;
+  &:before {
+    font-family: "icomoon" !important;
+    content: "\e903" !important;
+    font-size: 26px;
+  }
+  &:hover {
+    color: $pink;
+  }
+}
+
+.shiftnav-search .shiftnav-search-submit, 
+.shiftnav-searchbar-drop .shiftnav-search-submit {
+  font-family: "icomoon" !important;
+  content: "\e903" !important;
+  font-size: 22px;
+}
+//shiftnav close X
+.fa-times {
+  font-family: "icomoon" !important;
+  &:before {
+    font-family: "icomoon" !important;
+    content: "\e902" !important;
+    font-size: 14px;
+  }
+
+}
+
+//shift nav - use custom arrow down for close instead of arrow up
+.shiftnav-submenu-activation.shiftnav-submenu-activation-close {
+  margin-left: 0;
+  .fa-arrow-up {
+    font-family: "icomoon" !important;
+    &:before {
+      font-family: "icomoon" !important;
+      content: "\e900" !important;
+      font-size: 20px;
+      color: $blue;
+    }
+  }
+
+}
+
+//shift nav - use arrow right instead of arrow down to open subnav
+.fa-arrow-down {
+  font-family: "icomoon" !important;
+  &:before {
+    font-family: "icomoon" !important;
+    content: "\e901" !important;
+    font-size: 20px;
+  }
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+  //text-transform: uppercase;
+  font-family: $nowayitalic;
+}
+
+
+#donate-partner-options {
+  max-width: 285px;
+}
+
+//not using
+.donate-dropdown {
+  select {
+    margin-top: 20px;
+    @include btnsolid($white, $blue);
+    width: 220px;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+
+
+  label {position:relative}
+  label:after {
+    //content:"\f078";   
+    font-family: "FontAwesome";
+    font-size: 11px;
+    color:#aaa;
+    right:8px; top:4px;
+    padding:0 0 2px;
+    position:absolute;
+    pointer-events:none;
+  }
+  label:before {
+    //content:'';
+    right:4px; top:0px;
+    width:23px; height:18px;
+    background:#fff;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+  }
+}

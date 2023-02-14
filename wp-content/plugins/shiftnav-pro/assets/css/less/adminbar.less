@@ -1,0 +1,34 @@
+body.admin-bar #shiftnav-toggle-main,
+body.admin-bar .shiftnav{
+	top:32px;
+}
+body.admin-bar .shiftnav{
+	padding-bottom:32px;
+}
+#wpadminbar:hover{
+	z-index:999999;
+}
+@media screen and (min-width:600px) and (max-width: 782px){
+	body.admin-bar #shiftnav-toggle-main,
+	body.admin-bar .shiftnav{
+		top:46px;
+	}
+	body.admin-bar .shiftnav{
+		padding-bottom:46px;
+	}
+}
+@media screen and (max-width:600px){
+	body.admin-bar #shiftnav-toggle-main,
+	body.admin-bar .shiftnav{
+		top:0;
+	}
+	body.admin-bar .shiftnav{
+		padding-bottom:0;
+	}
+	html #shiftnav-toggle-main ~ #wpadminbar{
+		top:54px;
+	}
+	html.shiftnav-nogap{
+		margin-top:0 !important;
+	}
+}

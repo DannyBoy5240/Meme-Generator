@@ -1,0 +1,76 @@
+/* RESPONSIVENESS */
+
+@media only screen and (max-width:960px){
+	#shiftnav-toggle-main{
+		font-size:16px;
+	}
+}
+
+//iPhone 6 (375px)
+@media only screen and (max-width:479px){
+	
+	.shiftnav_panel_width( 320px );
+
+	.shiftnav .shiftnav-menu-title{
+		font-size:30px;
+		text-align:center;
+		padding:20px 0;
+		font-weight: normal;
+		margin:0;
+	}
+}
+
+//Nexus 5 (360px)
+@media only screen and (max-width:374px){
+	.shiftnav_panel_width( 305px );
+}
+//iPhone 5 (320px)
+@media only screen and (max-width:359px){
+	.shiftnav_panel_width( 265px );
+}
+//Small stuff
+@media only screen and (max-width:319px){
+	.shiftnav_panel_width( 230px );
+}
+
+
+.shiftnav_panel_width( @_width ){
+	.shiftnav{
+		width: @_width;
+		max-width:95%;
+		//width:85%;
+		// width:85vw;
+	}
+	.shiftnav.shiftnav-left-edge/*add transition class*/{
+		-webkit-transform: translateX(-@_width);
+		-moz-transform: translateX(-@_width);
+		-ms-transform: translateX(-@_width);
+		-o-transform: translateX(-@_width);
+		transform: translateX(-@_width);
+	}
+	.shiftnav.shiftnav-right-edge/*add transition class*/{
+		-webkit-transform: translateX(@_width);
+		-moz-transform: translateX(@_width);
+		-ms-transform: translateX(@_width);
+		-o-transform: translateX(@_width);
+		transform: translateX(@_width);
+	}
+	.shiftnav-open.shiftnav-open-left #shiftnav-toggle-main,
+	.shiftnav-open.shiftnav-open-left .shiftnav-wrap,
+	.shiftnav-open.shiftnav-open-left .shiftnav-fixed-left{
+		-webkit-transform: translateX(@_width);
+		-moz-transform: translateX(@_width);
+		-ms-transform: translateX(@_width);
+		-o-transform: translateX(@_width);
+		transform: translateX(@_width);
+	}
+	.shiftnav-open.shiftnav-open-right #shiftnav-toggle-main,
+	.shiftnav-open.shiftnav-open-right .shiftnav-wrap,
+	.shiftnav-open.shiftnav-open-right .shiftnav-fixed-right{
+		-webkit-transform: translateX(-@_width);
+		-moz-transform: translateX(-@_width);
+		-ms-transform: translateX(-@_width);
+		-o-transform: translateX(-@_width);
+		transform: translateX(-@_width);
+	}
+}

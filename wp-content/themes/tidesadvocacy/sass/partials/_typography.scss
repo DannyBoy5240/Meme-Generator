@@ -1,0 +1,110 @@
+body {
+  background-color: $white;
+  font-family: $noway;
+  font-size: 18px;
+  color: $gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $nowayitalic;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: $blue;
+}
+.fl-rich-text {
+  h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 20px;
+    margin-bottom: 3px;
+  }
+  h4, h5, h6 {
+    color: $gray;
+  }
+  h2 {  
+    font-size: 36px;
+    //line-height: 1.1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: none;
+  }
+}
+
+p {
+  a {
+    color: $blue;
+    text-decoration: none;
+    &:hover {
+      background-color: $blue;
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+/** Icomoon - add fonts/icomoon/ to beginning of url */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon/fonts/icomoon.eot?glew39');
+  src:  url('fonts/icomoon/fonts/icomoon.eot?glew39#iefix') format('embedded-opentype'),
+    url('fonts/icomoon/fonts/icomoon.ttf?glew39') format('truetype'),
+    url('fonts/icomoon/fonts/icomoon.woff?glew39') format('woff'),
+    url('fonts/icomoon/fonts/icomoon.svg?glew39#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Magnifying-Glass:before {
+  content: "\e903";
+}
+.icon-ArrowDown:before {
+  content: "\e900";
+}
+.icon-ArrowRight:before {
+  content: "\e901";
+}
+.icon-ArrowLeft:before {
+  content: "\e904";
+}
+.icon-Cancel:before {
+  content: "\e902";
+}
+
+@function get-vw($target) {   
+  $vw-context: (1440 * 0.01) * 1px;   
+  @return ($target / $vw-context) * 1vw; 
+}

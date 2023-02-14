@@ -1,0 +1,15 @@
+/**
+ Bootstrap 3 and 4 both clobber BigCommerce specific button CSS (when using bc shortcodes)
+ */
+
+/* Override bootstrap for :focus on quick-view close button */
+.bc-product-quick-view__close-button:focus {
+    position: absolute !important;
+    color: inherit !important;
+}
+
+/* Override bootstrap for :focus and :hover on address add button */
+.bc-account-addresses__add-button:focus,
+.bc-account-addresses__add-button:hover {
+    color: inherit !important;
+}

@@ -1,0 +1,38 @@
+/* WRAPPER */
+.shiftnav-wrap{
+	left:0;
+	top:0;
+	z-index:250;
+	padding-top:1px;
+	margin-top:-1px;
+}
+.shiftnav-open .shiftnav-wrap{
+	height:100%;
+}
+
+
+/* Shadow */
+.shiftnav:after{
+	content:' ';
+	display:block;
+	position:absolute;
+	right:-15px;
+	top:0;
+	height:100%;
+	width:15px;
+	background:transparent;
+	-webkit-box-shadow:0 0 15px rgba(0,0,0,.8);
+	-moz-box-shadow:0 0 15px rgba(0,0,0,.8);
+	-ms-box-shadow:0 0 15px rgba(0,0,0,.8);
+	-o-box-shadow:0 0 15px rgba(0,0,0,.8);
+	box-shadow:0 0 15px rgba(0,0,0,.8);
+
+	z-index:10000;
+}
+.shiftnav.shiftnav-right-edge:after{
+	left:-15px;
+	right:auto;
+}
+.shiftnav-no-transforms .shiftnav:after{
+	display:none !important;
+}

@@ -1,0 +1,33 @@
+/*
+Theme Name: Tides Advocacy
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0.1
+Description: Tides Advocacy - Beaver Builde Child Theme
+Author: Courtney Miller
+Author URI: http://www.floatleft.org
+template: bb-theme
+*/
+@import "partials/variables";
+@import "partials/fonts";
+@import "partials/typography";
+@import "partials/mixins";
+@import "partials/angles";
+@import "partials/general";
+@import "partials/menus";
+@import "partials/shiftnav";
+@import "partials/components";
+@import "partials/footer";
+@import "partials/forms";
+@import "partials/search";
+@import "partials/formassembly";
+
+@import "modules/button";
+@import "modules/header";
+@import "modules/text";
+@import "modules/griditem";
+@import "modules/quote";
+@import "modules/slider";
+@import "modules/postgrid";
+//these modify module styles
+@import "partials/news";
+

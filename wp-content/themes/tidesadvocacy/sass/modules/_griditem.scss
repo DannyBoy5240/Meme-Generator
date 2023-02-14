@@ -1,0 +1,69 @@
+
+/** Grid Item */
+.ta-grid-item {
+  color: white;
+  max-width: 360px;
+  h3 {
+    font-size: 30px;
+    color: white;
+    line-height: 1.1;
+    span {
+      display: block;
+    }
+    @media (min-width: 992px) {
+      font-size: 40px;
+    }
+  }
+  p {
+    color: white;
+  }
+  .ta-item-button a {
+    margin-top: 20px;
+    @include btnghost($white, $blue);
+  }
+}
+/* change below to fit with blue */
+.ta-grid-style-white {
+  color: white;
+  h3 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  .ta-item-button a {
+    @include btnghost($white, $blue);
+  }
+}
+.section-redbkg-bluesign,
+.section-pinkbkg-whitetext  {
+  .ta-grid-style-white {
+    .ta-item-button a {
+      @include btnghost($white, $pink);
+    }
+  }
+}
+.ta-grid-style-blue {
+  color: $gray;
+  h3 {
+    color: $blue;
+  }
+  p {
+    color: $gray;
+  }
+  .ta-item-button a {
+    @include btnsolid($white, $blue);
+  }
+}
+.ta-grid-style-pinkblue {
+  color: $gray;
+  h3 {
+    color: $pink;
+  }
+  p {
+    color: $gray;
+  }
+  .ta-item-button a {
+    @include btnsolid($white, $blue);
+  }
+}

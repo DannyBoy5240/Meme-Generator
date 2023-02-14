@@ -1,0 +1,5 @@
+.woocommerce div.product .fl-module-fl-woo-product-rating .woocommerce-product-rating,
+.fl-module-fl-woo-product-rating .woocommerce-product-rating {
+	float: none;
+	margin: 0;
+}

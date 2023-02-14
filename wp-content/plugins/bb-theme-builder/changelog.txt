@@ -1,0 +1,1113 @@
+<h4>1.4.5 - 02/06/2023</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>ACF: Sort detected fields dropdown alphabetically (#694)</li>
+	<li>TEC: Add new connection for Event Tags since existing Term list doesn't work with Event Tags (#706)</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed field connections not inserting into editors (#722)</li>
+	<li>Fix [wpbb-else] shortcode  not working with repeater (#676)</li>
+	<li>Fix deprecation warnings with PHP 8.1 and 8.2 (#704 and #723)</li>
+	<li>ACF: Fix PHP Warning in 8.1 if you connect a relational field and it doesn't exist (#702)</li>
+	<li>TEC: Fix Event Ticket add-on cart button style options not working properly (#695)</li>
+	<li>WooCommerce: On search results, show select options button (#697)</li>
+</ul>
+
+<h4>1.4.4 - 11/09/2022</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>ACF: Add date/time format option for Date, DateTime and Time Picker fields</li>
+	<li>ACF: Add option for a separator when using a checkbox field</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>TEC: Fix Add To Calendar Button Style in edit mode</li>
+	<li>ACF: Fix detected fields dropdown not using group field prefix when using a group field as a sub-field of a group field</li>
+	<li>TEC: Fix Event Navigation module database error when editing a Singular layout</li>
+	<li>WooCommerce: Fix Product odering showing even if Post Type is not a product</li>
+	<li>Fix preview button in Classic Editor plugin breaking the Themer layout when overriding the content area</li>
+</ul>
+
+<h4>1.4.3.3 - 10/27/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Header layouts: Add support for the new breakpoint in the Sticky header breakpoint options</li>
+	<li>Fixes to support the new iFrame responsive editing experience in BB 2.7</li>
+	<li>ACF: date picker field is now internationalized using <code>date_i18n</code></li>
+</ul>
+
+<h4>1.4.3.2 - 09/06/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>TEC: Fix compatibility with TEC 6.</li>
+	<li>WooCommerce: Fix "Add to Cart" button being displayed twice when using Yith "Request A Quote" Addon</li>
+</ul>
+
+<h4>1.4.3.1 - 08/24/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>WooCommerce: Fix taxonomy filters set in the Post Module not working correctly on the frontend</li>
+</ul>
+
+<h4>1.4.3 - 08/23/2022</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Allow shortcodes in conditional logic value field</li>
+	<li>Performance: Remove get_custom_fields_select() call when BB is not active</li>
+	<li>TEC: Add option to display currency symbol with the cost</li>
+	<li>WooCommerce: Add option to use Catalog visibility setting in Posts Module</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix Shrink Header from applying to images in menus created by 3rd parties</li>
+	<li>Fix Header/Footer layouts not rendering on Archive layouts when the query pulls in a post using the No Header/Footer template from the BB Theme</li>
+	<li>ACF: Make sure color picker is available on Options page</li>
+	<li>ACF: Color picker shortcode now gives option to output the # symbol and the field is now output in the detected fields dropdown</li>
+	<li>ACF: Fix Page Link field not being detected automatically</li>
+	<li>EDD: Fix select options button needing to be clicked twice</li>
+	<li>EDD: Improvements for compatibility with EDD 3.0</li>
+	<li>WooCommerce: Fix compatibility with the Wishlist add-on</li>
+</ul>
+
+<h4>1.4.2.2 - 07/28/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fix Mega Menu position issues and it not closing properly when hovering</li>
+</ul>
+
+<h4>1.4.2.1 - 6/30/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fix issue with Mega Menu where sometimes the sub-menu items were not accessible</li>
+	<li>Fix flyout menu being inaccessible when scrolled</li>
+	<li>Fix flyout menu top position when overlay is enabled</li>
+	<li>Fix flyout menu when using a Sticky Header and Post Module set to scroll pagination</li>
+	<li>Fix flyout menu items disappearing if you open menu after scrolling</li>
+</ul>
+
+<h4>1.4.2 - 06/2/2022</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Accessibility: Add <code>role="banner"</code> to the header tag</li>
+	<li>Add shortcode support to conditional logic</li>
+	<li>Add missing translations</li>
+	<li>Post Info Module: Add option to control display of  the author link</li>
+	<li>ACF: Add link field type support</li>
+	<li>WooCommerce: Rename WooCommerce style sectio key so there is not a duplicate</li>
+	<li>Add <code>$settings</code> as filter argument to <code>fl_theme_builder_custom_post_grid_html</code></li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>TEC: Fix Event Map module custom height not working</li>
+	<li>WooCommerce: Fix display issues with the Product Description module</li>
+	<li>WooCommerce: Fix error when trying to edit a Singular layout when previewing a variable product</li>
+	<li>WooCommerce: Fix pixelated images in Product Images Module</li>
+	<li>Menu Module: Fix gap on scroll when using a mega menu</li>
+	<li>WooCommerce: Remove Product Gallery field connection from showing up when editing an Archive layout</li>
+	<li>Fix error when trying to apply a template to a Themer layout that is applied to the entire site</li>
+</ul>
+
+<h4>1.4.1.3 - 05/19/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>WooCommerce: Fix pagination displaying double or displaying in places where it should not in some cases</li>
+	<li>WooCommerce: Fix Add to Cart module styling not working on a Search Results archive</li>
+	<li>ACF: Add Relational > Relationship field connection option</li>
+	<li>ACF: Fix fatal error with PHP 8 by checking to confirm if data is array</li>
+</ul>
+
+<h4>1.4.1.2 - 03/29/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Revert a housekeeping change that caused a problem with Post Titles</li>
+</ul>
+
+<h4>1.4.1.1 - 03/29/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fix Tag Archive not showing all posts if TEC is active</li>
+	<li>Fix WooCommerce product sorting and pagination options not appearing when Themer doesn't control the archive layouts</li>
+</ul>
+
+<h4>1.4.1 - 03/17/2022</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Add contains operator to conditional shortcode options</li>
+	<li>Add option to display the post parent with shortcodes</li>
+	<li>Add support for Parent Taxonomy in Themer layout locations</li>
+	<li>Add User Type on [wpbb site:user_meta] For Use In Author Archive Page</li>
+	<li>Adjust Header layout shrink so it does not apply to all images in header</li>
+	<li>Add Author Picture URL as a field connection option</li>
+	<li>Add conditional logic rules for comment status</li>
+	<li>Post Info Module: Convert alignment and font size to use our Typography Field</li>
+	<li>Post Info Module: Add link and link hover color settings</li>
+	<li>Improve compatibility with GeneratePress so their flex layout doesn't interfere with our full width functionality</li>
+	<li>ACF: Expand support for File Field by adding more output options</li>
+	<li>ACF: Exclude fields from field dropdown that are organizational and don't output content (accordion, tab, repeater, group)</li>
+	<li>ACF: Make sure dropdown field selector appears in for Gallery Module, URL fields</li>
+	<li>ACF: Dropdown field selector is now select2 so you can search fields</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fix position of Flyout menu once scrolled</li>
+	<li>Fix gaps when using Sticky header set to shrink and a Posts Module with infinite scroll enabled</li>
+	<li>Fix: Polylang translated layout does not appear when it should</li>
+	<li>Fix compatibility with Skyverge Facebook & Google Analytics plugins and our Post Module</li>
+	<li>TEC: Fix Post Module ignoring Show Event Setting</li>
+	<li>BigCommerce: Fix Add to Cart Form not respecting alignment setting</li>
+	<li>Housekeeping: Remove duplicate <code>fl_theme_builder_after_render_content</code></li>
+	<li><code>[wpbb archive:show_count]</code> now uses i18n</li>
+	<li>Fix location box being empty if Post/Page titles contain slashes</li>
+</ul>
+
+<h4>1.4.0.2 - 01/27/2022</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fix ACF True/False field not displaying correct output if Stylized UI option is enabled</li>
+	<li>Fix WP autop not being applied to first post in Post modules if classic editor is used for the posts</li>
+	<li>Fix gap with Sticky Header set to overlay when scrolled when there is a part before the header</li>
+	<li>TEC: Fix integration with Event Tickets add-on</li>
+	<li>Fix fatal error on Singular Product layout with Post Content and Comments modules when using our layout shortcode in the Product description</li>
+</ul>
+
+<h4>1.4.0.1 - 12/16/2021</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed fatal error with relational fields</li>
+</ul>
+
+<h4>1.4 - 12/2/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>NEW: Allow BB to be used on content area when Singular layout is applied</li>
+	<li>NEW: Add new option for Sticky Header to choose which breakpoints it applies to</li>
+	<li>NEW: Add dropdown for ACF field selection instead of an input box</li>
+	<li>NEW: Add defaults for Themer shortcodes</li>
+	<li>NEW: 4 new Header and Footer templates each</li>
+	<li>Sticky Header: Improvements to help with Cumulative Layout Shift issues</li>
+	<li>Add Browser options to Themer Layout Rules</li>
+	<li>Add expression support to shortcodes which allows you to check for specific values with wpbb-if</li>
+	<li>Make improvements to when Themer bundle files are deleted/regenerated to help with 404 error in certain circumstances</li>
+	<li>Post Navigation Module: Add new options to choose what to display and style various parts</li>
+	<li>Update LESS library for PHP 8</li>
+	<li>Fix jQuery Migrate warnings</li>
+	<li>Add layout's name to body tag classes</li>
+	<li>Add some changes to still be compatible with WordPress 4.9</li>
+	<li>Add field connections to Global elements</li>
+	<li>Make subcategory relationship visible in Themer Layout location box</li>
+	<li>ACF: Add support for Taxonomy fields</li>
+	<li>ACF: Allow field options and attributes for ACF Image Field connection</li>
+	<li>ACF: Color picker field now outputs in a Repeater</li>
+	<li>ACF: Allow field options and attributes for ACF Image Field connection</li>
+	<li>ACF: Expand support for True/False fields by adding the field type as an option in the field type dropdown as well as add support for the Stylized UI</li>
+	<li>ACF: Add support for Button Group Field</li>
+	<li>ACF: Gallery now supports all three return types</li>
+	<li>ACF Pro: Add support for the Smart Slider Field</li>
+	<li>TEC: Add option in Posts Module to show Featured Events Only</li>
+	<li>WooCommerce: Add to Cart Module: Add hover styling options</li>
+	<li>WooCommerce: Add support for WooCommerce Wishlist Add-on</li>
+	<li>WooCommerce: Add Woo Notices Module</li>
+	<li>WooCommerce: Add Woo Sale classes to Singular layout</li>
+	<li>TEC: Add single events classes to Single</li>
+	<li>Fix conflict with HappyFiles Pro plugin when it is enabled for Themer layouts</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>ACF: Fix Fatal error when using User Relationship Field Type, return format is User Object and are returning blank values</li>
+	<li>Fix Location dropdown showing wrong value when selected page is deleted</li>
+	<li>Header layout: fix responsive editor moving content to the left when overlay is active</li>
+	<li>TEC: Fix Organizer module showing Title even if no Organizers are added to an event</li>
+	<li>TEC Pro: Fix spinning loading GIF on Singular Venue</li>
+	<li>Fix notices on WP 5.8 Block Widget Screen</li>
+	<li>Header Layout: Fix content getting duplicated when Post module is present</li>
+	<li>Fix <code>get_woocommerce_term_meta</code> deprecated notice</li>
+	<li>Fix Post Navigation module text overflowing when background color is set</li>
+	<li>Fix Post Info module color field not working</li>
+	<li>ACF: Fix True/False field not working in conditional logic</li>
+	<li>ACF: Fix Relational > Taxonomy field not outputting single values</li>
+	<li>ACF: Fix User field not displaying output properly</li>
+	<li>ACF: Fix logic that use array data, contains etc</li>
+	<li>ACF Pro: Fix Image Field URL not working in Options page</li>
+	<li>TEC: Fix Incorrect DATETIME Value For TEC Past and Future Events when using MySQL 8+</li>
+	<li>TEC: Fix Event ordering issue</li>
+	<li>TEC: Add option in Event Map Module to choose Auto height and fix custom height</li>
+	<li>TEC: Fix colors in Export Links module not working</li>
+	<li>TEC: Fix text color not workin in Event Notices module</li>
+	<li>TEC Pro: Fix alignment in Countdown</li>
+	<li>Fixed PHP Notice on excluded pages</li>
+	<li>Fixed quote(s) in Page/Post title causing Location box to be empty</li>
+	<li>WooCommerce: Fix new feature to use BB for content area when Themer singular layout applied not working for Product Tabs module</li>
+	<li>ACF: Fix contains option in conditional logic not working with certain ACF fields</li>
+</ul>
+
+<h4>1.4 Beta 5 - 11/19/2021</h4>
+<strong>Bug Fixes</strong>
+<ul>
+	<li>WooCommerce: Fix new feature to use BB for content area when Themer singular layout applied not working for Product Tabs module</li>
+	<li>Fixed various issues with Sticky Header not behaving as expected</li>
+</ul>
+
+<h4>1.4 Beta 4 - 10/14/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>ACF Field Detection now ignores the Group field itself and prefixes the subfields of a Group field with the Group field slug</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed PHP Notice on excluded pages</li>
+	<li>Fixed glitches with Sticky Header with certain theme settings</li>
+	<li>Fixed sticky header not working with sticky breakpoint set to default</li>
+	<li>Fixed quote(s) in Page/Post title causing Location box to be empty</li>
+</ul>
+
+<h4>1.4 Beta 3 - 09/28/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Sticky Header: Improvements to help with Cumulative Layout Shift issues</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed: When editing content in BB with Themer singular layout active for post, switching back to WP Editor now shows the right content</li>
+</ul>
+
+<h4>1.4 Beta 2 - 09/2/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>WooCommerce: Add support for WooCommerce Wishlist Add-on</li>
+	<li>WooCommerce: Add Woo Notices Module</li>
+	<li>WooCommerce: Add Woo Sale classes to Singular layout</li>
+	<li>TEC: Add single events classes to Single</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Header Layout: Fix content getting duplicated when Post module is present</li>
+	<li>Fix <code>get_woocommerce_term_meta</code> deprecated notice</li>
+	<li>Fix Post Navigation module text overflowing when background color is set</li>
+	<li>Fix Post Info module color field not working</li>
+	<li>ACF: Fix True/False field not working in conditional logic</li>
+	<li>ACF: Fix image field not working when set as a shortcode default</li>
+	<li>ACF: Fix Relational > Taxonomy field not outputting single values</li>
+	<li>ACF: Fix User field not displaying output properly</li>
+	<li>ACF Pro: Fix Image Field URL not working in Options page</li>
+	<li>TEC: Fix Incorrect DATETIME Value For TEC Past and Future Events when using MySQL 8+</li>
+	<li>TEC: Fix Event ordering issue</li>
+	<li>TEC: Add option in Event Map Module to choose Auto height and fix custom height</li>
+	<li>TEC: Fix colors in Export Links module not working</li>
+	<li>TEC: Fix text color not workin in Event Notices module</li>
+	<li>TEC Pro: Fix alignment in Countdown</li>
+</ul>
+
+<h4>1.4 Beta 1 - 07/12/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Add expression support to shortcodes which allows you to check for specific values with wpbb-if</li>
+	<li>ACF: Show field slug for fields in the new field dropdown selector</li>
+	<li>ACF: Add support for Taxonomy fields</li>
+	<li>Post Navigation Module: Add new options to choose what to display and style various parts</li>
+	<li>Add to Cart Module: Add hover styling options</li>
+	<li>Add some changes to still be compatible with WordPress 4.9</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Header layout: fix responsive editor moving content to the left when overlay is active</li>
+	<li>Header layout: fix sticky header going underneath the WP Admin Bar</li>
+	<li>TEC: Fix Organizer module showing Title even if no Organizers are added to an event</li>
+	<li>Fix Themer Override menu item not showing in the Tools menu if UABB Premium is enabled</li>
+	<li>Fix WP Editor content not showing when enabling Themer Override feature and then discarded changes</li>
+	<li>Fix notices on WP 5.8 Block Widget Screen</li>
+</ul>
+
+<p><strong>Other Changes</strong></p>
+<ul>
+	<li>Remove field connection options on Archive layout that pull in some latest post data</li>
+</ul>
+
+<h4>1.4 Alpha 2 - 05/27/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>NEW: 4 new Header and Footer templates each</li>
+	<li>TEC: Add option in Posts Module to show Featured Events Only</li>
+	<li>Add Browser options to Themer Layout Rules</li>
+	<li>Fix jQuery Migrate warnings</li>
+	<li>ACF: Color picker field now outputs in a Repeater</li>
+	<li>Add layout's name to body tag classes</li>
+	<li>Update LESS library for PHP8</li>
+	<li>ACF: Allow field options and attributes for ACF Image Field connection</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Using BB to design content of a page with a Themer Singular layout applied now works with Modules connected to Post Content, not just the Post Content Module</li>
+	<li>ACF: Fix Fatal error when using User Relationship Field Type, return format is User Object and are returning blank values</li>
+	<li>Fix Location dropdown showing wrong value when selected page is deleted</li>
+</ul>
+
+<h4>1.4 Alpha 1 - 04/30/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>NEW: Allow BB to be used on content area when Singular layout is applied</li>
+	<li>NEW: Add new option for Sticky Header to choose which breakpoints it applies to</li>
+	<li>NEW: Add dropdown for ACF field selection instead of an input box</li>
+	<li>NEW: Add defaults for Themer shortcodes</li>
+	<li>Make improvements to when Themer bundle files are deleted/regenerated to help with 404 error in certain circumstances</li>
+	<li>ACF: Expand support for True/False fields by adding the field type as an option in the field type dropdown as well as add support for the Stylized UI</li>
+	<li>ACF: Add support for Button Group Field</li>
+	<li>ACF Pro: Add support for the Smart Slider Field</li>
+	<li>Add field connections to Global elements</li>
+	<li>Add field connection options on Archive layout that pull in some latest post data</li>
+	<li>Make subcategory relationship visible in Themer Layout location box</li>
+</ul>
+
+<h4>1.3.3.1 - 04/07/2021</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>ACF: Fix PHP Notice when using an Image Field after image is deleted from Post</li>
+	<li>ACF: Fix relationship field displaying empty if field return set to Post Object and not Post ID</li>
+	<li>TEC: Fix future events setting showing events that are already completed</li>
+</ul>
+
+<h4>1.3.3 - 03/01/2021</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Add output options for ACF Relational Post Object</li>
+	<li>Add taxonomy parameter to the fl_theme_builder_terms_list filter</li>
+	<li>Fixes for PHP8</li>
+	<li>Add WPML Config file for better compatibility</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>ACF: Fix Post Module showing empty when using ACF Relationship and the CPT is excluded from search in CPT Settings</li>
+	<li>BigCommerce: Fix issue where choosing variations would not update price</li>
+	<li>TEC: Fix issue where Multi-Day Events would not display properly</li>
+	<li>TEC: Fix Event Archive Description not showing when using shortcode</li>
+	<li>TEC: Fix Event Notices module not displaying content</li>
+	<li>TEC: Fix showing Today's Events not working properly in Post Module</li>
+	<li>TEC Pro: Fix applying a singular layout to an organizer showing a constant loading GIF</li>
+	<li>TEC Pro: Fix fatal error when using an old version of TEC Pro and the Related Events Module</li>
+	<li>WooCommerce: Fix Product Weight shortcode not rendering</li>
+	<li>WooCommerce: Fix Singular layout not being editable when Product is rendering a BB Shortcode in the Product Description</li>
+</ul>
+
+<h4>1.3.2.3 - 08/18/2020</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed BigCommerce Fatal error in WP Admin when editing posts</li>
+	<li>Fixed fatal error with Polylang 2.8</li>
+	<li>Fixed WP Rest route warning introduced in WP 5.5</li>
+</ul>
+
+<h4>1.3.2.2 - 07/21/2020</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>On shrink, limit auto-height and auto-width to BB Photo module only.</li>
+	<li>Tweaked nested connections fix.</li>
+</ul>
+
+<h4>1.3.2.1 - 07/15/2020</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed broken nested connections.</li>
+</ul>
+
+<h4>1.3.2 - 07/13/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>WooCommerce: Add new fields for Upsell and Related Products modules.</li>
+	<li>Added ACF Color Field support/options to Post Module Custom Layout.</li>
+	<li>Post Terms List: add ability to output term slug instead of term title/name.</li>
+	<li>Add new filter <code>fl_theme_builder_shrink_image_height</code> to control shrink logo height (default: 50px).</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed missing mo translation files.</li>
+	<li>Fixed field connection not pulling in post data correctly.</li>
+	<li>Fixed unshrunk header when back button is clicked.</li>
+	<li>Fixed ACF Page Link field render value when Multiple is Off.</li>
+	<li>Fixed Yith Request a Quote: doesn't show variable product options when enabled.</li>
+	<li>Fixd WooCommerce button styles not being applied.</li>
+	<li>TEC: Fixed Event Ticket module styling.</li>
+	<li>TEC: Fix organizer or venue content pulling in the event content when venue or organizer are not set.</li>
+</ul>
+
+<h4>1.3.1.1 - 05/21/2020</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed broken translation files.</li>
+</ul>
+
+<h4>1.3.1 - 05/06/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added new filter <code>fl_theme_builder_disable_schema</code>.</li>
+	<li>Added connections for Events Calendar venue and organiser content.</li>
+	<li>Added Conditional Tags -- is_404(), is_tax(), is_search() to Conditional Logic.</li>
+	<li>Added Author Role to Conditional Logic.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed empty author name on Author Archive with no post.</li>
+	<li>Fixed ACF Relationship field sorting.</li>
+	<li>Fixed Posts module set to main query on an archive layout displays all Event Calendar events.</li>
+	<li>Fixed Add To Cart visibility on Archive Layout.</li>
+	<li>Fixed various translation string issues.</li>
+	<li>Remove Post Navigation extra space on RTL.</li>
+	<li>Make sure result is same post type when checking for post parent.</li>
+</ul>
+
+<h4>1.3.0.2 - 03/18/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>New filter <code>fl_themer_builder_connect_node_settings_cache_key</code>.</li>
+	<li>Better support for The Events Calendar 5.</li>
+	<li>Events are now filterable future/past or all events.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed featured image description pulling in post content if no image set.</li>
+</ul>
+
+<h4>1.3.0.1 - 02/24/2020</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed location issues introduced in 1.3</li>
+</ul>
+
+<h4>1.3 - 02/14/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>New filter <code>fl_theme_builder_terms_list</code> to change the output for tags.</li>
+	<li>Translation domain changed to match plugin slug in preparation for language pack support.</li>
+	<li>Event Calendar: Text Editor module alias for the event website.</li>
+	<li>Event Calendar: Add Event Venue to Posts Module options.</li>
+	<li>Event Calendar: Hide countdown module if not using TEC Pro.</li>
+	<li>Added support for BigCommerce. This integration is similar to our WooCommerce integration. The BigCommerce WordPress plugin is required to use.</li>
+	<li>In WP admin, you can now publish/unpublish Themer layouts from the Themer layout list</li>
+	<li>If you access a Themer layout from viewing a page/archive, etc, after editing the Themer layout, it will redirect you to the page you came from instead of keeping you on the Themer layout</li>
+	<li>Added a settings cog next to a Themer layout so that you can now access editing a Themer layout in the WP admin in addition to opening up the Themer layout to edit in BB</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed PHP 7.4 warnings in lessc class.</li>
+	<li>Fixed an issue where if two layouts have same location only one can be edited.</li>
+	<li>Fixed PHP Warning on the Post Content module when Page Preview is set to 'None'.</li>
+	<li>Event Calendar: Fixed issues with their v2 views added in v5.0</li>
+</ul>
+
+<h4>1.3 Beta 2 - 01/07/2020</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Event Calendar: Text Editor module alias for the event website.</li>
+	<li>Event Calendar: Add Event Venue to Posts Module options.</li>
+	<li>Event Calendar: Hide countdown module if not using TEC Pro.</li>
+</ul>
+
+<h4>1.3 Beta 1 - November 19, 2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added support for BigCommerce. This integration is similar to our WooCommerce integration. The BigCommerce WordPress plugin is required to use.</li>
+	<li>In WP admin, you can now publish/unpublish Themer layouts from the Themer layout list</li>
+	<li>If you access a Themer layout from viewing a page/archive, etc, after editing the Themer layout, it will redirect you to the page you came from instead of keeping you on the Themer layout</li>
+	<li>Added a settings cog next to a Themer layout so that you can now access editing a Themer layout in the WP admin in addition to opening up the Themer layout to edit in BB</li>
+</ul>
+
+<h4>1.2.5 - 12/6/2019</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+ 	<li>Fixed an issue with conditional logic and archives with no results</li>
+ 	<li>ACF: Fixed empty output issue with Page Link field when multiple values allowed</li>
+ 	<li>ACF: Fix relational fields not outputting in a repeater field</li>
+ 	<li>Fixed Post Module stripping out p tags when using classic editor</li>
+ 	<li>WooCommerce: Fixed double waitlist button with WooCommerce Waitlist extension</li>
+ 	<li>The Events Calendar:  Fix empty Event Category description</li>
+ 	<li>Fix wrong post info being pulled in on a singular layout</li>
+</ul>
+<strong>Enhancements</strong>
+<ul>
+ 	<li>New filter <code>fl_theme_builder_sticky_header_breakpoint</code> to change the sticky and shrink breakpoint for Header layout</li>
+</ul>
+
+<h4>1.2.4.4 - 10/30/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed possible fatal error when editing WooCommerce pages in wp-admin.</li>
+	<li>Fixed file permission issues with created bundle css/js files.</li>
+</ul>
+
+<h4>1.2.4.3 - 10/22/2019</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed field connections showing defaults instead of connected value when editing a themer layout.</li>
+	<li>Fixed issue where WooCommerce options were showing when the plugin was not installed.</li>
+</ul>
+
+<h4>1.2.4.2 - 09/10/2019</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed shortcodes in custom layouts if excerpt is used it set the wrong post global.</li>
+	<li>Fixed php warning for missing data if a post type is removed.</li>
+	<li>Fixed WooCommerce Up-Sell Column wrap on Singular Layout.</li>
+	<li>Exclude Waitlist button on external and composite product types.</li>
+</ul>
+
+<h4>1.2.4.1 - 08/13/2019</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Re-added missing content filter in excerpt shortcode.</li>
+</ul>
+
+<h4>1.2.4 - 08/12/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added fallback option for ACF image fields.</li>
+	<li>Added conditional logic to check if logged in user is Post Author.</li>
+	<li>Added limit setting for terms_list shortcode.</li>
+	<li>Added format options for ACF select field.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed post:excerpt length defaulting to 55.</li>
+	<li>Fixed preview dropdown where unable to see all posts.</li>
+	<li>Fixed WooCommerce Waitlist elements not rendering on the Add To Cart Button module.</li>
+	<li>Fixed "onsale" Button being cut-off on Woocommerce Shop Page/Layout.</li>
+	<li>Fixed the missing author data when the shortcode is added outside of loop.</li>
+	<li>Fixed GeneratePress Premium causing CSS issue on the Singular Product Layout.</li>
+	<li>Fixed Post Template rule affecting 404 layout & search results layout.</li>
+	<li>Fixed field connection from template shortcode in posts module when using custom layout.</li>
+	<li>Fixed conflict with YITH Woocommerce Request A Quote when preview is none.</li>
+</ul>
+
+<h4>1.2.3.5 - 07/18/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed fatal error if wc_print_notices() does not exist.</li>
+	<li>Fixed fatal error with ACF user field if set to object.</li>
+	<li>Fixed fatal error in bb-logic rules when using dates.</li>
+	<li>Fixed undefined PHP index in rules location options.</li>
+</ul>
+
+<h4>1.2.3.4 - 04/30/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed WP_Error if no taxonomy exists when using list_terms.</li>
+	<li>Fixed shrink header image when WP Rocket lazy load is enabled.</li>
+	<li>Enabled WooCommerce JSON+LD for single product layouts.</li>
+	<li>Allow trim to be disabled via fl_theme_builder_get_excerpt filter.</li>
+</ul>
+
+<h4>1.2.3.2 - 04/26/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed bug in terms_list shortcode.</li>
+</ul>
+
+<h4>1.2.3.1 - 04/26/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fix JS error in wp-admin rules.</li>
+</ul>
+
+<h4>1.2.3 - 04/24/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Enabled new Browser and Woocommerce rules in Beaver Logic extension.</li>
+	<li>Show parent/child page relationship in Location dropdown.</li>
+	<li>Added an option to order ACF relationship posts list.</li>
+	<li>Added an Event navigation module.</li>
+	<li>Terms List connection/shortcode now supports outputting in list formats.</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed ACF repeater shortcodes not working in the custom layout for the posts module.</li>
+	<li>Fixed Author Nickname connection.</li>
+	<li>Fixed header & footer layouts on search results page.</li>
+	<li>Fixed row inserted via shortcode in certain Themer parts missing styling.</li>
+	<li>Fixed fatal error when preview is set to none in a singular Woocommerce product layout.</li>
+	<li>Fixed BB layout shortcodes not rendering in themer layouts until the page is refreshed.</li>
+	<li>Fixed custom container element when using custom post layout.</li>
+</ul>
+
+<h4>1.2.2.1 - 02/08/2019</h4>
+<p><strong>Hot Fix</strong></p>
+<ul>
+	<li>Fixed connections being reset on module save.</li>
+</ul>
+
+<h4>1.2.2 - 02/06/2019</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Updated to WPCS 2.0</li>
+	<li>Added SKU field connection for WooCommerce.</li>
+	<li>Added individual field connections for address parts for Events Calendar Events.</li>
+	<li>Added timezone support for Events Calendar time field connections.</li>
+	<li>Added WooCommerce classes option to Posts Module.</li>
+	<li>Added FitVids support to videos in Post Content Module.</li>
+	<li>Added option to Post module to order events by start/end date.</li>
+	<li>Added more translation support for admin menu HEADER/FOOTER/PART etc.</li>
+	<li>New Connection for archives example: Showing 1-5 of 25 / Page 1 of 5.</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed layout shortcodes not rendering correctly in header/footer areas.</li>
+	<li>Fixed EDD receipt display issues.</li>
+	<li>Renamed some field connections that had duplicate names.</li>
+	<li>Fixed 404 draft CSS issue when module is connected to post excerpt.</li>
+	<li>Make sure fl_after_content action is actually after the content.</li>
+	<li>Fixed ACF Relationship field not working in Posts Module.</li>
+</ul>
+
+<h4>1.2.1.2 - 12/06/2018</h4>
+<p><strong>Bug Fix</strong></p>
+<ul>
+	<li>Fix fatal error when updating to WP5 due to function rename.</li>
+</ul>
+
+<h4>1.2.1.1- 11/08/2018</h4>
+<p><strong>Bug Fix</strong></p>
+<ul>
+	<li>Fixed issue with taxonomy locations not showing up on layout edit page.</li>
+	<li>Fixed issue with site wide locations being ignored, introduced in version 1.2.1.</li>
+</ul>
+
+<h4>1.2.1 - 11/06/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+  <li>Added role as an optional arg for <code>site:logged_in</code>. Role can be a single role or comma separated list of roles.</li>
+  <li>New filter <code>fl_theme_builder_page_archive_get_title</code>.</li>
+  <li>Added support for ACF radio field type when using shortcode to test for specific values.</li>
+  <li>Added ACF Relational user and post object support.</li>
+  <li>Added Author Archives option in the preview dropdown.</li>
+  <li>Added support for more BB theme hooks.
+  <ul>
+    <li><code>fl_post_top_meta_open</code></li>
+    <li><code>fl_post_top_meta_close</code></li>
+    <li><code>fl_post_bottom_meta_open</code></li>
+    <li><code>fl_post_bottom_meta_close</code></li>
+    <li><code>fl_comments_open</code></li>
+    <li><code>fl_comments_close</code></li>
+  </ul></li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+  <li>Removed storefront pagination above and below the posts module.</li>
+  <li>Fixed product images width issue in Astra and GeneratePress themes.</li>
+  <li>Fixed Woocommerce Single Product hook displaying on Shop page with Themer layout active.</li>
+  <li>Converted hard coded font awesome 4 icons in events calendar to Font Awesome 5.</li>
+  <li>Fixed issue where Themer resets exclusions to all pages if page(s) in exclusions are deleted.</li>
+  <li>Fixed themer layout active warning showing on all pages in some cases.</li>
+  <li>Fixed issue with Storefront theme CSS.</li>
+  <li>Fixed a WPML issue with multiple parts in same layout becoming not editable.</li>
+  <li>If using a custom HTML layout do not run before/after hooks for woocommerce/edd and events.</li>
+</ul>
+
+<h4>1.2.0.3 - 09/26/2018</h4>
+<p><strong>Bug Fix</strong></p>
+<ul>
+  <li>Use WP Core ImagesLoaded.</li>
+</ul>
+
+<h4>1.2.0.2 - 09/10/2018</h4>
+<p><strong>Bug Fix</strong></p>
+<ul>
+  <li>Fixed location rules disappearing under certain conditions.</li>
+  <li>Fixed locations not saving when they contain apostrophes or quotes.</li>
+</ul>
+
+<h4>1.2.0.1 - 08/29/2018</h4>
+<p><strong>Bug Fix</strong></p>
+<ul>
+  <li>Fix fatal PHP error in bb-logic extension.</li>
+</ul>
+
+<h4>1.2 - 08/28/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>Added an all new conditional logic system with rules and rule groups.</li>
+    <li>Added conditional logic system to the Themer layout admin screen. Removed old user rules.</li>
+    <li>Added a new conditional logic visibility setting for rows, columns, and modules.</li>
+    <li>Added rules for posts, archives, authors, users, and custom fields in the Advanced Custom Fields (ACF) plugin.</li>
+	<li>Added location option for choosing post type ancestors such as the grandparent for a page.</li>
+	<li>Added field connection for pulling WooCommerce gallery images into the Photos field in Gallery modules.</li>
+	<li>Added before/after content actions to the custom layout for the posts module.</li>
+	<li>Added options for next and previous link text in the post navigation module.</li>
+	<li>Added option to select a specific taxonomy to navigate in the post navigation module.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed ancestor, parent or taxonomy rules not overriding the all rule for a post type.</li>
+	<li>Fixed a fatal error caused by third parties accessing the old LESS CSS processor class that no longer existed.</li>
+	<li>Fixed missing paragraph tag for post excerpts.</li>
+	<li>Fixed PHP error on single product layouts when attaching gallery images to Slideshow module.</li>
+	<li>Fixed PHP warning caused by the ACF Themer class.</li>
+	<li>Fixed ACF relationship ordering so it preserves the selection order.</li>
+</ul>
+
+<h4>1.1.2.1 - 07/02/2018</h4>
+<strong>Enhancements</strong>
+<ul>
+ 	<li>Updated default template data files to use font awesome 5 icons.</li>
+ 	<li>New filter <code>fl_theme_builder_get_excerpt</code></li>
+</ul>
+<strong>Bug Fixes</strong>
+<ul>
+ 	<li>Fixed <code>wpbb post:excerpt</code> not working as expected.</li>
+ 	<li>Fixed post title issue, titles were not properly sanitized when saving locations.</li>
+ 	<li>Fixed compatibility issue with other plugins that use the Select2 library.</li>
+</ul>
+
+<h4>1.1.2 - 05/21/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+    <li>ACF Flexible Content support added! See <code>https://kb.wpbeaverbuilder.com/article/653-use-acf-flexible-content-field-themer</code> for Flexible Content field docs.</li>
+    <li>ACF Repeater support added! See <code>https://kb.wpbeaverbuilder.com/article/461-use-acf-repeater-fields-themer</code> for repeater field docs.</li>
+    <li>Added post:id and post:slug Themer connections.</li>
+    <li>Added Paypal support to the Event Calendar Tickets Module.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Prevent field connection logic from running in wp-admin, fixes issues like undefined post_type error with Yoast SEO.</li>
+	<li>Fixed issue where parts set to all users would not display for admins in the builder.</li>
+	<li>Fixed post embeds not working when a post has a themer layout.</li>
+	<li>Modified the logic for ACF relationship query so it displays a message when no results found.</li>
+	<li>Fixed undefined index post_type PHP warning in Woocommerce Module.</li>
+	<li>Make sure to pass all query args when creating a new template in wp-admin so other plugins like WPML still work.</li>
+</ul>
+
+<h4>1.1.1.1 - 05/09/2018</h4>
+<strong>Hot Fix</strong>
+<ul>
+	<li>Reworked white labeling to support BB 2.1 branding changes.</li>
+	<li>Use Font Awesome 5 icons in builder UI.</li>
+</ul>
+
+<h4>1.1.1 - 03/20/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added support for using ACF relationship fields as the query source in all post modules.</li>
+ 	<li>Added the ability for Themer modules to be overridden in a theme or child theme.</li>
+	<li>Added support for displaying Themer parts in more Storefront hook locations.</li>
+	<li>Added the ability to change the format of Event Calendar start and end dates.</li>
+	<li>Added the ability to enqueue Themer CSS/JS assets inline using the <code>fl_builder_render_assets_inline</code> filter.</li>
+	<li>Added the ability to change the time to expiration for Themer CSS/JS assets using the <code>fl_theme_builder_assets_expire</code> filter.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+ 	<li>Fixed images in header layouts not transitioning when it shrinks on scroll.</li>
+	<li>Fixed other plugins with Beaver Themer in the title getting white labeled incorrectly.</li>
+	<li>Fixed duplicate database queries running more than once on the same page load.</li>
+	<li>Fixed CSS issues with the display of WooCommerce product grids in the Storefront theme.</li>
+</ul>
+
+<h4>1.1.0.3 - 02/27/2018</h4>
+<strong>Hot Fix</strong>
+<ul>
+ 	<li>Fixed WPML rendering issues.</li>
+</ul>
+
+<h4>1.1.0.2 - 02/22/2018</h4>
+<strong>Hot Fix</strong>
+<ul>
+ 	<li>Fixed rendering issue introduced in Woocommerce 3.3.3</li>
+</ul>
+
+<h4>1.1.0.1 - 02/09/2018</h4>
+<strong>Hot Fix</strong>
+<ul>
+ 	<li>Fixed Themer layouts not rendering with WPML installed when translation is disabled for the Themer layout post type.</li>
+</ul>
+
+<h4>1.1 - 02/07/2018</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added The Events Calendar integration.</li>
+	<li>Added Easy Digital Downloads integration.</li>
+	<li>Added support for WPML translation of Themer layouts.</li>
+	<li>Added support for Polylang translation of Themer layouts.</li>
+	<li>Added enhanced select inputs with search for choosing layout locations.</li>
+	<li>Added event ticket cost and cart button option to the posts module.</li>
+	<li>Added <code>[wpbb-if site:logged_in]</code> conditional shortcode.</li>
+	<li>Added <code>[wpbb site:year format=“y”]</code> shortcode.</li>
+	<li>Added <code>format</code> parameter to the ACF date shortcode.</li>
+	<li>Added value and expression parameters to conditional shortcodes such as <code>[wpbb-if post:custom_field key="my_key" value="my_value" exp="equals"]</code></li>
+	<li>Added <code>fl_theme_builder_woocommerce_template_html_{ $function }</code> filter.</li>
+	<li>Added expression support for ACF in wpbb-if shortodes.</li>
+	<li>Added URL connections to the Posts module's custom layout.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed core templates being applied instead of Themer templates due to incorrect BB 2.0 support logic.</li>
+	<li>Fixed issue where the incorrect layout renders on PHP7.</li>
+	<li>Fixed empty archives not showing Themer layouts.</li>
+	<li>Fixed featured image shortcode showing the size when it's not needed.</li>
+	<li>Fixed PHP warnings when editing a Themer layout and the preview doesn't return a post.</li>
+	<li>Fixed white label issues.</li>
+	<li>Fixed misleading tooltip in Page Builder > Settings > User Access.</li>
+	<li>Fixed incorrect Themer layouts showing in certain cases on PHP7.</li>
+	<li>Fixed author image connection not working on standard builder pages.</li>
+	<li>Fixed EDD info not showing in the posts module on standard pages.</li>
+	<li>Fixed EDD pricing module text color being overridden by row/column text color.</li>
+	<li>Fixed inconsistencies with EDD modules and field connections.</li>
+	<li>Fixed event notice text color being overridden by row/column text color.</li>
+	<li>Fixed event tickets module button colors not working.</li>
+	<li>Fixed event archive not respecting the default view when editing Themer layouts.</li>
+	<li>Fixed Polylang issue when using a different domain per language.</li>
+</ul>
+
+<h4>1.0.3 - 11/14/2017</h4>
+<strong>Enhancements</strong>
+<ul>
+ 	<li><code>wpbb-else</code> support added to <code>wpbb</code> shortcode.</li>
+ 	<li>Added support for ACF true/false field.</li>
+ 	<li>All Archives now applies to search archives.</li>
+ 	<li>Added modified date as an option in post properties. Also supports Human time diff ( 3 days ago ).</li>
+ 	<li>Renamed module categories and added group data for 2.0 support.</li>
+ 	<li>Added settings for unlinking terms list connections.</li>
+</ul>
+<strong>Bug Fixes</strong>
+<ul>
+ 	<li>Fixed an issue with WooCommerce filter widgets.</li>
+ 	<li>Fixed post content connection not showing for the posts module on normal pages.</li>
+ 	<li>Fixed price font size and color being overridden by WooCommerce CSS.</li>
+ 	<li>Fixed location issue, post all categories was matching when on a child page.</li>
+ 	<li>Fixed header layout options when using Storefront theme.</li>
+ 	<li>Fixed author image connection showing wring image on pages.</li>
+ 	<li>Fixed a conflict with PDF Product Vouchers plugin.</li>
+ 	<li>Fixed pagination issue on Events Calendar pages.</li>
+ 	<li>Fixed JS error when trying to connect a setting on global options forms.</li>
+ 	<li>Fixed parts being either not editable or duplicated when set to logged in/out location.</li>
+ 	<li>Fixed ACF date field connection throwing fatal error if no date is set.</li>
+ 	<li>Fixed duplicated parts when editing a layout.</li>
+ 	<li>Fixed hidden breadcrumbs when using Storefront theme.</li>
+ 	<li>Fixed PHP warning in admin menu on windows server.</li>
+</ul>
+
+<h4>1.0.2.1 - 09/05/2017</h4>
+<strong>Bug Fixes</strong>
+<ul>
+ 	<li>Fixed core templates being applied instead of Themer templates due to incorrect BB 2.0 support logic.</li>
+</ul>
+
+<h4>1.0.2 - 08/23/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added support for ACF checkbox fields.</li>
+	<li>Added setting for choosing whether overlay headers are transparent or use the default background color.</li>
+	<li>Added support for WooCommerce request a quote plugin.</li>
+	<li>Theme layouts are now ordered by title by default instead of layout type.</li>
+	<li>Tweaked Themer logic for applying templates to support Beaver Builder 2.0.</li>
+	<li>Updated translation files.</li>
+	<li>Added new option to post navigation module which allows prev/next post to be in same category as the current post.</li>
+	<li>New filter added <code>fl_theme_builder_post_nav</code>.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed single link in post navigation not being aligned correctly.</li>
+	<li>Canceling out of a newly connected field with a form now removes the field connection too.</li>
+	<li>Fixed issue with display of date fields in the free version of ACF.</li>
+	<li>Fixed shortcodes in HTML attributes not being parsed in the context of the current post in the post module's custom layout.</li>
+	<li>Fixed issue with unescaped location labels breaking the location select.</li>
+	<li>Fixed an issue with less compiler, invalid css could cause PHP warnings breaking AJAX.</li>
+	<li>Fixed comments module displaying builder placeholders when builder is not active.</li>
+	<li>Fixed a couple of styling issues in Storefront theme.</li>
+</ul>
+
+<h4>1.0.1.2 - 06/06/2017</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed overlay headers not being visible when editing them in the builder.</li>
+</ul>
+
+<h4>1.0.1.1 - 06/05/2017</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed a bug introduced in 1.0.1 with the Theme Layouts menu item not showing for users that have never saved the User Access settings before.</li>
+</ul>
+
+<h4>1.0.1 - 06/05/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added full width theme layout support for Genesis.</li>
+	<li>Added full width theme layout support for GeneratePress.</li>
+	<li>Added support for the WooCommerce Storefront theme.</li>
+	<li>Added support for the WooCommerce Products Per Page plugin and other third party plugins that hook into the before and after shop loop actions.</li>
+	<li>Added connections for the current user or a specific user.</li>
+	<li>Added user meta and author meta connections.</li>
+	<li>Added row background color connection for custom fields.</li>
+	<li>Added a dropdown menu to the admin bar page builder button that gives access to launching the builder for theme layouts.</li>
+	<li>Added link color setting to the WooCommerce breadcrumb module.</li>
+	<li>Added fl_theme_builder_show_taxonomy filter.</li>
+	<li>Made the field connections insert button darker so it is more noticeable. Added a button for connecting next to it.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed choosing a page parent location not always working.</li>
+	<li>Fixed Themer modules not showing when some standard modules have been disabled in the admin settings.</li>
+	<li>Fixed incorrect post link shortcode in the post module custom layout.</li>
+	<li>Fixed the wpbb terms list shortcode throwing a fatal error when the taxonomy doesn't exist.</li>
+	<li>Fixed custom avatar plugins not working with author profile picture connections.</li>
+	<li>Fixed user rules select showing 'All Users' each time you add a new rule.</li>
+	<li>Fixed post names with special characters breaking location rule selects.</li>
+	<li>Fixed memory error with location rules that have a lot of posts.</li>
+	<li>Fixed 'Post Navigation' heading showing in the Post Navigation module.</li>
+	<li>Fixed the Beaver Builder Theme's before header hook not working for parts.</li>
+	<li>Fixed overlay headers showing while editing in the builder so they are not in the way of the content.</li>
+	<li>Fixed sticky/overlay headers showing on top of lightboxes and popups.</li>
+	<li>Fixed custom page templates preventing header theme layouts from showing.</li>
+	<li>Fixed theme layouts in the trash still showing the duplicate location warning.</li>
+	<li>Fixed third party meta boxes showing up on the post edit screen for theme layouts.</li>
+	<li>Fixed ACF date fields not displaying correctly in the free version.</li>
+	<li>Fixed WooCommerce sales flash placeholder showing when a product is not for sale.</li>
+	<li>Fixed WooCommerce add to cart button colors not applying for all button states.</li>
+	<li>Fixed WooCommerce Product Description module tab label. It should say General instead of Style.</li>
+	<li>Fixed incorrect line break in WooCommerce rating module in Safari.</li>
+	<li>Fixed only the comment form showing and not actual comments in Genesis and possibly other themes. </li>
+	<li>Fixed Genesis Connect For WooCommerce overriding theme layouts.</li>
+	<li>Fixed template data issues.</li>
+	<li>Fixed translation issues.</li>
+</ul>
+
+<h4>1.0 - 05/08/2017</h4>
+<p>Beaver Themer 1.0 is here at last! Please <a href="https://www.wpbeaverbuilder.com/beaver-themer/">visit our website</a> for more information on Beaver Themer.</p>
+
+<h4>1.0-beta.2 - 05/02/2017</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Removed "hello and world" text that was showing for theme layouts on the admin edit screen.</li>
+	<li>Fixed preview selector posts not showing if the selected post no longer exists.</li>
+</ul>
+
+<h4>1.0-beta.1 - 05/01/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Updated translations.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed ACF date field returning the wrong format.</li>
+	<li>Fixed PHP warning when a preview post no longer exists.</li>
+	<li>Fixed translation issues.</li>
+</ul>
+
+<h4>1.0-alpha.10 - 04/26/2017</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed fatal error caused by parsing field connections in nested settings.</li>
+</ul>
+
+<h4>1.0-alpha.9 - 04/21/2017</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed incorrect header position when images load after the header JS has run.</li>
+</ul>
+
+<h4>1.0-alpha.8 - 04/20/2017</h4>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed ACF bug breaking most fields.</li>
+</ul>
+
+<h4>1.0-alpha.7 - 04/19/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added new overlay setting for header layouts that allows you to create transparent headers.</li>
+	<li>Added body classes for when theme layouts are present on the page.</li>
+	<li>Added the ability to hide the exclusion rules after opening them.</li>
+	<li>Added thumbnails for the built-in templates.</li>
+	<li>Added featured image and category support for theme layouts.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed issues with WooCommerce 3.0.</li>
+	<li>Fixed ACF Google Maps field.</li>
+	<li>Fixed double slash in the path to jQuery throttle.</li>
+	<li>Fixed PHP warnings caused by layout preview queries.</li>
+	<li>Fixed parts showing on all post categories when only set to one.</li>
+</ul>
+
+<h4>1.0-alpha.6 - 04/11/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>We now show a warning confirmation dialog when overriding a theme layout with a standard builder layout.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed "Comments will not display for this Post" message showing below Disqus comments.</li>
+	<li>Fixed theme layouts overriding custom page templates.</li>
+	<li>Fixed header/footer layouts rendering on the no header/footer template.</li>
+	<li>Fixed aspect ratio for logos in shrinking headers.</li>
+</ul>
+
+<h4>1.0-alpha.5 - 03/28/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added support for archive term meta.</li>
+	<li>Added support for ACF option fields.</li>
+	<li>Added translations.</li>
+	<li>Added FLThemeBuilder::has_layout method for checking if the current page has a layout.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed layouts breaking when Yoast SEO is active.</li>
+	<li>Fixed 404 layouts not working.</li>
+	<li>Fixed parallax backgrounds jumping in shrinking headers.</li>
+	<li>Fixed ACF date/time fields not rendering the display format.</li>
+	<li>Fixed parts not rendering when using a custom footer.</li>
+	<li>Fixed parts that are set to show before the header showing after it when the header is sticky.</li>
+</ul>
+
+<h4>1.0-alpha.4 - 03/09/2017</h4>
+<p><strong>PLEASE NOTE:</strong> The updater for Beaver Themer was broken in the last alpha. You will need to manually update to this version.</p>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added rules for excluding layouts from showing up at specific locations.</li>
+	<li>Headers, footers and parts can now be applied to posts based on a taxonomy.</li>
+	<li>Parent posts can now be selected as a location for hierarchical post types.</li>
+	<li>Added white labeling support.</li>
+	<li>Shortcodes are now parsed in HTML attributes.</li>
+</ul>
+<p><strong>Changes</strong></p>
+<ul>
+	<li>Location rules are now sorted by type after saving.</li>
+	<li>Taxonomies in the location select are now prefixed with the post type.</li>
+</ul>
+
+<h4>1.0-alpha.3 - 02/27/2017</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added the ability to set singular layouts for posts that have a specific taxonomy term.</li>
+	<li>The custom field connection now shows for all connection types.</li>
+	<li>Added archive/taxonomy field support for Advanced Custom Fields.</li>
+	<li>Added user/author field support for Advanced Custom Fields.</li>
+</ul>
+<p><strong>Changes</strong></p>
+<ul>
+	<li>Breaking changes to the ACF integration. In order to support archive and user fields, we had to rework the ACF integration. Existing ACF connections will need to be reconnected.</li>
+	<li>Renamed the Custom Field connection to Post Custom Field and moved it to the General category.</li>
+</ul>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+	<li>Fixed theme layout parts not showing when they should.</li>
+	<li>Fixed WooCommerce modules showing when WooCommerce isn't active.</li>
+	<li>Fixed fatal error when WooCommerce modules are used and the WooCommerce is deactivated.</li>
+	<li>Fixed 404 error when trying to view published theme layouts.</li>
+	<li>Fixed theme support not working if the theme's folder name is changed.</li>
+</ul>
+
+<h4>1.0-alpha.2 - 02/20/2017</h4>
+<p>Initial public alpha release.</p>
+
+<h4>1.0-alpha.1 - 02/06/2017</h4>
+<p>Initial pre-alpha release.</p>

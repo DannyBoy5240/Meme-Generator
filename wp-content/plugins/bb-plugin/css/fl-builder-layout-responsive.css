@@ -1,0 +1,103 @@
+/* Responsive Utilities
+------------------------------------------------------ */
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-xl,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-xl,
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-desktop,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-desktop,
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-desktop-medium,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-desktop-medium,
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-large,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-large,
+body.fl-builder-ie-11 .fl-row.fl-row-full-height.fl-visible-large-medium,
+body.fl-builder-ie-11 .fl-row.fl-row-custom-height.fl-visible-large-medium {
+	display: none !important;
+}
+
+.fl-visible-xl,
+.fl-visible-desktop,
+.fl-visible-desktop-medium,
+.fl-visible-large,
+.fl-visible-large-medium,
+.fl-visible-medium,
+.fl-col-group .fl-visible-xl.fl-col,
+.fl-col-group .fl-visible-desktop.fl-col,
+.fl-col-group .fl-visible-desktop-medium.fl-col,
+.fl-col-group .fl-visible-large-medium.fl-col,
+.fl-col-group .fl-visible-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-xl.fl-col,
+.fl-col-group-equal-height .fl-visible-desktop.fl-col,
+.fl-col-group-equal-height .fl-visible-desktop-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-large-medium.fl-col,
+.fl-col-group-equal-height .fl-visible-medium.fl-col {
+	display: none;
+}
+
+.fl-visible-medium-mobile,
+.fl-visible-mobile,
+.fl-col-group .fl-visible-medium-mobile.fl-col,
+.fl-col-group .fl-visible-mobile.fl-col {
+	display: block;
+}
+
+/* Rows
+------------------------------------------------------ */
+
+.fl-row-content-wrap {
+	background-attachment: scroll !important;
+}
+.fl-row-bg-parallax .fl-row-content-wrap {
+	background-attachment: scroll !important;
+	background-position: center center !important;
+}
+
+/* Column Groups
+------------------------------------------------------ */
+
+/* Equal Heights */
+.fl-col-group.fl-col-group-equal-height {
+	display: block;
+}
+.fl-col-group.fl-col-group-equal-height.fl-col-group-custom-width {
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* Reversed Responsive Stacking */
+.fl-col-group.fl-col-group-responsive-reversed {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	-webkit-flex-wrap: wrap-reverse;
+	-ms-box-orient: horizontal;
+}
+.fl-col-group.fl-col-group-responsive-reversed .fl-col {
+	-webkit-box-flex: 0 0 100%;
+	-moz-box-flex: 0 0 100%;
+	-webkit-flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	min-width: 0;
+}
+
+/* Columns
+------------------------------------------------------ */
+
+.fl-col {
+	clear: both;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto !important;
+}
+.fl-col-small:not(.fl-col-small-full-width) {
+	max-width: 400px;
+}
+.fl-block-col-resize {
+	display:none;
+}

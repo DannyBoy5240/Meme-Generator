@@ -1,0 +1,122 @@
+
+/** Text editor  */
+.ta-rich-text {
+  color: $gray;
+  font-family: $noway;
+  width: 100%;
+  line-height: 1.4;
+  
+}
+
+.ta-text-align-left {
+  text-align: left;
+}
+
+.ta-text-align-right {
+  text-align: right;
+}
+
+.ta-text-align-center {
+  text-align: center;
+}
+
+.ta-text-width-regular {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 100%;  
+  }
+}
+.ta-text-width-twothirds {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 80%;  
+  }
+}
+.ta-text-width-floatright {
+  width: 100%;
+  @media (min-width: 768px) {
+    margin-left: 15px;
+  }
+  @media (min-width: 992px) {
+    margin-left: 0;
+    text-align: left;
+    float: right;
+    max-width: 500px;
+    p {
+      text-align: left;
+    }
+  }
+  @media (min-width: 1180px) {
+    margin-right: 60px;
+  }
+}
+.ta-text-width-half {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 50%;  
+  }
+}
+.ta-text-color-gray {
+  color: $gray;
+}
+.ta-text-color-blue {
+  color: $blue;
+}
+.ta-text-color-pink {
+  color: $pink;
+}
+.ta-text-color-white {
+  color: $white;
+}
+
+.ta-text-style-uppercase {
+  text-transform: uppercase;
+}
+.ta-text-style-regular {
+  text-transform: none;
+}
+//regular no longer used
+.ta-text-size-regular {
+  font-size: 18px;
+  line-height: 1.4;
+  @media (min-width: 992px) {
+    line-height: 1.8;
+    font-size: 23px;
+  }
+}
+.ta-text-size-x-small {
+  font-size: 16px;
+}
+.ta-text-size-small {
+  font-size: 18px;
+}
+.ta-text-size-medium {
+  font-size: 18px;
+  line-height: 1.4;
+  @media (min-width: 992px) {
+    line-height: 1.8;
+    font-size: 23px;
+  }
+}
+.ta-text-size-large {
+  font-size: 22px;
+  line-height: 1.4;
+  @media (min-width: 992px) {
+    font-size: 28px;
+    p {
+      margin: 0 0 20px;
+    }
+  }
+}
+.ta-text-size-x-large {
+  font-size: 34px;
+  line-height: 1.1;
+  @media (min-width: 992px) {
+    font-size: 50px;
+    letter-spacing: -2px;
+    p {
+      margin: 0 0 20px;
+    }
+  }
+}
+

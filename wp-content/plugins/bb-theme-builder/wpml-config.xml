@@ -1,0 +1,10 @@
+<wpml-config>
+	  <custom-types>
+		<custom-type translate="1">fl-theme-layout</custom-type>
+	  </custom-types>
+	  <custom-fields>
+		<custom-field action="copy-once">_fl_theme_builder_locations</custom-field>
+		<custom-field action="copy-once">_fl_theme_builder_exclusions</custom-field>
+		<custom-field action="copy-once">_fl_theme_builder_user_rules</custom-field>
+	  </custom-fields>
+</wpml-config>

@@ -1,0 +1,185 @@
+# Copyright (C) 2021 Wordfence
+# This file is distributed under the same license as the Wordfence Assistant plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordfence Assistant 1.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordfence-assistant\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-14T11:30:59-04:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wordfence-assistant\n"
+
+#. Plugin Name of the plugin
+#: lib/mainMenu.php:2
+msgid "Wordfence Assistant"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.wordfence.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Wordfence Assistant - Helps Wordfence users with miscellaneous Wordfence data management tasks."
+msgstr ""
+
+#. Author of the plugin
+msgid "Wordfence"
+msgstr ""
+
+#: lib/mainMenu.php:4
+msgid "Why does this additional plugin exist?"
+msgstr ""
+
+#: lib/mainMenu.php:7
+msgid "In rare cases, Wordfence users can accidentally lock themselves out of their system. Wordfence provides a built-in user-friendly system to regain access to your website which allows site administrators to send themselves an unlock email which contains a link that unlocks their website."
+msgstr ""
+
+#: lib/mainMenu.php:11
+msgid "Because Wordfence has become so popular, we see edge cases where systems administrators no longer have access to their old email address or the email unlock does not work for another reason. To help unlock sites with that problem, we've provided this plugin which you can install after you've removed Wordfence from your system. You can use this plugin to modify the Wordfence data in your database and disable the Wordfence firewall so that if you reinstall Wordfence the firewall won't lock you out again. You can also use this plugin to delete all Wordfence data."
+msgstr ""
+
+#: lib/mainMenu.php:14
+#: lib/mainMenu.php:18
+msgid "Disable Wordfence Automatic Updates"
+msgstr ""
+
+#: lib/mainMenu.php:16
+msgid "If you have disabled Wordfence due to problems with an update, it can end up automatically updating on reinstall and causing the same problem. You can use the button below to disable automatic updates so that when you reinstall, it stays on the version installed."
+msgstr ""
+
+#: lib/mainMenu.php:20
+#: lib/mainMenu.php:29
+msgid "Disable Wordfence Firewall"
+msgstr ""
+
+#: lib/mainMenu.php:22
+msgid "If you have locked yourself out of your website and the \"recovery email\" option does not work, you can regain access by deleting the Wordfence files from your system. These files are stored in"
+msgstr ""
+
+#: lib/mainMenu.php:25
+msgid "Once you've done that you might want to reenable Wordfence but if you do you could get locked out again without having the opportunity to modify your Wordfence configuration and fix the thing that locked you out in the first place."
+msgstr ""
+
+#: lib/mainMenu.php:27
+msgid "You can use the button below to disable the Wordfence firewall. Then when you reinstall the Wordfence files and activate Wordfence you won't be locked out any longer. You can then access the Wordfence Firewall page and modify the configuration to make sure you don't get locked out again."
+msgstr ""
+
+#: lib/mainMenu.php:32
+#: lib/mainMenu.php:36
+msgid "Disable Wordfence IP Blocklist"
+msgstr ""
+
+#: lib/mainMenu.php:34
+msgid "You can use the button below to disable the Wordfence IP blocklist. Then when you reactivate Wordfence, all IP blocklist entries will be cleared. You can then access the Wordfence Firewall page and re-enable the blocklist when wanted."
+msgstr ""
+
+#: lib/mainMenu.php:39
+msgid "Remove all Wordfence Data in the Database and elsewhere"
+msgstr ""
+
+#: lib/mainMenu.php:41
+msgid "Use this option if you've uninstalled Wordfence and don't plan to reinstall it. It will remove all Wordfence tables from your database, safely remove the files used to optimize the Wordfence WAF, and clear any other data we may store in the system including scheduled jobs."
+msgstr ""
+
+#: lib/mainMenu.php:45
+msgid "Delete 2FA secrets"
+msgstr ""
+
+#: lib/mainMenu.php:47
+msgid "Delete all Wordfence Data and Tables"
+msgstr ""
+
+#: lib/mainMenu.php:49
+msgid "Clear all locked out Wordfence IPs, locked out users and advanced blocks"
+msgstr ""
+
+#: lib/mainMenu.php:51
+msgid "If for some reason you can't disable the Firewall in Wordfence, you can use this option to clear all tables that contain locked out IP addresses, locked out users and rules that may cause you to be locked out."
+msgstr ""
+
+#: lib/mainMenu.php:53
+msgid "Clear all Wordfence locked out IPs, locked out Users and advanced blocks"
+msgstr ""
+
+#: lib/mainMenu.php:55
+msgid "Clear the Wordfence Live Traffic Table"
+msgstr ""
+
+#: lib/mainMenu.php:57
+msgid "Some users have requested the ability to manually purge the Wordfence Live Traffic table. The table is pruned automatically by Wordfence from time to time, but clicking this button will do that for you."
+msgstr ""
+
+#: lib/mainMenu.php:59
+msgid "Delete all Live Traffic Data"
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:51
+msgid "You appear to have logged out or you are not an admin. Please sign-out and sign-in again."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:56
+msgid "Your browser sent an invalid security token to Wordfence. Please try reloading this page or signing out and in again."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:73
+msgid "An invalid operation was requested."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:85
+msgid "All Wordfence live traffic data deleted."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:111
+msgid "Waiting for it to take effect. This may take up to %s due to caching of the .user.ini file. Stay on this page to ensure that the last step is finished, and a message will appear when this is complete."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:118
+msgid "Wordfence firewall has been disabled."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:123
+msgid "The Wordfence Web Application Firewall has not been fully removed. This may be because auto_prepend_file is configured somewhere else or the value is still cached by PHP. Check your site's .htaccess, .user.ini, or php.ini, and if you need help, contact Wordfence support."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:146
+#: lib/wordfenceAssistantClass.php:148
+msgid "Error reading WAF config while attempting to disable blocklist."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:151
+msgid "Unexpected value found while attempting to disable blocklist."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:156
+msgid "Failed saving the WAF config while attempting to disable blocklist."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:162
+msgid "The Wordfence IP Blocklist has been disabled."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:255
+msgid "All locked IPs, locked out users and advanced blocks cleared."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:259
+msgid "Please deactivate the Wordfence plugin before you delete all of its data."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:262
+msgid "Please deactivate the Wordfence Login Security plugin before you delete all of its data."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:301
+msgid "All Wordfence tables and data were removed."
+msgstr ""
+
+#: lib/wordfenceAssistantClass.php:304
+msgid "All Wordfence tables and data, except for 2FA secrets, were removed."
+msgstr ""

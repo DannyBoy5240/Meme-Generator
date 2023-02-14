@@ -1,0 +1,104 @@
+/** TA Quote Module */
+.ta-quote {
+	margin: 30px auto;
+	width: 100%;
+  .ta-quote-text {
+    text-transform: uppercase;
+    p {
+      font-size: 32px;
+      font-family: $nowayitalic;
+      color: $blue;
+      line-height: 1.1;
+      @media (min-width: 992px) {
+        font-size: 62px;
+      }
+    }
+
+  }
+  .ta-quote-wrap {
+    border-top: 2px solid $pink;
+    border-left: 2px solid $pink;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 19px;
+    color: $gray;
+    line-height: 1.1; 
+    .ta-quote-org {
+      font-weight: 500;
+    }
+  }
+  @media (min-width: 768px) {
+    width: 85%;
+  }
+  @media (min-width: 992px) {
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    .ta-quote-text {
+      padding: 40px 0;
+    }
+  }
+}
+.ta-quote-style-regular {
+  .ta-quote-text {
+    p {
+      text-transform: none;
+    }
+  }
+}
+
+.ta-quote-size-large {
+  .ta-quote-text {
+    p {
+      font-size: 32px;
+      @media (min-width: 992px) {
+        font-size: 50px;
+      }
+    }
+  }
+}
+.ta-quote-size-medium{
+  .ta-quote-text {
+    p {
+      font-size: 28px;
+      @media (min-width: 992px) {
+        font-size: 40px;
+      }
+    }
+  }
+}
+.ta-quote-size-small {
+  .ta-quote-text {
+    p {
+      font-size: 22px;
+      @media (min-width: 992px) {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.ta-quote-has-credit {
+  .ta-quote-text {
+    padding: 20px 0;
+    border-top: 2px solid $pink;
+  }
+}
+
+.ta-quote-align-left {
+  .ta-quote-text p {
+    text-align: left;
+  }
+}
+
+.ta-quote-align-center {
+  .ta-quote-text p {
+    text-align: center;
+  }
+}
+  
+.ta-quote-color-pink{
+  .ta-quote-text p {
+    color: $pink;
+  }
+}

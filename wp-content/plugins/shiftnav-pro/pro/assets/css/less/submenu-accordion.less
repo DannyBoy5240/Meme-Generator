@@ -1,0 +1,34 @@
+/* Submenu - Accordion */
+.shiftnav li.menu-item.shiftnav-sub-accordion > ul.sub-menu{
+	max-height:0;
+	overflow:hidden;
+	visibility:hidden;
+
+}
+.shiftnav li.menu-item.shiftnav-sub-accordion.shiftnav-active > ul.sub-menu{
+	max-height:800px;
+	overflow-y:auto;
+	visibility: visible;
+}
+.shiftnav li.menu-item.shiftnav-sub-accordion > .shiftnav-submenu-activation-close,
+.shiftnav li.menu-item.shiftnav-sub-accordion.shiftnav-active > .shiftnav-submenu-activation-open{
+	display:none;
+}
+.shiftnav li.menu-item.shiftnav-sub-accordion > .shiftnav-submenu-activation-open,
+.shiftnav li.menu-item.shiftnav-sub-accordion.shiftnav-active > .shiftnav-submenu-activation-close{
+	display:block;
+}
+.shiftnav li.menu-item > .shiftnav-submenu-activation,
+.shiftnav li.menu-item.shiftnav-sub-accordion > .shiftnav-submenu-activation-open, 
+.shiftnav li.menu-item.shiftnav-sub-accordion.shiftnav-active > .shiftnav-submenu-activation-close{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*.shiftnav li.menu-item.shiftnav-sub-accordion.shiftnav-in-transition > ul.sub-menu{
+	overflow-y:hidden;
+	visibility:visible;
+}
+
+*/

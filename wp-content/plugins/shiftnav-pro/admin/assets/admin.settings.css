@@ -1,0 +1,381 @@
+.shiftnav-version{
+	font-size:12px;
+	color:#999;
+}
+
+.form-table th{
+	padding-left:15px;	
+}
+.shiftnav-wrap h2.nav-tab-wrapper{
+	padding-left:0;
+	margin:0;
+	border:none;
+}
+
+.shiftnav-settings-links{
+	float:right;
+}
+
+
+
+.shiftnav_instance_manager{
+
+}
+a.shiftnav_instance_toggle,
+a.shiftnav_pro_button{
+	float:right;
+}
+.shiftnav_instance_container_wrap,
+.shiftnav_instance_notice_wrap{
+	position:fixed;
+	z-index:999;
+	background:#444;
+	background:rgba(0,0,0,.7);
+
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+
+	display:none;
+}
+.shiftnav_instance_container,
+.shiftnav_instance_notice{
+
+	background:#e9e9e9;
+	padding:20px;
+
+	width: 50%;
+	height: auto;
+	max-height:150px;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.shiftnav_instance_container h3{
+	margin-top:0;
+}
+
+form.shiftnav_instance_form{
+	float:left;
+	width:100%;
+	margin:0 0 20px 0;
+
+}
+
+input.shiftnav_instance_input{
+	padding:10px;
+	height:40px;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	
+	display:block;
+	float:left;
+	width:80%;
+	margin:0;
+
+	border:none;
+}
+a.shiftnav_instance_button,
+a.shiftnav_pro_button{
+	display:inline-block;
+	padding:10px;
+	height:40px;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+
+	margin:0;
+	background:#12B365;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+	text-decoration: none;
+}
+a.shiftnav_button_reset{
+	float:left;
+	background: #D02D66;
+}
+.shiftnav_instance_container a.shiftnav_instance_button{
+	float:left;
+	width:20%;
+}
+.shiftnav_instance_form_desc{
+	display:block;
+	clear:both;
+	margin:20px 0;
+}
+.shiftnav_instance_close{
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:16px;
+	padding:10px 15px;
+	cursor:pointer;
+}
+.shiftnav_instance_close:hover{
+	background:#333;
+	color:#eee;
+}
+a.shiftnav_instance_button_delete{
+	background:#B31212;	
+}
+
+code.shiftnav-highlight-code{
+	border-left:2px solid #12B365;
+	background:#eee; /*#C4E9D7;*/
+	padding:10px;
+	display:block;
+	float:left;
+	font-size:11px;
+	max-width:500px;
+	cursor:pointer;
+
+	transition:all .2s ease;
+}
+code.shiftnav-highlight-code:hover{
+	background:#ddd;
+}
+.shiftnav-highlight-code::selection{
+	background:#CA4C62;
+	color:#eee;
+}
+.shiftnav-highlight-code::-moz-selection{
+	background:#CA4C62;
+	color:#eee;
+}
+.form-table p.shiftnav-sub-desc{
+	clear:both;
+	display:block;
+	padding:10px 0;
+}
+.form-table p.shiftnav-desc-mini{
+	font-size:11px;
+	padding:5px 0 5px 80px;
+}
+
+.shiftnav-desc-row{
+	display:block;
+	float:left;
+	clear:both;
+	margin-bottom:10px;
+}
+.shiftnav-code-snippet-type{
+	float:left;
+	clear:both;
+	width:60px;
+	padding:10px;
+	font-size:11px;
+	text-transform: uppercase;
+	text-align:right;
+}
+
+h4.shiftnav-settings-section{
+	color:#666;
+	font-size:16px;
+}
+.shiftnav-desc-understated{
+	font-size:12px;
+	color:#999;
+	font-style:italic;
+}
+.image-setting-wrap{
+	float:left;
+}
+.image-setting-wrap img{
+	max-width:200px;
+	background:#eee;
+}
+.set-image-wrapper input.button{
+	clear:both;
+	float:left;
+	margin:10px 10px 10px 0;
+}
+.remove-button{
+	font-size:10px;
+	float:left;
+	padding:15px;
+}
+
+.shiftnav_pro_button i{
+	margin-right:3px;
+}
+
+
+.shiftnav-wrap form h3{
+	display:none;
+	background:#444;
+	color:#eee;
+	border-left: 3px solid #3AAD75;
+}
+#wpbody-content .shiftnav-wrap .metabox-holder{
+	padding-top:0;
+	border-top:6px solid #444;
+}
+.shiftnav-wrap .nav-tab:first-child{
+	margin-left:0;
+}
+.shiftnav-wrap .nav-tab-active{
+	background:#444;
+	color:#eee;
+	border:none;
+	border-top: 3px solid #3AAD75;
+	margin-bottom:-2px;
+}
+
+.shiftnav-wrap .nav-tab-wrapper{
+	overflow-x:auto;
+	display:flex;
+}
+.shiftnav-wrap .shiftnav_instance_toggle{
+	margin-left:20px;
+}
+
+
+.shiftnav-wrap .form-table tr:nth-child(2n){
+	background:#f9f9f9;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #eee;
+}
+.shiftnav-wrap .form-table td,
+.shiftnav-wrap .form-table th{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+
+
+.shiftnav-wrap label,
+.shiftnav-wrap .description{
+	font-size: 13px;
+	font-style: italic;
+	color:#999;
+}
+.shiftnav-wrap .radio + label{
+	font-size:14px;
+	font-style:normal;
+	color:#222;
+}
+.shiftnav-wrap .description .shiftnav-license-invalid{
+	background:#900;
+	padding:5px 10px;
+	color:#eee;
+}
+.shiftnav-wrap .description .shiftnav-license-error{
+	border:2px solid #900;
+	padding:3px 8px;
+}
+
+
+
+
+
+.shiftnav-settings-notice{
+	padding:10px 20px 10px 40px;
+	border:1px solid #eee;
+	border-left:none;
+	float:left;
+	position:relative;
+	box-shadow:0 0 5px rgba(0,0,0,.1);
+	clear:both;
+	margin-bottom:10px;
+}
+.shiftnav-settings-notice:before{
+	content:'';
+	position:absolute;
+	border-left:3px solid #333;
+	top:0;
+	left:0;
+	height:100%;
+}
+.shiftnav-settings-notice > strong{
+	color:#333;
+	font-size:14px;
+	line-height:1.6em;
+}
+.shiftnav-settings-notice a[download]{
+	margin-left:5px;
+	color:#777;
+	background:#eee;
+	padding:2px 6px;
+	border:1px solid #ddd;
+}
+.shiftnav-settings-notice a[download]:hover{
+	color:#49A5FF;
+	background:#e9e9e9;
+}
+.shiftnav-settings-notice p{
+	color:#555;
+	font-size:12px;
+}
+.shiftnav-settings-notice .shiftnav-settings-notice-icon {
+	position:absolute;
+	top:14px;
+	left:18px;
+}
+
+.shiftnav-settings-success strong,
+.shiftnav-settings-success .shiftnav-settings-notice-icon {
+	color:#1BA61B;
+}
+.shiftnav-settings-success:before{
+	border-left-color:#1BA61B;
+}
+
+
+
+.shiftnav-settings-error{
+	
+}
+.shiftnav-settings-error:before{
+	border-left-color:#DA3333;
+}
+.shiftnav-settings-error strong,
+.shiftnav-settings-error .shiftnav-settings-notice-icon {
+	color:#DA3333;
+}
+
+
+
+.shiftnav-settings-notice-large{
+	padding-left:70px;
+}
+.shiftnav-settings-notice-large > strong{
+	font-size:16px;
+	line-height:1.7em;
+}
+.shiftnav-settings-notice-large .shiftnav-settings-notice-icon {
+	font-size:24px;
+	left:24px;
+}
+
+.shiftnav-wrap .metabox-holder h2{
+	margin:20px 15px;
+	color:#999;
+}
+
+
+.shiftnav-sub-desc-manualint{
+	color: #13C3F7;
+}
+
+
+
+p.shiftnav-notice{
+	background: #61B7BD;
+	float: left;
+	clear: both;
+	padding: 5px 15px;
+	color: white;
+}

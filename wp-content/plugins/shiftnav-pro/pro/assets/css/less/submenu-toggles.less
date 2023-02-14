@@ -1,0 +1,24 @@
+/* Submenu Toggles */
+.shiftnav.shiftnav-expandable-submenus ul.shiftnav-menu li.menu-item-has-children > .shiftnav-target{
+	padding-right:35px;
+	-webkit-user-select: none !important;
+	/*-webkit-user-select: none !important;   /* disable cut copy paste */
+	/*-webkit-touch-callout: none !important; /* disable callout, image save panel */
+}
+.shiftnav.shiftnav-expandable-submenus ul.shiftnav-menu li.menu-item-has-children > .shiftnav-target:after{
+	content: "\f107";
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	position:absolute;
+	right:15px;
+}
+.shiftnav.shiftnav-expandable-submenus ul.shiftnav-menu li.menu-item-has-children.shiftnav-active > a.shiftnav-target:after,
+.shiftnav.shiftnav-expandable-submenus ul.shiftnav-menu ul.sub-menu li.menu-item-has-children.shiftnav-active > a.shiftnav-target:after{
+	content: "\f0c1";
+}

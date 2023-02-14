@@ -1,0 +1,94 @@
+/** Ta Post Grid module */
+.fl-module-ta-post-grid {
+  .fl-post-grid-post {
+    border: none !important;
+    .fl-post-grid-text {
+      margin-top: 20px !important;
+      h2 {
+        font-size: 26px;
+        color: $blue;
+        line-height: 1.1;
+        a {
+          color: $blue;
+          &:hover {
+            color: $pink;
+          }
+        }
+      }
+      p {
+        font-size: 16px !important;
+      }
+    }
+    @media (min-width: 768px) {
+      .fl-post-grid-text {
+        margin-top: 30px !important;
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 18px !important;
+        }
+      }
+    }
+    @media (min-width: 992px) {
+      .fl-post-grid-text {
+        //margin-top: 40px !important;
+        h2 {
+          font-size: 40px;
+        }
+        p {
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+
+  .type-partners {
+    max-width: 300px;
+    .fl-post-grid-text {
+      margin: 0;
+      padding: 0;
+      h2 {
+        font-size: 30px !important;
+      }
+    }
+    .fl-post-grid-content {
+      margin-bottom: 20px;
+      @media (min-width: 768px) {
+        margin-bottom: 30px;
+      }
+      @media (min-width: 992px) {
+        //margin-bottom: 40px;
+      }
+    }
+    .partner-logo-wrap {
+      margin: 0 auto;
+      text-align: center;
+      display: table-cell;
+      vertical-align: bottom;
+      img {
+        vertical-align: bottom;
+        max-height: 150px;
+      }
+      @media (min-width: 768px) {
+        height: 150px;
+      }
+    }
+    .btn-partner {
+      @include btnmixed($pink, $blue);
+      font-size: 18px !important;
+      padding: 8px 15px;
+      margin-right: 5px;  
+      margin-bottom: 8px;    
+    }
+  }
+
+}
+
+
+/** Builder - hide sections we don't want to customize */
+.fl-builder-ta-post-grid-settings {
+  #fl-builder-settings-tab-style {
+    display: none !important;
+  }
+}

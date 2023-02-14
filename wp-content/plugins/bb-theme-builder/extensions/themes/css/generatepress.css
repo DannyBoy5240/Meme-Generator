@@ -1,0 +1,4 @@
+.fl-theme-builder-singular .site-content,
+.full-width-content .site-content {
+    flex-direction: column;
+}

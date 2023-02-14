@@ -1,0 +1,109 @@
+.shiftnav.shiftnav-skin-light {
+  font-size: 13px;
+  line-height: 1.3em;
+  background: #f9f9f9;
+  color: #666;
+}
+.shiftnav.shiftnav-skin-light .shiftnav-site-title {
+  font-size: 30px;
+  text-align: left;
+  padding: 40px 25px;
+  font-weight: normal;
+  color: #333;
+}
+.shiftnav.shiftnav-skin-light .shiftnav-activated-style {
+  color: #fff;
+  background: #007AFF;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item > .shiftnav-target {
+  color: #666;
+  font-size: 13px;
+  font-weight: normal;
+  border-top: none;
+  border-bottom: none;
+  text-shadow: none;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation {
+  background: rgba(0, 0, 0, 0.1);
+  color: #555;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #eee;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-submenu-activation,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-submenu-activation {
+  background: rgba(0, 0, 0, 0.1);
+  color: #eee;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item.shiftnav-highlight > .shiftnav-target,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item ul.sub-menu .shiftnav-highlight > .shiftnav-target {
+  color: #007AFF;
+  background: transparent;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-target,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-target {
+  color: #fff;
+  background: #007AFF;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item.current-menu-item > .shiftnav-target,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.menu-item ul.sub-menu .current-menu-item > .shiftnav-target {
+  color: #fff;
+  background: #007AFF;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu > li.menu-item > .shiftnav-target {
+  text-transform: normal;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu > li.shiftnav-sub-accordion.current-menu-ancestor > .shiftnav-target,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu > li.shiftnav-sub-shift.current-menu-ancestor > .shiftnav-target {
+  color: #fff;
+  background: #007AFF;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu li.shiftnav-retract .shiftnav-target {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-transform: normal;
+  font-size: 12px;
+  text-align: right;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu ul.sub-menu {
+  color: #999;
+  background: #e0e0e0;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  color: #999;
+  border-width: inherit;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  font-weight: normal;
+  font-size: 13px;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 50px;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 75px;
+}
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 100px;
+}
+.shiftnav.shiftnav-skin-light.shiftnav-left-edge {
+  border-right: none;
+}
+.shiftnav.shiftnav-skin-light.shiftnav-right-edge {
+  border-left: none;
+}
+.shiftnav.shiftnav-skin-light.shiftnav-nojs ul.shiftnav-menu li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu.shiftnav-active-on-hover li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-light ul.shiftnav-menu.shiftnav-active-highlight li.menu-item > .shiftnav-target:active {
+  color: #fff;
+  background: #007AFF;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}

@@ -1,0 +1,52 @@
+/* Transition - Standard (up) */
+.shiftnav.shiftnav-transition-standard ul.shiftnav-menu ul.sub-menu,
+.shiftnav.shiftnav-transition-standard ul.shiftnav-menu ul.sub-menu ul.sub-menu{
+	-webkit-transition: all .3s ease .1s;
+	-moz-transition: all .3s ease .1s;
+	-ms-transition: all .3s ease .1s;
+	-o-transition: all .3s ease .1s;
+	transition: all .3s ease .1s;
+}
+
+
+/* Submenus */
+.shiftnav ul.shiftnav-menu li.menu-item{
+	z-index:30;
+}
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-active{
+
+}
+
+/* Submenu Activation */
+.shiftnav li.menu-item .shiftnav-submenu-activation{
+	position:absolute;
+	display:block;
+	top:0;
+	right:0;
+	padding:0 20px;
+	height:100%;
+	width:50px;
+	max-width:50px;
+	cursor:pointer;
+	z-index:100;
+	text-align:center;
+}
+.shiftnav .shiftnav-submenu-activation i.fa{
+	position:absolute;
+	top:50%;
+	margin-top:-7px;
+	left:50%;
+	margin-left:-5px;	
+}
+
+
+/* Submenu Layering */
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-active > *,
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-in-transition > *{
+	z-index:40;
+}
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-active > ul.sub-menu,
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-in-transition > ul.sub-menu{
+	z-index:50;
+}
+

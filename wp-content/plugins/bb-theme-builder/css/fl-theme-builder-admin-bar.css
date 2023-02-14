@@ -1,0 +1,54 @@
+#wp-admin-bar-fl-builder-frontend-edit-link .ab-icon:before {
+	content: "\f116" !important;
+	top: 2px;
+	margin-right: 3px;
+}
+#wp-admin-bar-fl-builder-frontend-edit-link .fl-builder-ab-wrench.ab-icon {
+	margin-right: 1px !important;
+	font-size: 15px !important;
+	margin-top: 1px;
+	padding-left: 3px !important;
+}
+
+#wp-admin-bar-fl-builder-frontend-edit-link .fl-builder-ab-wrench.ab-icon:before {
+	content: "\f111" !important;
+}
+
+#wp-admin-bar-fl-builder-frontend-edit-link .ab-submenu .ab-item {
+	display: flex;
+	min-width: 200px !important;
+	max-width: 250px;
+    padding-bottom: 1px;
+	padding-top: 1px;
+}
+.fl-builder-ab-title {
+    display: block;
+    padding-right: 10px !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100% !important;
+}
+.fl-builder-ab-tag {
+    background: #1D2125;
+    border-radius: 4px !important;
+    display: block;
+    font-size: 9px !important;
+    height: 9px !important;
+    letter-spacing: 1px !important;
+    line-height: 9px !important;
+    margin-top: 6px !important;
+    padding: 5px 6px !important;
+    text-transform: uppercase !important;
+}
+
+/* Post Type Item */
+#wp-admin-bar-fl-theme-builder-frontend-edit-link {
+	margin-bottom: 2px !important;
+}
+#wp-admin-bar-fl-builder-frontend-edit-link .ab-submenu #wp-admin-bar-fl-theme-builder-frontend-edit-link .ab-item,
+#wp-admin-bar-fl-builder-frontend-edit-link .ab-submenu #wp-admin-bar-fl-theme-builder-frontend-edit-link .ab-item:hover {
+	border-bottom: 2px solid #1D2125;
+	padding-bottom: 8px !important;
+	padding-top: 0;
+}

@@ -1,0 +1,71 @@
+/* Open Button */
+.fl-builder-logic-button {
+	text-align: center;
+	width: 100%;
+}
+
+/* Main Content */
+.bb-logic-display-lightbox .bb-logic-content {
+	background-color: rgb(245, 247, 249);
+}
+.bb-logic-content.fl-builder-settings-fields {
+	visibility: visible;
+}
+
+/* Rule Groups */
+.bb-logic-rule-group-rules {
+	background: transparent;
+}
+
+/* Rule Form Inputs */
+.bb-logic-rule-field input,
+.bb-logic-rule-field select  {
+	margin: 0;
+}
+.bb-logic-rule-field input:focus,
+.bb-logic-rule-field select:focus {
+	border-width: 2px !important;
+	border-style: solid !important;
+	border-color: #00a0d2 !important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12) !important;
+}
+
+/* React Selects */
+.bb-logic-rule-field {
+	.react-select__control {
+		background: #fff url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNNSA2bDUgNSA1LTUgMiAxLTcgNy03LTd6Ii8+PC9zdmc+DQo=") no-repeat center right 10px;
+		border-color: transparent;
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 4px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+		color: #333;
+		font-size: 13px;
+		line-height: 15px;
+		height: 36px;
+		padding: 2px 4px;
+	}
+	.react-select__control:hover {
+		border-color: transparent;
+	}
+	.react-select__control.react-select__control--isFocused {
+		border-color: #00a0d2 !important;
+	    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12) !important;
+	}
+	.react-select__input input {
+	    background: transparent !important;
+	    box-shadow: none !important;
+		display: block !important;
+		-moz-transition: none;
+		-webkit-transition: none;
+		transition: none;
+	}
+	.react-select__input input:focus {
+		border: none !important;
+		box-shadow: none !important;
+		outline: none !important;
+	}
+	.react-select__indicators {
+		display: none;
+	}
+}

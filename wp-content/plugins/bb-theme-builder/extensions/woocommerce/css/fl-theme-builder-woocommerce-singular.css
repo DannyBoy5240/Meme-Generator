@@ -1,0 +1,30 @@
+.fl-theme-builder-woo-notices {
+	margin: 0 auto;
+	padding: 40px;
+}
+.fl-theme-builder-woo-notices .woocommerce-message {
+	margin: 0 !important;
+}
+
+.woocommerce .fl-module-fl-woo-cart-button form.cart div.quantity {
+	display: -webkit-box;
+}
+
+@media (min-width: 768px) {
+	.woocommerce .fl-module-fl-woo-related-products .related ul.products,
+	.woocommerce .fl-module-fl-woo-product-upsells .up-sells ul.products {
+	  display: block;
+	}
+
+	.woocommerce .fl-module-fl-woo-related-products .related ul.products li.product{
+		width: 22.05% !important;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	}
+
+	.woocommerce .fl-module-fl-woo-product-upsells .up-sells ul.products li.product {
+		width: 22.05% !important;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}

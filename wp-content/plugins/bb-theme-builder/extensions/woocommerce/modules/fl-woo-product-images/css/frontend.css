@@ -1,0 +1,9 @@
+.fl-module-fl-woo-product-images .fl-module-content {
+	position: relative;
+}
+.woocommerce div.product .fl-module-fl-woo-product-images div.images,
+.woocommerce #content div.product .fl-module-fl-woo-product-images div.images {
+	float: none;
+	margin: 0;
+	width: auto;
+}

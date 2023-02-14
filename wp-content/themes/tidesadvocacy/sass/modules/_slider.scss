@@ -1,0 +1,160 @@
+.fl-module-ta-post-slider {
+  margin-top: 50px;
+  .fl-module-content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  @media (min-width: 992px) {
+    margin-top: 100px;
+  }
+}
+
+.fl-post-slider-post {
+  min-height: 600px !important;
+  position: relative;
+  padding: 0 !important;
+  background-color: transparent !important;
+  @media (min-width: 1180px) {
+    //padding: 0 0 150px 0 !important;
+    padding-bottom: 225px !important;
+    
+  }
+}
+
+.fl-post-slider-content {
+  padding: 30px;
+  background-color: $lightblue !important;
+  color: $gray !important;
+  width: 100% !important;
+  @media (min-width: 1180px) {
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 70% !important;
+    max-width: 1180px;
+    float: none !important;
+    margin: 0 auto !important;
+    right: 0;
+    left: 0;
+    color: $gray !important;
+  }
+  .fl-post-slider-title {
+    font-size: 30px;
+    line-height: 1.4;
+    @media (min-width: 768px) {
+      font-size: 34px;
+    }
+    @media (min-width: 992px) {
+      font-size: 54px;
+    }
+    a {
+      text-decoration: underline;
+      color: $blue !important;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .fl-post-slider-feed-content {
+    font-size: 20px;
+    p {
+      display: inline;
+      font-size: 20px;
+    }
+    @media (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.6;
+      p {
+        font-size: 26px;
+      }
+    }
+    a {
+      color: $pink;
+      &:hover {
+        color: $pink;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.fl-post-slider-content-bg {
+  display: none !important;
+}
+
+.ta-post-slider-img {
+  .fl-photo {
+    background-color: $lightblue;
+    @media (min-width: 1180px) {
+      background-color: transparent;
+    }
+  }
+  .fl-photo-content {
+    width: 100%;
+    @include angle-edge($angle: 6, $angle-position-y: 'bottom', $angle-position-x: 'left');
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.fl-post-slider-navigation {
+  top: 100px !important;
+  a {
+    color: $pink !important;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: $lightblue;
+    &:hover,
+    &:focus {
+      color: $pink !important;
+      text-decoration: none;
+    }
+    @media (min-width: 1180px) {
+      font-size: 30px;
+    }
+  }
+  @media (min-width: 480px) {
+    top: 160px;
+  }
+  @media (min-width: 768px) {    
+    top: 20% !important;
+  }
+  @media (min-width: 1180px) {    
+    top: 35% !important;
+  }
+}
+
+.ta-slider-header {
+  color: $pink;
+  font-size: 24px;
+  margin-top: 0;
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
+}
+
+.ta-slider-button {
+  margin-top: 30px;
+  @include btnmixed($pink, $blue);
+  a {
+    color: $pink !important;
+    &:hover {
+      color: $blue !important;
+      text-decoration: none;
+    }
+  }
+}
+
+/** Builder - hide sections we don't want to customize */
+.fl-builder-ta-post-slider-settings {
+  #fl-field-height,
+  #fl-builder-settings-section-controls,
+  #fl-builder-settings-section-image,
+  #fl-builder-settings-section-info,
+  #fl-builder-settings-tab-style {
+    display: none !important;
+  }
+}

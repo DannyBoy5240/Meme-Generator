@@ -1,0 +1,32 @@
+/* Meta */
+.fl-post-grid-event-calendar-meta {
+	padding-bottom: 10px;
+}
+.fl-post-feed-text .fl-post-grid-event-calendar-meta {
+	padding-bottom: 0;
+}
+.fl-post-grid-event-calendar-date {
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fl-post-grid-event-calendar-address {
+	font-style: italic;
+}
+.fl-post-grid-event-calendar-address abbr {
+	border: none !important;
+	text-decoration: none;
+}
+
+/* Cost */
+.fl-post-module-event-calendar-cost.tribe-events-event-cost {
+	margin: 0 0 10px 0;
+}
+.fl-post-feed-text .fl-post-module-event-calendar-cost.tribe-events-event-cost {
+	margin: 10px 0 0 0;
+}
+.fl-post-module-event-calendar-cost button.tribe-button {
+	border: none;
+	margin: 0 0 0 10px;
+}

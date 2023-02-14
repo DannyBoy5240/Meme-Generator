@@ -1,0 +1,308 @@
+.fl-page-footer {
+  border-top: none;
+}
+
+.fl-page-footer-wrap {
+  background-color: $lightblue;
+  padding: 0;
+  color: $blue;
+  margin-top: 50px;
+  @media (min-width: 992px) {
+    margin-top: 100px;
+  }
+}
+
+.fl-page-footer-text {
+	padding-bottom: 0;
+  text-align: left;
+  display: block;
+  float: left;
+  clear: both;
+  font-size: 16px;
+  span {
+    display: block;
+    padding-right: 0;
+  }
+  @media (min-width: 992px) {
+    span {
+      display: inline-block;
+      float: none;
+      clear: none;
+      padding-right: 30px;
+    }
+  }
+}
+
+.fl-social-icons {
+  font-size: 16px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+  a {
+    padding-right: 15px;
+  }
+  @media (min-width: 992px) {
+    display: inline-block;
+    clear: none;
+  }
+}
+
+//see menu.css for top bar menu styles
+#footer {
+  .col-md-12 {
+    text-align: left;
+    padding-left: 0;
+  }
+  .fl-builder-module-template {
+    padding: 0 20px;
+    //remove top/bottom padding on saved modules
+    @media (min-width: 768px) {
+      padding: 0 40px;
+    }
+    @media (min-width: 1180px) {
+      max-width: 1180px;
+    }
+    @media (min-width: 1280px) {
+      padding: 0;
+    }
+    .fl-module-content {
+      //margin: 0 15px; not sure why I added this
+      margin: 0;
+    }
+  }
+  // see angles.css for angles and padding
+  .footer-signup {
+    p {
+      strong {
+        font-weight: 500;
+      }
+      color: $white;
+    }
+    .fl-form-field {
+      max-width: 400px;
+      padding-right: 0;
+      input {
+        color: $blue;
+        font-size: 18px;
+        height: 50px;
+        border: none;
+        placeholder {
+          text-transform: uppercase;
+        }
+      }
+      @media (min-width: 992px) {
+        width: 40%;
+      }
+    }
+    .fl-form-button {
+      width: 180px;
+      margin: 0;
+      .fl-button {
+        @include transition;
+        background-color: $pink;
+        border-color: $pink;
+        color: $white;
+        margin-left: 0;
+        height: 50px;
+        font-size: 18px;
+        padding-top: 17px;
+        &:hover {
+          background-color: $white;
+          border-color: $pink;
+          color: $pink;
+          text-decoration: none;
+        }
+      }
+    }
+    
+  }
+  .footer-main {
+    background-image: url('images/footer_hand_tagline.png');
+    background-position: right 15px bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 240px;
+    @media (min-width: 500px) {
+      padding-bottom: 40px;
+    }
+    @media (min-width: 768px) {
+      background-position: right 35px bottom;
+    }
+    @media (min-width: 1100px) {
+      margin-top: -40px;
+      
+    }
+    @media (min-width: 1280px) {
+      background-position: right bottom;
+    }
+    .search-topmenu-footer-wrap {
+      margin: 0;
+      padding: 0;
+      @media (min-width: 992px) {
+        float: right;
+        margin-top: 30px;
+      }
+      .fl-page-bar-nav {
+        float: none;
+        text-align: left;
+        margin-bottom: 15px;
+        li {
+          display: list-item;
+          padding-left: 0;
+          @media (min-width: 992px) {
+            display: inline-block;
+            padding-left: 6px;
+          }
+          a {
+            padding-left: 0;
+            padding-right: 0;
+          }
+        }
+        @media (min-width: 992px) {
+          float: right;
+          padding-left: 6px;
+          padding-right: 0;
+          margin-bottom: 0;
+        }
+      }
+      .fl-page-nav-search {
+        float: none;
+        a {
+          position: relative;
+          padding-left: 0;
+        }
+        @media (min-width: 992px) {
+          float: right;
+          a {
+            position: absolute;
+            padding-left: 8px;
+          }
+        }
+      }
+    }
+    .primary-menu-wrap {
+      margin-top: 20px;
+      @media (min-width: 992px) {
+        margin-top: 60px;
+        float: right;
+        clear: both;
+      }
+    }
+  }
+}
+//Footer - primary menu
+ul#menu-primary-2 {
+  padding: 0;
+  margin: 0 0 15px 0;
+  @media (min-width: 992px) {
+    margin: 0 0 60px 0;
+  }
+  li {
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    float: none;
+    @media (min-width: 992px) {
+      width: 160px;
+      padding: 0 7px;
+      float: left;
+      li {
+        float: none;
+      }
+    }
+    @media (min-width: 1100px) {
+      width: 180px;
+    }
+    @media (min-width: 1240px) {
+      width: 210px;
+    }
+    a {
+      text-transform: uppercase;
+      line-height: 1.4;
+      display: inline;
+      color: $pink;
+      //z-index: 300;
+      font-weight: 700;
+      font-size: 19px;
+      font-family: $nowayitalic;
+      border-bottom: 3px solid transparent;
+      padding: 12px 0 0 0; //12px is to match button 2px border plus 10px padding
+      @include transition;
+      &:hover {
+        background: none;
+        border-bottom: 3px solid $blue;
+      }
+    }
+    @media (min-width: 992px) {
+      padding: 0 12px;
+      a {
+        font-size: 21px;
+      }
+    }
+    @media (min-width: 1100px) {
+      padding: 0 15px;
+      a {
+        font-size: 21px;
+      }
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        padding: 5px 0 0px 0;
+        margin: 0;
+        width: auto;
+        a {
+          color: $blue;
+          font-weight: 500;
+          font-size: 18px;
+          padding: 0;
+          &:hover {
+            border-bottom: 3px solid transparent;
+            text-decoration: none;
+            color: $pink;
+          }
+        }
+      }
+    }
+  }
+  li.btn-menu {
+    padding-right: 0;
+    width: auto;
+    a {
+      @include btnmixed($blue, $pink);
+      padding: 10px 7px;
+      margin-top: 10px;
+      @media (min-width: 992px) {
+        // @include btnsolid($white, $pink);
+         padding: 10px 15px;
+         margin-left: 12px;
+         margin-top: 0;
+       }
+      @media (min-width: 1100px) {
+       // @include btnsolid($white, $pink);
+        padding: 10px 25px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+/** Hide desktop top menu on mobile */
+.footer-topmenu-desktop {
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
+}
+
+/** Hide mobile top menu on desktop */
+.footer-topmenu-mobile {
+  float: left;
+  clear: both;
+  @media (min-width: 992px) {
+    display: none;
+  }
+}

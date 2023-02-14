@@ -1,0 +1,36 @@
+.ta-button-module {
+  text-align: center;
+}
+.ta-button-align-left {
+  text-align: left;
+}
+
+.ta-button-style-pink {
+  a.ta-button {
+    @include btnsolid($white, $pink);
+  }
+}
+
+.ta-button-style-blue {
+  a.ta-button {
+    @include btnsolid($white, $blue);
+  }
+}
+.ta-button-style-pink_border {
+  a.ta-button {
+    @include btnmixed($blue, $pink);
+  }
+}
+.ta-button-style-blue_border {
+  a.ta-button {
+    @include btnmixed($pink, $blue);
+  }
+}
+
+
+a.fl-button, a.fl-button:visited, a.fl-button:focus, a.fl-button:hover {
+	border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  text-decoration: none !important;
+}

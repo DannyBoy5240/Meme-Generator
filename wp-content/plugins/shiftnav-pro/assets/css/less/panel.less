@@ -1,0 +1,300 @@
+/* MENU PANEL */
+
+.shiftnav.shiftnav-nojs{
+	display:none;
+}
+.shiftnav{
+	position:fixed;
+	top:0;
+	width:290px;
+	height:100%;
+	background:white;
+	z-index:600000;
+	overflow:hidden;
+	visibility:hidden;
+	opacity:0;
+	overscroll-behavior: contain;
+}
+.shiftnav-open .shiftnav,
+.shiftnav-transitioning .shiftnav{
+	visibility:visible;
+	opacity:1;
+}
+.shiftnav-inner{
+	-webkit-overflow-scrolling:touch;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.shiftnav.shiftnav-left-edge{
+	left:0;
+}
+.shiftnav.shiftnav-right-edge{
+	right:0;
+}
+
+.shiftnav-target:focus{
+	outline-offset:-2px;
+}
+
+/* Shift the menu */
+.shiftnav.shiftnav-left-edge/*add transition class*/{
+	-webkit-transform: translateX(-290px);
+	-moz-transform: translateX(-290px);
+	-ms-transform: translateX(-290px);
+	-o-transform: translateX(-290px);
+	transform: translateX(-290px);
+}
+.shiftnav.shiftnav-right-edge/*add transition class*/{
+	-webkit-transform: translateX(290px);
+	-moz-transform: translateX(290px);
+	-ms-transform: translateX(290px);
+	-o-transform: translateX(290px);
+	transform: translateX(290px);
+}
+.shiftnav-open .shiftnav.shiftnav-open-target{
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
+}
+
+
+/* No Transforms */
+.shiftnav-no-transforms .shiftnav{
+	width:290px;
+}
+.shiftnav-no-transforms .shiftnav.shiftnav-left-edge{
+	left:-290px;
+}
+.shiftnav-no-transforms.shiftnav-open .shiftnav.shiftnav-open-target.shiftnav-left-edge{
+	left:0;
+}
+.shiftnav-no-transforms .shiftnav.shiftnav-right-edge{
+	left:auto;
+	right:-290px;
+}
+.shiftnav-no-transforms.shiftnav-open .shiftnav.shiftnav-open-target.shiftnav-right-edge{
+	right:0;
+}
+.shiftnav-no-transforms .shiftnav,
+.shiftnav-no-transforms #shiftnav-toggle-main{
+	-webkit-transition:none;
+	-moz-transition:none;
+	-ms-transition:none;
+	-o-transition:none;
+	transition:none;
+}
+.shiftnav-no-transforms.shiftnav-open-left #shiftnav-toggle-main{
+	left:290px;
+}
+.shiftnav-no-transforms.shiftnav-open-right #shiftnav-toggle-main{
+	left:auto;
+	right:290px;
+}
+.shiftnav-no-transforms #shiftnav-toggle-main,
+.shiftnav-no-transforms .shiftnav-wrap{
+	-webkit-transform: none !important;
+ 	-moz-transform: none !important;
+	-ms-transform: none !important;
+	-o-transform: none !important;
+	transform: none !important;
+}
+/* Prevent weird link clicking on old android */
+.shiftnav-no-transforms .shiftnav-inner{
+	padding-top:30px;
+}
+
+
+/* Close button */
+.shiftnav .shiftnav-panel-close{
+	display:block;
+	position:absolute;
+	right:0;
+	padding:15px 20px;
+	background:rgba(0,0,0,.2);
+	z-index: 20;
+  cursor: pointer;
+	border:none;
+	color:inherit;
+	font-size:inherit;
+}
+
+
+/* Menu Title */
+.shiftnav .shiftnav-menu-title{
+	font-size:30px;
+	text-align:center;
+	padding:40px 25px;
+	font-weight: normal;
+	margin:0;
+	color:inherit;
+}
+.shiftnav-menu-title a,
+.shiftnav-menu-title a:hover,
+.shiftnav-menu-title a:visited{
+	color:inherit;
+	text-decoration:none;
+}
+
+
+/* Menu Image */
+.shiftnav .shiftnav-menu-image-padded{
+	padding:25px;
+}
+.shiftnav .shiftnav-menu-image a{
+	display:block;
+}
+.shiftnav .shiftnav-menu-image img{
+	max-width:100%;
+	height:auto;
+}
+
+
+/* Menu */
+.shiftnav .shiftnav-nav,
+.shiftnav ul.shiftnav-menu,
+.shiftnav ul.shiftnav-menu ul.sub-menu{
+	position:static;
+	display:block;
+	top:auto;
+	left:auto;
+	float:none;
+	min-width:0;
+}
+.shiftnav nav.shiftnav-nav{
+	position:relative;
+	z-index:10;
+}
+.shiftnav ul.shiftnav-menu{
+	position:relative;
+	clear:both;
+	/*overflow-x:hidden;*/
+	overflow:hidden;
+}
+.shiftnav ul.shiftnav-menu,
+.shiftnav ul.shiftnav-menu ul.sub-menu{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.shiftnav ul.shiftnav-menu li.menu-item{
+	position:relative;
+	margin:0;
+	padding:0;
+	background:none transparent;
+	list-style-type: none;
+}
+.shiftnav ul.shiftnav-menu li.menu-item > .shiftnav-target,
+.shiftnav ul.shiftnav-menu li.shiftnav-retract > .shiftnav-target{
+	display:block;
+	// padding:6px 25px;
+	// line-height:300%;
+	padding: 15px 25px;
+ 	line-height: 1.6em;
+	text-decoration: none;
+	position:relative;
+	cursor:pointer;
+
+	-webkit-transition:.2s all ease;
+	-moz-transition:.2s all ease;
+	-ms-transition:.2s all ease;
+	-o-transition:.2s all ease;
+	transition:.2s all ease;
+}
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-has-icon > .shiftnav-target > i.shiftnav-icon{
+	margin-right:.8em;
+	font-size:150%;
+	vertical-align:middle;
+	line-height:inherit;
+	width:1.2em;
+	text-align:center;
+}
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-has-icon > .shiftnav-target > i.shiftnav-icon:before{
+	vertical-align:top;
+}
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-has-icon > .shiftnav-target > span.shiftnav-target-text{
+	vertical-align:middle;
+	display:inline-block;
+	line-height:inherit;
+}
+
+.shiftnav ul.shiftnav-menu li.shiftnav-retract,
+.shiftnav ul.shiftnav-menu li.shiftnav-sub-shift li.shiftnav-active ~ li.shiftnav-retract{
+	display:none;
+	margin:0;
+}
+.shiftnav ul.shiftnav-menu li.shiftnav-sub-shift > .sub-menu.shiftnav-sub-active-current  > li.shiftnav-retract{
+	display:block;
+}
+
+
+/* Menu Items */
+
+
+
+/* Buttons Medium */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-medium li.menu-item > .shiftnav-target{
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+
+/* Buttons Large */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-large li.menu-item > .shiftnav-target{
+	padding-top:16px !important;
+	padding-bottom:16px !important;
+}
+
+/* Buttons Enormous */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-enormous li.menu-item > .shiftnav-target{
+	padding-top:24px !important;
+	padding-bottom:24px !important;
+}
+
+/* Text Small */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-text-small li.menu-item > .shiftnav-target{
+	font-size:12px !important;
+}
+/* Text Medium */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-text-medium li.menu-item > .shiftnav-target{
+	font-size:14px !important;
+}
+/* Text Large */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-text-large li.menu-item > .shiftnav-target{
+	font-size:16px !important;
+}
+/* Text Enormous */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-text-enormous li.menu-item > .shiftnav-target{
+	font-size:22px !important;
+}
+
+
+/* Icons Small */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-icon-small li.menu-item > .shiftnav-target > i.shiftnav-icon{
+	font-size:100% !important;
+}
+/* Icons Medium */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-icon-medium li.menu-item > .shiftnav-target > i.shiftnav-icon{
+	font-size:140% !important;
+}
+/* Icons Large */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-icon-large li.menu-item > .shiftnav-target > i.shiftnav-icon{
+	font-size:180% !important;
+}
+.shiftnav ul.shiftnav-menu.shiftnav-targets-icon-large li.menu-item.shiftnav-has-icon > .shiftnav-target > i.shiftnav-icon:before{
+	vertical-align:middle;
+}
+/* Icons Enormous */
+.shiftnav ul.shiftnav-menu.shiftnav-targets-icon-enormous li.menu-item > .shiftnav-target > i.shiftnav-icon{
+	font-size:250% !important;
+}
+.shiftnav ul.shiftnav-menu.shiftnav-targets-icon-enormous li.menu-item.shiftnav-has-icon > .shiftnav-target > i.shiftnav-icon:before{
+	vertical-align:middle;
+}
+
+/* Submenu Indentation */
+.shiftnav ul.shiftnav-menu.shiftnav-indent-subs li.shiftnav-sub-always ul.sub-menu li.menu-item > a{							padding-left:50px;	}
+.shiftnav ul.shiftnav-menu.shiftnav-indent-subs li.shiftnav-sub-always ul.sub-menu ul.sub-menu li.menu-item > a{				padding-left:75px;	}
+.shiftnav ul.shiftnav-menu.shiftnav-indent-subs li.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > a{	padding-left:100px;	}

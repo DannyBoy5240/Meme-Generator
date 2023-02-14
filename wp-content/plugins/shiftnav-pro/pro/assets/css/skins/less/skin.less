@@ -1,0 +1,149 @@
+//Skin Style
+
+// ShiftNav Panel
+.shiftnav.shiftnav-skin-@{skinName}{
+
+	font-size:@font-size;
+	line-height:@line-height;
+
+	background:@background;
+	color:@color;
+
+	// Menu Title
+	.shiftnav-site-title{
+		font-size:@header-font-size;
+		text-align:@header-text-align;
+		padding:@header-padding;
+		font-weight: @header-font-weight;
+		color: @header-color;
+	}
+
+	.shiftnav-activated-style{
+		color:@target-active-color;
+		background:@target-active-background;
+		border-top-color: @target-active-border-top-color;
+		border-bottom-color: @target-active-border-bottom-color;
+	}
+
+	// Menu
+	ul.shiftnav-menu{
+
+
+		// Menu Items
+		li.menu-item{
+
+			// Targets
+			> .shiftnav-target{
+				color: @target-color;
+				font-size: @font-size;
+				font-weight: @target-font-weight;
+
+				border-top: @target-border-top;
+				border-bottom: @target-border-bottom;
+				text-shadow: @target-text-shadow;
+
+			}
+
+
+
+			// Activators
+			.shiftnav-submenu-activation{
+				background: @activation-background;
+				color: @activation-color;
+
+				&:hover{
+					background: @activation-background-hover;
+					color: @activation-color-hover;
+				}
+			}
+			&.shiftnav-active > .shiftnav-submenu-activation,
+			&.shiftnav-in-transition > .shiftnav-submenu-activation{
+				background: @activation-background-active;
+				color: @activation-color-active;
+			}
+
+			// Highlighted Targets
+			&.shiftnav-highlight > .shiftnav-target,
+			ul.sub-menu .shiftnav-highlight > .shiftnav-target{
+				color:@highlight-color;
+				background:@highlight-background;
+			}
+
+			// Active, Transitioning, and Current Targets
+			&.shiftnav-active > .shiftnav-target,
+			&.shiftnav-in-transition > .shiftnav-target{
+				.shiftnav-activated-style;
+			}
+			&.current-menu-item > .shiftnav-target,
+			ul.sub-menu .current-menu-item > .shiftnav-target{
+				color:@target-current-color;
+				background:@target-current-background;
+			}
+
+		}
+
+		// Top Level Targets
+		> li.menu-item > .shiftnav-target{
+			text-transform: @target-text-transform-l1;
+		}
+		//Top Level Targets Current Ancestors
+		> li.shiftnav-sub-accordion.current-menu-ancestor > .shiftnav-target,
+		> li.shiftnav-sub-shift.current-menu-ancestor > .shiftnav-target{
+			.shiftnav-activated-style;
+		}
+
+		// Retractors
+		li.shiftnav-retract .shiftnav-target{
+			background: @retractor-background;
+			color: @retractor-color;
+			text-transform: @retractor-text-transform;
+			font-size:@retractor-font-size;
+			text-align:@retractor-text-align;
+		}
+
+		// Submenus
+		ul.sub-menu{
+			color:@submenu-color;
+			background:@submenu-background;
+
+			li.menu-item > .shiftnav-target{
+				color:@submenu-target-color;
+				border-width:@target-submenu-target-border-width;
+				border-top-color: @target-submenu-target-border-top-color;
+				border-bottom-color: @target-submenu-target-border-bottom-color;
+				font-weight:@submenu-target-font-weight;
+				font-size:@submenu-target-font-size;
+			}
+		}
+		&.shiftnav-sub-always ul.sub-menu{
+
+			// Submenu targets, first level
+			li.menu-item > .shiftnav-target{
+				padding-left:@submenu-padding-l2;
+			}
+			// Submenu second level targets
+			ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target{
+				padding-left: @submenu-padding-l3;
+			}
+			// Submenu third level targets
+			ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target{
+				padding-left: @submenu-padding-l4;
+			}
+		}
+	}
+
+	//Edges
+	&.shiftnav-left-edge{
+		border-right:@edge-border;
+	}
+	&.shiftnav-right-edge{
+		border-left:@edge-border;
+	}
+
+	//No-js hovering, active on hover option
+	&.shiftnav-nojs ul.shiftnav-menu li.menu-item > .shiftnav-target:hover,
+	ul.shiftnav-menu.shiftnav-active-on-hover li.menu-item > .shiftnav-target:hover,
+	ul.shiftnav-menu.shiftnav-active-highlight li.menu-item > .shiftnav-target:active{
+		.shiftnav-activated-style;
+	}
+}

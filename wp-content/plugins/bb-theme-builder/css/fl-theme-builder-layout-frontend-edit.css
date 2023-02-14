@@ -1,0 +1,92 @@
+/* Preview Button */
+.fl-theme-builder-preview-select {
+	max-width: 200px;
+	min-width: 150px;
+}
+.fl-theme-builder-preview-select-open {
+	height: auto;
+	padding-bottom: 0;
+	width: 200px;
+}
+.fl-theme-builder-preview-select-title div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.fl-theme-builder-preview-select-title div span {
+	vertical-align: top;
+}
+.fl-theme-builder-preview-select .fa-caret-down {
+	float: right;
+	margin-left: 6px;
+}
+.fl-theme-builder-preview-select-items {
+	border-top: 1px solid #ccc;
+	display: none;
+	height: 150px;
+	overflow: auto;
+    margin-top: 7px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.fl-theme-builder-preview-select-open .fl-theme-builder-preview-select-items {
+	display: block;
+}
+.fl-theme-builder-preview-select-item {
+	border-bottom: 1px solid #E6E6E6;
+	padding: 10px;
+}
+.fl-theme-builder-preview-select-item:hover {
+	background: #fff;
+}
+.fl-theme-builder-preview-select-item:last-child {
+	border-bottom: none;
+}
+.fl-theme-builder-preview-select-item .fa-caret-down {
+	color: #ccc;
+	display: none;
+}
+.fl-theme-builder-preview-select-item:hover .fa-caret-down,
+.fl-theme-builder-preview-select-item-open .fa-caret-down {
+	display: inline-block;
+}
+.fl-theme-builder-preview-select-item-children {
+	display: none;
+}
+.fl-theme-builder-preview-select-item-open {
+	overflow-y: auto;
+}
+.fl-theme-builder-preview-select-item-open .fl-theme-builder-preview-select-item-children {
+	display: block;
+}
+.fl-theme-builder-preview-select-item-children img {
+	height: auto !important;
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+}
+.fl-theme-builder-preview-select-item-child {
+	color: #b3b3b3;
+	padding-top: 10px;
+	white-space: normal;
+}
+.fl-theme-builder-preview-select-item-child:hover {
+	color: #000;
+}
+
+/* Content */
+.fl-theme-builder-header.single-fl-theme-layout .fl-content,
+.fl-theme-builder-footer.single-fl-theme-layout .fl-content,
+.fl-theme-builder-part.single-fl-theme-layout .fl-content {
+	width: 100% !important;
+}
+
+/* Templates */
+.fl-builder--template-collection-item[data-subtype="header"] .fl-builder--template-thumbnail,
+.fl-builder--template-collection-item[data-subtype="footer"] .fl-builder--template-thumbnail {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.fl-builder--template-collection-item[data-subtype="header"] .fl-builder--template-thumbnail:before,
+.fl-builder--template-collection-item[data-subtype="footer"] .fl-builder--template-thumbnail:before {
+	padding-top: 100%;
+}

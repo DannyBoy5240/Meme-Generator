@@ -1,0 +1,18 @@
+
+/* Post Grid */
+.fl-post-grid-layout-custom #fl-field-post_padding,
+.fl-post-grid-layout-custom #fl-field-feed_post_padding,
+.fl-post-grid-layout-custom #fl-field-post_align,
+.fl-post-grid-layout-custom #fl-builder-settings-section-image,
+.fl-post-grid-layout-custom #fl-builder-settings-section-info,
+.fl-post-grid-layout-custom #fl-builder-settings-section-content,
+.fl-post-grid-layout-custom #fl-builder-settings-section-woo,
+.fl-post-grid-layout-custom a[href*=fl-builder-settings-tab-style],
+.fl-post-grid-layout-gallery #fl-field-woo_button,
+.fl-post-grid-layout-gallery #fl-field-woo_sale_flash,
+.fl-post-grid-layout-gallery #fl-builder-settings-section-woo_button,
+.fl-post-grid-layout-gallery #fl-field-woo_sale_flash_bg,
+.fl-post-grid-layout-gallery #fl-field-woo_sale_flash_color {
+	display: none !important;
+}
+ 

@@ -1,0 +1,70 @@
+/* Generic */
+.fl-post-module-woo-ordering {
+	padding-bottom: 40px;
+}
+
+.fl-product-ordering{
+	text-align: center;
+}
+
+/* Grid */
+.fl-module-post-grid .woocommerce-product-gallery {
+	opacity: 1 !important;
+}
+.woocommerce.fl-post-grid-woo-meta {
+	padding-bottom: 5px;
+}
+.woocommerce.fl-post-grid-woo-meta .star-rating,
+.woocommerce.fl-post-grid-woo-meta .price {
+	clear: both;
+	display: block;
+	float: none;
+	margin: 0 0 5px;
+}
+.fl-post-align-center .woocommerce.fl-post-grid-woo-meta .star-rating {
+	margin: 0 auto 5px;
+}
+.fl-post-align-right .woocommerce.fl-post-grid-woo-meta .star-rating {
+	float: right;
+	margin: 0 0 5px;
+}
+.fl-module-post-grid .woocommerce.fl-post-grid-woo-button {
+	padding-top: 10px;
+}
+.woocommerce .fl-post-grid-post {
+	overflow: inherit;
+}
+
+/* Feed */
+.fl-post-feed-woo-meta {
+	overflow: hidden;
+}
+.woocommerce.fl-post-feed-woo-meta .price {
+	display: inline-block;
+}
+.woocommerce.fl-post-feed-woo-meta .star-rating {
+	display: inline-block;
+	float: none;
+	margin: 0 0 0 5px;
+}
+.fl-module-post-grid .woocommerce.fl-post-feed-woo-button {
+	margin-top: 20px;
+}
+
+/* Gallery */
+.woocommerce.fl-post-gallery-woo-meta .star-rating,
+.woocommerce.fl-post-gallery-woo-meta .price {
+	clear: both;
+	display: block;
+	float: none;
+	margin: 0 0 5px;
+}
+.woocommerce.fl-post-gallery-woo-meta .star-rating {
+	margin: 0 auto 5px;
+}
+.woocommerce.fl-post-gallery-woo-meta .star-rating:before {
+	color: #999 !important;
+}
+.woocommerce.fl-post-gallery-woo-meta .star-rating span:before {
+	color: #fff;
+}

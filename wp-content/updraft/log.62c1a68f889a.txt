@@ -1,0 +1,9 @@
+0000.000 (2) Opened log file at time: Mon, 13 Feb 2023 08:00:01 +0000 on https://tidesadvocacy.org
+0000.001 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.0.27 (fpm-fcgi, Linux mkn-lovelettertidesadvocacy-live-prod 5.4.0-1098-gcp #107-Ubuntu SMP Tue Jan 10 15:52:05 UTC 2023 x86_64) MySQL: 10.5.19-MariaDB-1:10.5.19+maria~ubu2004 (max packet size=33554432) WPLANG: en_US Server: nginx/1.21.5 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.8M | 10M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (2) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/www/lovelettertidesadvocacy_153/public:/www/lovelettertidesadvocacy_153/mysqleditor:/www/lovelettertidesadvocacy_153/web:/www/lovelettertidesadvocacy_153/deploy:/www/lovelettertidesadvocacy_153/deployment:/www/lovelettertidesadvocacy_153/deployments:/usr/share:/tmp) (line 408, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.001 (2) Free space on disk containing Updraft's temporary directory: Unknown
+0000.002 (2) Requesting backup semaphore lock (62c1a68f889a)
+0000.003 (2) [Info] Lock (updraft_lock_62c1a68f889a, wp_options) acquired
+0000.003 (2) This backup task (62c1a68f889a) is either complete or began over 2 days ago: ending (1676275201.6771, ) (existing jobdata keys: )
+0000.003 (2) PHP event: code E_WARNING: Trying to access array offset on value of type null (line 936, wp-content/mu-plugins/wpengine-common/plugin.php)
+0000.004 (2) PHP event: code E_WARNING: Trying to access array offset on value of type null (line 937, wp-content/mu-plugins/wpengine-common/plugin.php)

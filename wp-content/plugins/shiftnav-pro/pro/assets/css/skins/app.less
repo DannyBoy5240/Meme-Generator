@@ -1,0 +1,80 @@
+@import "less/defaults.less";
+
+@skinName: app;
+@accent: #2D9AD8; //#35AC6A;
+
+@background:#2A2A31;
+@color: #eee;
+@edge-border: none;
+
+@font-size:11px;
+@line-height:1.3em;
+
+
+@header-font-size: 30px;
+@header-text-align: left;
+@header-font-weight: normal;
+@header-color: @color;
+
+@target-color: #aaa;
+@target-font-weight: bold;
+@target-border-top:none;
+@target-border-bottom: 2px solid #444;
+
+@target-active-color:@accent;
+@target-active-background: transparent;
+
+@target-current-color:@accent;
+@target-current-background: transparent;
+
+@target-active-border-top-color: rgba(255,255,255,.2);
+@target-active-border-bottom-color: #444;
+
+@target-text-shadow:0 1px 1px rgba(0,0,0,.5);
+
+@target-text-transform-l1: uppercase;
+
+@activation-background: rgba(0,0,0,.1);
+@activation-background-hover: rgba(0,0,0,.2);
+@activation-color-hover: #eee;
+@activation-color-active: #eee;
+
+@highlight-color: #12CC98;
+@highlight-background: transparent;
+
+@retractor-background: rgba(0,0,0,.2);
+@retractor-color: #fff;
+@retractor-font-size:12px;
+@retractor-text-align:right;
+
+@submenu-color:#eee;
+@submenu-background:transparent;
+
+@submenu-target-color:#fff;
+@submenu-target-font-weight: normal;
+@submenu-target-font-size:13px;
+@target-submenu-target-border-width:1px;
+@target-submenu-target-border-top-color: transparent;
+@target-submenu-target-border-bottom-color: rgba(155,155,155,.07);
+
+@submenu-padding-l2: 50px;
+@submenu-padding-l3: 75px;
+@submenu-padding-l4: 100px;
+
+
+.shiftnav-skin-app ul.shiftnav-menu{
+	padding:0 10px;
+}
+.shiftnav-skin-app ul.shiftnav-menu li.menu-item > .shiftnav-target, 
+.shiftnav-skin-app ul.shiftnav-menu li.shiftnav-retract > .shiftnav-target{
+	padding:6px 5px;
+}
+.shiftnav-skin-app ul.shiftnav-menu > li.menu-item > .shiftnav-target{
+	padding-top:10px;
+	padding-bottom:0px;
+}
+.shiftnav-skin-app ul.shiftnav-menu > li.menu-item{
+	padding-bottom:20px;
+}
+
+@import "less/skin.less";

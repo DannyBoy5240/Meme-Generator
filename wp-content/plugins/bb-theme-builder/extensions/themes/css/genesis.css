@@ -1,0 +1,24 @@
+.fl-theme-builder-full-width .site-container,
+.fl-theme-builder-full-width .site-container .site-inner,
+.fl-theme-builder-full-width .site-container .site-inner .wrap,
+.fl-theme-builder-full-width .site-container .content-sidebar-wrap,
+.fl-theme-builder-full-width .site-container main.content,
+.fl-theme-builder-full-width .site-container main.content > article.entry,
+.fl-theme-builder-full-width .site-container main.content > article.entry .entry-content,
+.fl-theme-builder-full-width #wrap,
+.fl-theme-builder-full-width #wrap #inner,
+.fl-theme-builder-full-width #wrap #inner .wrap,
+.fl-theme-builder-full-width #wrap #content-sidebar-wrap,
+.fl-theme-builder-full-width #wrap #content,
+.fl-theme-builder-full-width #wrap #content > .entry {
+	max-width: 100%;
+	width: 100%;
+	border: 0;
+	float: none;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}

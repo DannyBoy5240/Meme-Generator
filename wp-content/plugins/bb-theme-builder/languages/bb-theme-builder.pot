@@ -1,0 +1,4317 @@
+# Copyright (C) 2023 The Beaver Builder Team
+# This file is distributed under the GNU General Public License v2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: bb-theme-builder\n"
+"Report-Msgid-Bugs-To: hello@wpbeaverbuilder.com\n"
+"POT-Creation-Date: 2023-01-30 17:27:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: classes/class-fl-theme-builder-logic-i18n.php:194
+#: includes/layout-admin-add-fields.php:14
+msgid "404"
+msgstr ""
+
+#: classes/class-fl-page-data-archive.php:30 classes/class-fl-page-data.php:86
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:67
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:75
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:73
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:98
+#: modules/fl-attached-images/fl-attached-images.php:13
+#: modules/fl-author-bio/fl-author-bio.php:17
+#: modules/fl-comments/fl-comments.php:17
+#: modules/fl-featured-image/fl-featured-image.php:13
+#: modules/fl-post-content/fl-post-content.php:17
+#: modules/fl-post-info/fl-post-info.php:16
+#: modules/fl-post-navigation/fl-post-navigation.php:17
+#: modules/fl-post-title/fl-post-title.php:13
+msgid "Posts"
+msgstr ""
+
+#: classes/class-fl-page-data-post.php:52
+msgid "&hellip;"
+msgstr ""
+
+#: classes/class-fl-page-data-post.php:143
+msgid "Pages:"
+msgstr ""
+
+#: classes/class-fl-page-data-site.php:52 classes/class-fl-page-data.php:98
+#: classes/class-fl-theme-builder-logic-i18n.php:117
+#: classes/class-fl-theme-builder-logic-i18n.php:130
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:169
+#: extensions/acf/includes/page-data-acf.php:501
+msgid "User"
+msgstr ""
+
+#: classes/class-fl-page-data-site.php:55
+msgid "Current User"
+msgstr ""
+
+#: classes/class-fl-page-data-site.php:56
+msgid "Specific User"
+msgstr ""
+
+#: classes/class-fl-page-data-site.php:57 classes/class-fl-page-data.php:92
+#: classes/class-fl-theme-builder-logic-i18n.php:111
+#: classes/class-fl-theme-builder-logic-i18n.php:129
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:202
+#: modules/fl-post-info/fl-post-info.php:154
+#: modules/fl-post-info/fl-post-info.php:158
+#: modules/fl-post-info/fl-post-info.php:313
+msgid "Author"
+msgstr ""
+
+#: classes/class-fl-page-data-site.php:68
+msgid "User ID"
+msgstr ""
+
+#: classes/class-fl-page-data.php:80
+#: classes/class-fl-theme-builder-rules-location.php:785
+#: classes/class-fl-theme-builder-rules-user.php:167
+#: extensions/bb-logic/rest/classes/class-bb-logic-rest-wordpress.php:269
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:40
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:29
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:42
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:29
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:29
+#: modules/fl-post-info/fl-post-info.php:80
+msgid "General"
+msgstr ""
+
+#: classes/class-fl-page-data.php:83
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:116
+#: includes/frontend-edit-preview-locations.php:36
+#: modules/fl-archive-description/fl-archive-description.php:17
+#: modules/fl-archive-title/fl-archive-title.php:13
+#: modules/fl-post-columns/fl-post-columns.php:13
+#: modules/fl-post-gallery/fl-post-gallery.php:13
+#: modules/fl-post-list/fl-post-list.php:13
+#: modules/fl-post-masonry/fl-post-masonry.php:13
+msgid "Archives"
+msgstr ""
+
+#: classes/class-fl-page-data.php:89 modules/fl-comments/fl-comments.php:14
+#: modules/fl-comments/includes/frontend.php:9
+#: modules/fl-post-info/fl-post-info.php:182
+#: modules/fl-post-info/fl-post-info.php:186
+#: modules/fl-post-info/fl-post-info.php:314
+msgid "Comments"
+msgstr ""
+
+#: classes/class-fl-page-data.php:95
+msgid "Site"
+msgstr ""
+
+#: classes/class-fl-page-data.php:101
+msgid "Advanced"
+msgstr ""
+
+#: classes/class-fl-theme-builder-admin-bar.php:110
+msgid "HEADER"
+msgstr ""
+
+#: classes/class-fl-theme-builder-admin-bar.php:113
+msgid "FOOTER"
+msgstr ""
+
+#: classes/class-fl-theme-builder-admin-bar.php:116
+msgid "PART"
+msgstr ""
+
+#: classes/class-fl-theme-builder-admin-bar.php:119
+msgid "ARCHIVE"
+msgstr ""
+
+#: classes/class-fl-theme-builder-admin-bar.php:122
+msgid "SINGULAR"
+msgstr ""
+
+#: classes/class-fl-theme-builder-admin-menu.php:31
+msgid "Themer Layouts"
+msgstr ""
+
+#: classes/class-fl-theme-builder-field-connections.php:601
+#: classes/class-fl-theme-builder-field-connections.php:607
+msgid "Incorrect wpbb-if shortcode attributes."
+msgstr ""
+
+#: classes/class-fl-theme-builder-frontend-edit.php:64
+msgid "Edit Content Only"
+msgstr ""
+
+#: classes/class-fl-theme-builder-frontend-edit.php:65
+msgid "Override Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-frontend-edit.php:66
+#: classes/class-fl-theme-builder-logic-i18n.php:188
+msgid "Cancel"
+msgstr ""
+
+#: classes/class-fl-theme-builder-frontend-edit.php:95
+msgid "Themer Override"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-add.php:105
+msgid "Add"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-add.php:124
+msgid "Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:98
+#: classes/class-fl-theme-builder-logic-i18n.php:184
+#: includes/admin-edit-location-rules.php:37
+#: includes/admin-edit-location-rules.php:47
+#: includes/admin-edit-user-rules.php:21
+#: includes/layout-admin-edit-settings.php:28
+msgid "Choose..."
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:101
+#: includes/field-connection-js-templates.php:3
+msgid "Search..."
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:173
+msgid "and"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:213
+msgid "Themer Layout Settings"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:65
+msgid "Unpublish this layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:66
+msgid "Publish this layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:104
+msgid "Published"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:105
+msgid "Categories"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:106
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:165
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:36
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:36
+#: includes/layout-admin-edit-settings.php:5 includes/page-data-post.php:427
+#: includes/page-data-post.php:488 includes/page-data-site.php:46
+#: includes/page-data-site.php:109
+msgid "Type"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:107
+#: includes/admin-edit-location-rules.php:4
+msgid "Location"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:108
+#: includes/admin-edit-user-rules.php:4
+msgid "Users"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:149
+#: includes/layout-admin-edit-settings.php:13
+msgid "Unsupported"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-list.php:168
+msgid "All"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-renderer.php:536
+#: modules/fl-post-content/includes/frontend.php:6
+msgid "Content Area"
+msgstr ""
+
+#: classes/class-fl-theme-builder-loader.php:233
+#. translators: %s: url
+msgid ""
+"The Beaver Builder plugin must be active in order to use Beaver Themer. "
+"Please <a href=\"%s\">activate it</a> before continuing."
+msgstr ""
+
+#: classes/class-fl-theme-builder-loader.php:237
+#. translators: %s: url
+msgid ""
+"Beaver Themer is not compatible with the lite version of Beaver Builder. "
+"Please <a href=\"%s\">purchase a premium version</a> before continuing."
+msgstr ""
+
+#: classes/class-fl-theme-builder-loader.php:241
+#. translators: %s: url
+msgid ""
+"Beaver Themer is only compatible with Beaver Builder 1.10 and above. Please "
+"<a href=\"%s\">update</a> before continuing."
+msgstr ""
+
+#: classes/class-fl-theme-builder-loader.php:245
+#. translators: %s: url
+msgid ""
+"Beaver Themer requires PHP 5.3 or above. Please <a href=\"%s\">update your "
+"PHP version</a> before continuing."
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:32
+msgid "Display this content if the following conditions are met..."
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:33
+msgid "address line 1"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:34
+msgid "address line 2"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:35
+msgid "city"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:36
+msgid "state"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:37
+msgid "zip/postcode"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:38
+msgid "country"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:39
+msgid "minute(s) ago"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:40
+msgid "hour(s) ago"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:41
+msgid "day(s) ago"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:42
+msgid "week(s) ago"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:43
+msgid "month(s) ago"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:44
+msgid "year(s) ago"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:45
+msgid "minute(s)"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:46
+msgid "hour(s)"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:47
+msgid "day(s)"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:48
+msgid "week(s)"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:49
+msgid "month(s)"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:50
+msgid "year(s)"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:51
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:183
+#: includes/page-data-archive.php:53 includes/page-data-post.php:580
+#: includes/page-data-post.php:597 includes/page-data-site.php:201
+msgid "Key"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:52
+msgid "Value"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:53
+msgid "equals"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:54
+msgid "does not equal"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:55
+msgid "is less than"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:56
+msgid "is less than or equal to"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:57
+msgid "is greater than"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:58
+msgid "is greater than or equal to"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:59
+msgid "starts with"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:60
+msgid "ends with"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:61
+msgid "contains"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:62
+msgid "does not contain"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:63
+msgid "include"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:64
+msgid "includes"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:65
+msgid "do not include"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:66
+msgid "does not include"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:67
+msgid "is set"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:68
+msgid "is not set"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:69
+msgid "is empty"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:70
+msgid "is not empty"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:71
+msgid "on"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:72
+msgid "is on"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:73
+msgid "not on"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:74
+msgid "is not on"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:75
+msgid "before"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:76
+msgid "is before"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:77
+msgid "on or before"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:78
+msgid "is on or before"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:79
+msgid "after"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:80
+msgid "is after"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:81
+msgid "on or after"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:82
+msgid "is on or after"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:83
+msgid "within"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:84
+msgid "is within"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:85
+msgid "not within"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:86
+msgid "is not within"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:87
+msgid "between"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:88
+msgid "is between"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:89
+msgid "not between"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:90
+msgid "is not between"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:91
+msgid "in the past"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:92
+msgid "over"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:93
+#: classes/class-fl-theme-builder-logic-i18n.php:127
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:102
+msgid "Post"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:94
+#: includes/page-data-post.php:28
+msgid "Post Parent"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:95
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:234
+msgid "Post Type"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:96
+#: includes/page-data-post.php:7 includes/page-data-post.php:113
+#: modules/fl-post-title/fl-post-title.php:10
+msgid "Post Title"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:97
+#: includes/page-data-post.php:63
+msgid "Post Excerpt"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:98
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:78
+#: includes/page-data-post.php:90
+#: modules/fl-post-content/fl-post-content.php:14
+msgid "Post Content"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:99
+#: includes/page-data-post.php:212 includes/page-data-post.php:272
+msgid "Post Featured Image"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:100
+msgid "Post Comments Number"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:101
+msgid "Post Comments Status"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:102
+msgid "Post Template"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:103
+msgid "Post Taxonomy Term"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:104
+msgid "Post Status"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:105
+#: includes/page-data-post.php:588
+msgid "Post Custom Field"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:106
+#: classes/class-fl-theme-builder-logic-i18n.php:128
+#: includes/layout-admin-add-fields.php:12
+msgid "Archive"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:107
+#: includes/page-data-archive.php:7
+#: modules/fl-archive-title/fl-archive-title.php:10
+msgid "Archive Title"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:108
+#: includes/page-data-archive.php:17
+#: modules/fl-archive-description/fl-archive-description.php:14
+msgid "Archive Description"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:109
+msgid "Archive Taxonomy Term"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:110
+#: includes/page-data-archive.php:44
+msgid "Archive Term Meta"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:112
+#: classes/class-fl-theme-builder-logic-i18n.php:118
+#: extensions/acf/includes/page-data-acf.php:534
+#: includes/page-data-post.php:436 includes/page-data-site.php:55
+msgid "Username"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:113
+#: includes/page-data-post.php:469 modules/fl-author-bio/fl-author-bio.php:14
+msgid "Author Bio"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:114
+#: includes/page-data-post.php:571
+msgid "Author Meta"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:115
+msgid "Author Login Status"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:116
+msgid "Author Role"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:119
+#: includes/page-data-site.php:88
+msgid "User Bio"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:120
+#: includes/page-data-site.php:192
+msgid "User Meta"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:121
+msgid "User Login Status"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:122
+#: classes/class-fl-theme-builder-rules-user.php:176
+msgid "Logged In"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:123
+#: classes/class-fl-theme-builder-rules-user.php:181
+msgid "Logged Out"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:124
+msgid "User Role"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:125
+msgid "User Capability"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:126
+msgid "User Registered"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:131
+#: extensions/acf/includes/page-data-acf.php:7
+msgid "ACF Archive Field"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:132
+#: extensions/acf/includes/page-data-acf.php:14
+msgid "ACF Post Field"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:133
+#: extensions/acf/includes/page-data-acf.php:21
+msgid "ACF Post Author Field"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:134
+#: extensions/acf/includes/page-data-acf.php:28
+msgid "ACF User Field"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:135
+#: extensions/acf/includes/page-data-acf.php:35
+msgid "ACF Option Field"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:136
+#: extensions/acf/classes/class-fl-page-data-acf.php:16
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:137
+msgid "Customer Products Purchased"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:138
+msgid "Customer First Ordered"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:139
+msgid "Customer Last Ordered"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:140
+msgid "Customer Total Orders"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:141
+msgid "Customer Total Products"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:142
+msgid "Customer Total Spent"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:143
+msgid "Customer Billing Address"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:144
+msgid "Customer Shipping Address"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:145
+msgid "Cart"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:146
+msgid "Cart Products"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:147
+msgid "Cart Total"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:148
+#: extensions/woocommerce/classes/class-fl-page-data-woocommerce.php:16
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:313
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:385
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:18
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:18
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:18
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:18
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:18
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:18
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:18
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:18
+#: extensions/woocommerce/modules/fl-woo-product-tabs/fl-woo-product-tabs.php:18
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:18
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:18
+#: extensions/woocommerce/modules/fl-woo-products/fl-woo-products.php:13
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:18
+msgid "WooCommerce"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:149
+msgid "User Search History"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:150
+msgid "User Last Visited"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:151
+msgid "User Total Visits"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:152
+msgid "Behavior"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:153
+msgid "Cookie"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:154
+msgid "Referer"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:155
+msgid "URL Variable"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:156
+msgid "Browser"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:157
+msgid "Country"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:158
+msgid "State"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:159
+msgid "Geolocation"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:160
+#: classes/class-fl-theme-builder-logic-i18n.php:183
+msgid "Date and Time"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:161
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:204
+#: modules/fl-post-info/fl-post-info.php:83
+#: modules/fl-post-info/fl-post-info.php:87
+#: modules/fl-post-info/fl-post-info.php:311
+msgid "Date"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:162
+msgid "Month"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:163
+msgid "January"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:164
+msgid "February"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:165
+msgid "March"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:166
+msgid "April"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:167
+msgid "May"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:168
+msgid "June"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:169
+msgid "July"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:170
+msgid "August"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:171
+msgid "September"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:172
+msgid "October"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:173
+msgid "November"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:174
+msgid "December"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:175
+msgid "Day"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:176
+msgid "Sunday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:177
+msgid "Monday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:178
+msgid "Tuesday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:179
+msgid "Wednesday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:180
+msgid "Thursday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:181
+msgid "Friday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:182
+msgid "Saturday"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:185
+#: classes/class-fl-theme-builder-logic-i18n.php:191
+msgid "Add Rule Group"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:186
+msgid "or"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:187
+msgid "Add Rule"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:189
+msgid "Save"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:190
+#: extensions/bb-logic/editors/beaver-builder/classes/class-bb-logic-editor-beaver-builder.php:122
+msgid "Conditional Logic Settings"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:192
+msgid "Rules"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:193
+msgid "Conditional Tag"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:195
+msgid "Home"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:196
+msgid "Front Page"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:197
+msgid "Taxonomy Archive"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:198
+#: classes/class-fl-theme-builder-rules-location.php:814
+#: classes/class-fl-theme-builder-rules-location.php:1353
+msgid "Search Results"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:199
+msgid "WordPress Conditionals"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:200
+msgid "Additional rules to determine if this layout should be displayed."
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:201
+msgid "Open"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:202
+msgid "Closed"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:203
+msgid "Shortcode Result"
+msgstr ""
+
+#: classes/class-fl-theme-builder-logic-i18n.php:204
+msgid "[shortcode]"
+msgstr ""
+
+#: classes/class-fl-theme-builder-post-modules.php:55
+msgid "Post Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-post-modules.php:58
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:349
+#: includes/layout-admin-edit-settings.php:73
+#: includes/layout-admin-edit-settings.php:120 includes/page-data-post.php:165
+#: includes/page-data-post.php:194 includes/page-data-post.php:250
+#: modules/fl-post-info/fl-post-info.php:99
+#: modules/fl-post-info/fl-post-info.php:134
+msgid "Default"
+msgstr ""
+
+#: classes/class-fl-theme-builder-post-modules.php:59
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:59
+#: includes/page-data-post.php:114
+msgid "Custom"
+msgstr ""
+
+#: classes/class-fl-theme-builder-post-modules.php:70
+#: classes/class-fl-theme-builder-post-modules.php:77
+msgid "Custom Post Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-post-modules.php:80
+msgid "HTML"
+msgstr ""
+
+#: classes/class-fl-theme-builder-post-modules.php:101
+msgid "CSS"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:164
+msgid "Must be called on or after the wp action."
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:789
+msgid "Entire Site"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:794
+msgid "All Singular"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:799
+msgid "All Archives"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:804
+#: classes/class-fl-theme-builder-rules-location.php:1361
+#: extensions/bb-logic/rest/classes/class-bb-logic-rest-wordpress.php:272
+msgid "Author Archives"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:809
+#: extensions/bb-logic/rest/classes/class-bb-logic-rest-wordpress.php:276
+msgid "Date Archives"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:819
+msgid "404 Page"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:1301
+#: classes/class-fl-theme-builder-rules-location.php:1680
+msgid "None"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-user.php:171
+msgid "All Users"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-user.php:187
+msgid "Roles"
+msgstr ""
+
+#: classes/class-fl-theme-builder.php:30
+msgid "Admin"
+msgstr ""
+
+#: classes/class-fl-theme-builder.php:31
+msgid "Themer Layout Editing"
+msgstr ""
+
+#: classes/class-fl-theme-builder.php:32
+msgid "The selected roles will be able to edit Themer layouts."
+msgstr ""
+
+#: extensions/acf/classes/class-fl-page-data-acf.php:874
+msgid "Detected Fields"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-page-data-acf.php:876
+msgid "Choose ACF Field"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:38
+msgid "ACF Relationship"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:168
+#: extensions/acf/includes/page-data-acf.php:504
+msgid "Relationship"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:189
+#: includes/layout-admin-edit-settings.php:42
+#: modules/fl-post-info/fl-post-info.php:301
+msgid "Order"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:191
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:361
+msgid "Descending"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:192
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:360
+msgid "Ascending"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:199
+msgid "Order By"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:203
+msgid "Comment Count"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:205
+msgid "Date Last Modified"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:206
+#: includes/page-data-post.php:40
+msgid "ID"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:207
+msgid "Menu Order"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:208
+msgid "Meta Value (Alphabetical)"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:209
+msgid "Meta Value (Numeric)"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:210
+msgid "Random"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:211
+#: extensions/acf/includes/page-data-acf.php:118 includes/page-data-post.php:42
+#: includes/page-data-post.php:231
+msgid "Title"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:212
+msgid "Selection Order"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:227
+msgid "Meta Key"
+msgstr ""
+
+#: extensions/acf/classes/class-fl-theme-builder-acf.php:235
+msgid "By default all post types are included, If none of the options is selected."
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:44
+#: extensions/acf/includes/page-data-acf.php:245
+#: extensions/acf/includes/page-data-acf.php:325
+#: extensions/acf/includes/page-data-acf.php:498
+msgid "Field Type"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:47
+#: extensions/acf/includes/page-data-acf.php:173
+#: extensions/acf/includes/page-data-acf.php:248
+#: extensions/acf/includes/page-data-acf.php:328
+#: extensions/bigcommerce/settings/price/original.php:5
+msgid "Text"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:48
+msgid "Textarea"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:49
+msgid "Number"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:50
+msgid "Email"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:51
+#: extensions/acf/includes/page-data-acf.php:116
+#: extensions/acf/includes/page-data-acf.php:137
+#: extensions/acf/includes/page-data-acf.php:249
+#: extensions/acf/includes/page-data-acf.php:329 includes/page-data-post.php:41
+#: includes/page-data-post.php:230
+msgid "URL"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:52
+msgid "Password"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:53
+msgid "WYSIWYG"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:54
+msgid "oEmbed"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:55
+#: extensions/acf/includes/page-data-acf.php:250
+#: extensions/acf/includes/page-data-acf.php:330
+msgid "Image"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:56
+#: extensions/acf/includes/page-data-acf.php:251
+msgid "File"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:57
+#: extensions/acf/includes/page-data-acf.php:252
+#: extensions/acf/includes/page-data-acf.php:331
+msgid "Select"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:58
+msgid "Checkbox"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:59
+#: extensions/acf/includes/page-data-acf.php:253
+#: extensions/acf/includes/page-data-acf.php:332
+msgid "Radio"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:60
+msgid "Button Group"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:61
+#: extensions/acf/includes/page-data-acf.php:254
+#: extensions/acf/includes/page-data-acf.php:539
+#: includes/page-data-post.php:379 includes/page-data-post.php:441
+#: includes/page-data-post.php:510 includes/page-data-site.php:60
+#: includes/page-data-site.php:131
+msgid "Link"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:62
+#: extensions/acf/includes/page-data-acf.php:255
+#: extensions/acf/includes/page-data-acf.php:503
+msgid "Page Link"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:63
+msgid "Google Map"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:64
+msgid "Color Picker"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:65
+msgid "Date Picker"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:66
+msgid "Date Time Picker"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:67
+msgid "Time Picker"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:68
+msgid "True/False"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:99
+#: extensions/acf/includes/page-data-acf.php:265
+#: extensions/acf/includes/page-data-acf.php:342
+#: extensions/acf/includes/page-data-acf.php:462
+#: extensions/acf/includes/page-data-acf.php:521
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:366
+msgid "Field Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:103
+#: extensions/acf/includes/page-data-acf.php:155
+#: extensions/acf/includes/page-data-acf.php:170
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:30
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:61
+#: includes/page-data-site.php:237
+msgid "Format"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:104
+msgid "Use standard WordPress Date and Time Formatting characters."
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:108
+#: extensions/acf/includes/page-data-acf.php:269
+#: extensions/acf/includes/page-data-acf.php:351
+#: modules/fl-author-bio/fl-author-bio.php:35
+msgid "Image Size"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:113
+#: extensions/acf/includes/page-data-acf.php:134 includes/page-data-post.php:37
+#: includes/page-data-post.php:226 includes/page-data-post.php:335
+#: modules/fl-post-info/fl-post-info.php:230
+msgid "Display"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:117
+#: includes/page-data-post.php:229
+msgid "Image Tag"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:119
+#: includes/page-data-post.php:232
+msgid "Caption"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:120
+#: includes/page-data-post.php:233
+msgid "Description"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:121
+#: includes/page-data-post.php:234
+msgid "Alt Text"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:138
+#: includes/page-data-post.php:338 modules/fl-post-info/fl-post-info.php:233
+msgid "Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:139
+msgid "Base Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:140
+msgid "Extension"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:145
+#: includes/page-data-post.php:258 includes/page-data-post.php:356
+msgid "Linked"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:148
+#: extensions/acf/includes/page-data-acf.php:184
+#: extensions/acf/includes/page-data-acf.php:470
+#: extensions/acf/includes/page-data-acf.php:542
+#: extensions/acf/includes/page-data-acf.php:576
+#: extensions/acf/includes/page-data-acf.php:585
+#: extensions/acf/includes/page-data-acf.php:594
+#: extensions/acf/includes/page-data-acf.php:603
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:49
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:380
+#: extensions/woocommerce/includes/page-data-woocommerce.php:75
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:39
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:39
+#: includes/layout-admin-edit-settings.php:57
+#: includes/layout-admin-edit-settings.php:94
+#: includes/layout-admin-edit-settings.php:107 includes/page-data-post.php:261
+#: includes/page-data-post.php:359 includes/page-data-post.php:382
+#: includes/page-data-post.php:444 includes/page-data-post.php:513
+#: includes/page-data-site.php:63 includes/page-data-site.php:134
+#: modules/fl-post-info/fl-post-info.php:175
+msgid "Yes"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:149
+#: extensions/acf/includes/page-data-acf.php:183
+#: extensions/acf/includes/page-data-acf.php:469
+#: extensions/acf/includes/page-data-acf.php:543
+#: extensions/acf/includes/page-data-acf.php:577
+#: extensions/acf/includes/page-data-acf.php:586
+#: extensions/acf/includes/page-data-acf.php:595
+#: extensions/acf/includes/page-data-acf.php:604
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:50
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:379
+#: extensions/woocommerce/includes/page-data-woocommerce.php:76
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:40
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:40
+#: includes/layout-admin-edit-settings.php:58
+#: includes/layout-admin-edit-settings.php:95
+#: includes/layout-admin-edit-settings.php:108 includes/page-data-post.php:262
+#: includes/page-data-post.php:360 includes/page-data-post.php:383
+#: includes/page-data-post.php:445 includes/page-data-post.php:514
+#: includes/page-data-site.php:64 includes/page-data-site.php:135
+#: modules/fl-post-info/fl-post-info.php:176
+msgid "No"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:151
+#: includes/page-data-post.php:264
+msgid "Link the image to the post."
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:158
+msgid "Text Separator"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:159
+#: extensions/acf/includes/page-data-acf.php:174
+#: extensions/acf/includes/page-data-acf.php:567
+#: includes/page-data-post.php:323
+msgid "Ordered List"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:160
+#: extensions/acf/includes/page-data-acf.php:175
+#: extensions/acf/includes/page-data-acf.php:566
+#: includes/page-data-post.php:324
+msgid "Unordered List"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:165
+msgid "Checkbox Separator"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:180
+#: extensions/acf/includes/page-data-acf.php:466
+msgid "Add Hex Color Prefix"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:190
+msgid "Smart Slider 3"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:208
+msgid "ACF Archive Field - URL"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:215
+msgid "ACF Post Field - URL"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:222
+msgid "ACF Post Author Field - URL"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:229
+msgid "ACF User Field - URL"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:236
+msgid "ACF Option Field - URL"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:288
+msgid "ACF Archive Field - Photo"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:295
+msgid "ACF Post Field - Photo"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:302
+msgid "ACF Post Author Field - Photo"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:309
+msgid "ACF User Field - Photo"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:316
+msgid "ACF Option Field - Photo"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:346
+msgid "Fallback Image"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:370
+msgid "ACF Archive Field - Gallery"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:377
+msgid "ACF Post Field - Gallery"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:384
+msgid "ACF Post Author Field - Gallery"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:391
+msgid "ACF User Field - Gallery"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:398
+msgid "ACF Option Field - Gallery"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:407
+msgid "Gallery Field Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:425
+msgid "ACF Archive Field - Color"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:432
+msgid "ACF Post Field - Color"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:439
+msgid "ACF Post Author Field - Color"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:446
+msgid "ACF User Field - Color"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:453
+msgid "ACF Option Field - Color"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:489
+msgid "ACF Relational"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:502
+msgid "Post Object"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:505
+#: includes/page-data-post.php:313 modules/fl-post-info/fl-post-info.php:224
+#: modules/fl-post-navigation/fl-post-navigation.php:85
+msgid "Taxonomy"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:525
+msgid "Display Type"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:528
+#: includes/page-data-post.php:430 includes/page-data-site.php:49
+msgid "Display Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:529
+#: includes/page-data-post.php:431 includes/page-data-site.php:50
+msgid "First Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:530
+#: includes/page-data-post.php:432 includes/page-data-site.php:51
+msgid "Last Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:531
+#: includes/page-data-post.php:433 includes/page-data-site.php:52
+msgid "First &amp; Last Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:532
+#: includes/page-data-post.php:434 includes/page-data-site.php:53
+msgid "Last, First Name"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:533
+#: includes/page-data-post.php:435 includes/page-data-site.php:54
+msgid "Nickname"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:550
+#: includes/page-data-post.php:452 includes/page-data-post.php:521
+msgid "Link to the archive or website for this author."
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:554
+#: includes/page-data-post.php:456 includes/page-data-post.php:525
+#: includes/page-data-site.php:75 includes/page-data-site.php:146
+msgid "Link Type"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:557
+#: includes/page-data-post.php:459 includes/page-data-post.php:491
+#: includes/page-data-post.php:528 includes/page-data-site.php:78
+#: includes/page-data-site.php:112 includes/page-data-site.php:149
+msgid "Post Archive"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:558
+#: includes/page-data-post.php:460 includes/page-data-post.php:492
+#: includes/page-data-post.php:529 includes/page-data-site.php:79
+#: includes/page-data-site.php:113 includes/page-data-site.php:150
+msgid "Website"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:563
+msgid "List Type"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:568
+msgid "Regular (No bullets/numbering.)"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:573
+msgid "Add Post Title Link"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:582
+msgid "Add Term Archive Link"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:591
+msgid "Show Post Counts"
+msgstr ""
+
+#: extensions/acf/includes/page-data-acf.php:600
+msgid "Hide Term if No Posts"
+msgstr ""
+
+#: extensions/bb-logic/core/classes/class-bb-logic-plugin-loader.php:194
+#. translators: %s: url
+msgid ""
+"Beaver Logic requires PHP 5.4 or above. Please <a href=\"%s\">update your "
+"PHP version</a> before continuing."
+msgstr ""
+
+#: extensions/bb-logic/editors/beaver-builder/classes/class-bb-logic-editor-beaver-builder.php:112
+msgid "Conditional Logic"
+msgstr ""
+
+#: extensions/bb-logic/editors/beaver-builder/includes/ui-field-logic.php:2
+msgid "Open Conditional Logic Settings"
+msgstr ""
+
+#: extensions/bb-logic/rest/classes/class-bb-logic-rest-wordpress.php:280
+msgid "Search Archives"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-page-data-bigcommerce.php:29
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:322
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:9
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:18
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:18
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:16
+#: extensions/bigcommerce/modules/fl-bc-product-rating/fl-bc-product-rating.php:18
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:17
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:18
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:16
+#: extensions/bigcommerce/modules/fl-bc-products-grid/fl-bc-products-grid.php:12
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:16
+msgid "BigCommerce"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-page-data-bigcommerce.php:192
+msgid "Choose Options"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:247
+msgid "Product Ratings"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:250
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:21
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:29
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:29
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:27
+#: extensions/bigcommerce/modules/fl-bc-product-rating/fl-bc-product-rating.php:29
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:28
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:29
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:27
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:27
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:29
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:29
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:29
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:29
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:29
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:29
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:29
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:48
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:29
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:29
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:29
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:29
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:29
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:29
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:29
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:29
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:29
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:29
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:48
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:48
+#: modules/fl-author-bio/fl-author-bio.php:28
+#: modules/fl-post-info/fl-post-info.php:248
+#: modules/fl-post-navigation/fl-post-navigation.php:109
+msgid "Style"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:259
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:419
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:423
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:13
+#: extensions/edd/includes/page-data-edd.php:23
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:15
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:344
+#: extensions/woocommerce/includes/page-data-woocommerce.php:34
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:15
+msgid "Product Price"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:265
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:50
+msgid "Original Price"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:269
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:55
+msgid "Sale Price"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:280
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:6
+msgid "Add To Cart Form"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:283
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:157
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:353
+msgid "Cart Button"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:292
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:42
+msgid "Product Options Form"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:300
+msgid "Product Options"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:303
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:338
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:361
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:399
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:426
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:451
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:74
+#: extensions/bigcommerce/settings/refinery.php:9
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:151
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:313
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:322
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:331
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:340
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:320
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:329
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:338
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:347
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:356
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:365
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:52
+#: modules/fl-post-info/fl-post-info.php:90
+#: modules/fl-post-info/fl-post-info.php:125
+#: modules/fl-post-info/fl-post-info.php:161
+#: modules/fl-post-info/fl-post-info.php:189
+#: modules/fl-post-info/fl-post-info.php:218
+msgid "Show"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:304
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:339
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:362
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:400
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:427
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:452
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:75
+#: extensions/bigcommerce/settings/refinery.php:10
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:152
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:162
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:314
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:323
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:332
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:341
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:321
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:330
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:339
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:348
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:357
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:366
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:53
+#: modules/fl-post-info/fl-post-info.php:91
+#: modules/fl-post-info/fl-post-info.php:126
+#: modules/fl-post-info/fl-post-info.php:162
+#: modules/fl-post-info/fl-post-info.php:190
+#: modules/fl-post-info/fl-post-info.php:219
+msgid "Hide"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:325
+msgid "Refinery"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:329
+msgid "Sale Display"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:334
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:326
+#: extensions/woocommerce/includes/page-data-woocommerce.php:139
+msgid "Product Sale"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:335
+msgid "Show a \"SALE\" badge when a product is marked as on sale."
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:354
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:59
+msgid "Product Brand"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:358
+msgid "Show Product Brand?"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:372
+msgid "Brand Text"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:381
+msgid "Brand Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:392
+#: extensions/bigcommerce/modules/fl-bc-product-rating/fl-bc-product-rating.php:15
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:335
+#: extensions/woocommerce/includes/page-data-woocommerce.php:24
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:15
+msgid "Product Rating"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:396
+msgid "Show Product Rating"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:413
+msgid "Product Ratings Style"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:437
+msgid "Product Price Styles"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:444
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:448
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:94
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:37
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:102
+msgid "Add To Cart Button"
+msgstr ""
+
+#: extensions/bigcommerce/classes/class-fl-theme-builder-bigcommerce-archive.php:464
+msgid "Cart Form"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:13
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:13
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:78
+#: extensions/edd/includes/page-data-edd.php:13
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:15
+#: extensions/woocommerce/includes/page-data-woocommerce.php:14
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:15
+msgid "Product Title"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:24
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:15
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:15
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:15
+msgid "Product Description"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:35
+msgid "Product Pricing"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:42
+msgid "Product Price - Original Price"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:49
+msgid "Product Price - Sale Price"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:69
+msgid "Product Rating - Stars HTML"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:76
+msgid "Product Rating - Stars"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:83
+msgid "Product Rating - Percentage"
+msgstr ""
+
+#: extensions/bigcommerce/includes/page-data-bigcommerce.php:104
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:15
+#: extensions/woocommerce/includes/page-data-woocommerce.php:128
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:15
+msgid "Product Images"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:7
+msgid ""
+"Displays the quantity input and \"Add To Cart\" button for the current "
+"product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:8
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:17
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:17
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:15
+#: extensions/bigcommerce/modules/fl-bc-product-rating/fl-bc-product-rating.php:17
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:16
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:17
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:15
+#: extensions/bigcommerce/modules/fl-bc-products-grid/fl-bc-products-grid.php:11
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:15
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:17
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:17
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:17
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:17
+#: extensions/edd/modules/fl-edd-products/fl-edd-products.php:12
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-back-link/fl-the-events-calendar-link.php:12
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-cost/fl-the-events-calendar-cost.php:12
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-date-and-time/fl-the-events-calendar-date-and-time.php:12
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-description/fl-the-events-calendar-description.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-details/fl-the-events-calendar-details.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-organizer/fl-the-events-calendar-organizer.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-posts/fl-the-events-calendar-posts.php:12
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-related/fl-the-events-calendar-related.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-title/fl-the-events-calendar-title.php:12
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-venue/fl-the-events-calendar-venue.php:17
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-website/fl-the-events-calendar-website.php:11
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:17
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:17
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:17
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:17
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:17
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:17
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:17
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:17
+#: extensions/woocommerce/modules/fl-woo-product-tabs/fl-woo-product-tabs.php:17
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:17
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:17
+#: extensions/woocommerce/modules/fl-woo-products/fl-woo-products.php:12
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:17
+#: modules/fl-archive-description/fl-archive-description.php:16
+#: modules/fl-archive-title/fl-archive-title.php:12
+#: modules/fl-attached-images/fl-attached-images.php:12
+#: modules/fl-author-bio/fl-author-bio.php:16
+#: modules/fl-comments/fl-comments.php:16
+#: modules/fl-featured-image/fl-featured-image.php:12
+#: modules/fl-post-columns/fl-post-columns.php:12
+#: modules/fl-post-content/fl-post-content.php:16
+#: modules/fl-post-gallery/fl-post-gallery.php:12
+#: modules/fl-post-info/fl-post-info.php:15
+#: modules/fl-post-list/fl-post-list.php:12
+#: modules/fl-post-masonry/fl-post-masonry.php:12
+#: modules/fl-post-navigation/fl-post-navigation.php:16
+#: modules/fl-post-title/fl-post-title.php:12
+msgid "Themer Modules"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:24
+msgid "Cart Form Alignment"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:38
+msgid "Display Add to Cart button"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-cart-form/fl-bc-cart-form.php:43
+msgid "Display product options and variations for checkout"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:16
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:16
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:16
+msgid "Displays the description for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:36
+msgid "Description Text"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-description/fl-bc-product-description.php:45
+msgid "Description Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:16
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:16
+msgid "Displays a gallery of images for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:32
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:74
+msgid "Sale Badge"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-images/fl-bc-product-images.php:33
+msgid "Display \"On Sale\" badge above product image"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:14
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:16
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:16
+msgid "Displays the price for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:34
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:36
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:34
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:36
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:36
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:36
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:36
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:36
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:36
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:36
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:36
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:36
+#: includes/page-data-post.php:247
+msgid "Alignment"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:37
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:37
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:39
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:39
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:39
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:39
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:39
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:39
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:39
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:39
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:39
+#: includes/page-data-post.php:251
+msgid "Left"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:38
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:38
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:40
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:40
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:40
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:40
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:40
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:40
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:40
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:40
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:40
+#: includes/page-data-post.php:252
+msgid "Center"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:39
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:39
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:41
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:41
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:41
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:41
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:41
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:41
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:41
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:41
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:41
+#: includes/page-data-post.php:253
+msgid "Right"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-price/fl-bc-product-price.php:51
+msgid "Product base price before discounts"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-rating/fl-bc-product-rating.php:16
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:16
+msgid "Displays the star rating for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-rating/fl-bc-product-rating.php:30
+msgid "Customize how product ratings are displayed"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:14
+msgid "Product Reviews"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:15
+msgid "Displays customer reviews."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:31
+msgid "Reviews Title"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:35
+msgid "Product Reviews Title"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:36
+msgid "Title text for product reviews module"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:46
+msgid "Product Reviews Title Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:63
+msgid "Review Form"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:66
+msgid "Preview Options"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:70
+msgid "Show \"Write A Review\" form in preview"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:71
+msgid ""
+"Toggle display of \"Write a Review\" form.  Note this only applies to "
+"preview mode"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:85
+msgid "Form Title"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:89
+msgid "Review Form Title"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:99
+msgid "Review Form Title Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:110
+msgid "Submit Button"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:114
+msgid "Button Background Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:124
+msgid "Submit Button Text"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:134
+#: extensions/bigcommerce/settings/cart/button.php:14
+msgid "Button Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-reviews/fl-bc-product-reviews.php:144
+msgid "Submit Button Border"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:15
+msgid "Product Specs"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:16
+msgid "Displays the specifications for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:46
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:50
+msgid "Section Title"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:50
+msgid "Section Title Text"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:58
+msgid "Section Title Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:69
+msgid "Product Specs List"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:73
+#: extensions/bigcommerce/modules/fl-bc-product-specs/fl-bc-product-specs.php:81
+msgid "List Item Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:14
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:16
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:16
+msgid "Displays the title for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:34
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:54
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:82
+msgid "Title Text"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-product-title/fl-bc-product-title.php:42
+msgid "Title Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-products-grid/fl-bc-products-grid.php:9
+#: extensions/edd/modules/fl-edd-products/fl-edd-products.php:10
+#: extensions/woocommerce/modules/fl-woo-products/fl-woo-products.php:10
+msgid "Products"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-products-grid/fl-bc-products-grid.php:10
+#: extensions/edd/modules/fl-edd-products/fl-edd-products.php:11
+#: extensions/woocommerce/modules/fl-woo-products/fl-woo-products.php:11
+msgid "Displays a grid of products for the current archive."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:13
+#: extensions/woocommerce/includes/page-data-woocommerce.php:169
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:15
+msgid "Related Products"
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:14
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:16
+msgid "Displays related products for the current product."
+msgstr ""
+
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:63
+#: extensions/bigcommerce/modules/fl-bc-related-products/fl-bc-related-products.php:91
+msgid "Title Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/cart/button.php:5
+msgid "Button Text"
+msgstr ""
+
+#: extensions/bigcommerce/settings/cart/button.php:26
+#: extensions/bigcommerce/settings/sale-badge.php:5
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:192
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:36
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:385
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:42
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:61
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:61
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:46
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:36
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:442
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:63
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:42
+#: modules/fl-author-bio/fl-author-bio.php:43
+msgid "Background Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/cart/button.php:38
+msgid "Button Border"
+msgstr ""
+
+#: extensions/bigcommerce/settings/cart/form.php:5
+msgid "Cart Form Label Text"
+msgstr ""
+
+#: extensions/bigcommerce/settings/cart/form.php:6
+msgid "Labels for Cart Form, i.e. \"Quantity\""
+msgstr ""
+
+#: extensions/bigcommerce/settings/cart/form.php:15
+msgid "Cart Form Label Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/price/original.php:6
+msgid "Customize text for product base price"
+msgstr ""
+
+#: extensions/bigcommerce/settings/price/original.php:15
+#: extensions/bigcommerce/settings/price/sale.php:15
+#: extensions/bigcommerce/settings/sale-badge.php:16
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:198
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:41
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:64
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:76
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:391
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:53
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:51
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:36
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:46
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:451
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:74
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:36
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:36
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:64
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:64
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:76
+#: modules/fl-author-bio/fl-author-bio.php:49
+#: modules/fl-post-navigation/fl-post-navigation.php:128
+msgid "Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/price/original.php:16
+msgid "Customize text color for product base price"
+msgstr ""
+
+#: extensions/bigcommerce/settings/price/sale.php:5
+msgid "Sale Price Text"
+msgstr ""
+
+#: extensions/bigcommerce/settings/price/sale.php:6
+msgid "Customize text for product sale price"
+msgstr ""
+
+#: extensions/bigcommerce/settings/price/sale.php:16
+msgid "Customize text color for product sale price"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/reviews-link.php:3
+msgid "Reviews Link"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/reviews-link.php:7
+msgid "Link Style"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/reviews-link.php:16
+msgid "Link Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/reviews-link.php:27
+#: modules/fl-post-info/fl-post-info.php:280
+msgid "Link Hover Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/star-rating.php:3
+msgid "Star Rating"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/star-rating.php:7
+msgid "Star Rating Foreground Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/star-rating.php:8
+msgid "Controls the foreground color of the rating symbols"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/star-rating.php:18
+msgid "Star Rating Background Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/ratings/star-rating.php:19
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:81
+msgid "Controls the background color of the rating symbols."
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:5
+msgid "Product Search &amp; Filter"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:6
+msgid "Displays search, filter, and sort controls for products"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:24
+msgid "Search Button Background"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:25
+msgid "Customize text for Refinery search button"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:35
+msgid "Search Button Text Color"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:36
+msgid "Customize text color for Refinery search button"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:46
+msgid "Search Button Border"
+msgstr ""
+
+#: extensions/bigcommerce/settings/refinery.php:47
+msgid "Customize border for Refinery search button"
+msgstr ""
+
+#: extensions/bigcommerce/settings/sale-badge.php:6
+msgid "Customize background color for \"On Sale\" badge"
+msgstr ""
+
+#: extensions/bigcommerce/settings/sale-badge.php:17
+msgid "Customize text color for \"On Sale\" badge"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-page-data-edd.php:16
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:144
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:169
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:18
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:18
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:18
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:18
+#: extensions/edd/modules/fl-edd-products/fl-edd-products.php:13
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-page-data-edd.php:36
+msgid "Free"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:70
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:106
+msgid "Select Options"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:148
+msgid "Download Price"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:160
+msgid "Show Default"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:161
+msgid "Show Standard"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:173
+msgid "Download Price Text Color"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:178
+msgid "Download Price Font Size"
+msgstr ""
+
+#: extensions/edd/classes/class-fl-theme-builder-edd-archive.php:188
+msgid "Easy Digital Downloads Cart Button"
+msgstr ""
+
+#: extensions/edd/includes/page-data-edd.php:33
+msgid "Product Content"
+msgstr ""
+
+#: extensions/edd/includes/page-data-edd.php:43
+#: extensions/woocommerce/includes/page-data-woocommerce.php:44
+msgid "Product Short Description"
+msgstr ""
+
+#: extensions/edd/includes/page-data-edd.php:53
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:15
+#: extensions/woocommerce/includes/page-data-woocommerce.php:179
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:15
+msgid "Add to Cart Button"
+msgstr ""
+
+#: extensions/edd/modules/fl-edd-cart-button/fl-edd-cart-button.php:16
+msgid "Displays the cart button for the current download."
+msgstr ""
+
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:39
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:39
+msgid "Short Description"
+msgstr ""
+
+#: extensions/edd/modules/fl-edd-product-description/fl-edd-product-description.php:40
+#: extensions/woocommerce/modules/fl-woo-product-description/fl-woo-product-description.php:40
+msgid "Full Description"
+msgstr ""
+
+#: extensions/edd/modules/fl-edd-product-price/fl-edd-product-price.php:51
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:63
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:51
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:51
+#: extensions/woocommerce/modules/fl-woo-product-price/fl-woo-product-price.php:51
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:51
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:63
+msgid "Font Size"
+msgstr ""
+
+#: extensions/edd/modules/fl-edd-product-title/fl-edd-product-title.php:55
+#: extensions/woocommerce/modules/fl-woo-product-title/fl-woo-product-title.php:55
+msgid "Font"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-page-data-the-events-calendar.php:16
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:306
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-back-link/fl-the-events-calendar-link.php:13
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-cost/fl-the-events-calendar-cost.php:13
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-date-and-time/fl-the-events-calendar-date-and-time.php:13
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-description/fl-the-events-calendar-description.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-details/fl-the-events-calendar-details.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-organizer/fl-the-events-calendar-organizer.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-posts/fl-the-events-calendar-posts.php:13
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-related/fl-the-events-calendar-related.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-title/fl-the-events-calendar-title.php:13
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-venue/fl-the-events-calendar-venue.php:18
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-website/fl-the-events-calendar-website.php:12
+msgid "The Events Calendar"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-page-data-the-events-calendar.php:147
+msgid "&laquo; All Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:310
+msgid "Event Date"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:319
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:215
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-venue/fl-the-events-calendar-venue.php:15
+msgid "Event Venue"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:328
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:155
+msgid "Event Address"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:337
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:83
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-cost/fl-the-events-calendar-cost.php:10
+msgid "Event Cost"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:346
+msgid "Events Order By"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:350
+msgid "Start Date"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:351
+msgid "End Date"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:353
+msgid "Selecting \"Default\" will use the default sorting under Content tab."
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:357
+msgid "Events Order"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:366
+msgid "Show Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:369
+msgid "Future Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:370
+msgid "Past Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:371
+msgid "Todays Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:372
+msgid "All Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:373
+msgid "Featured Events"
+msgstr ""
+
+#: extensions/the-events-calendar/classes/class-fl-theme-builder-the-events-calendar-archive.php:381
+msgid "The Events Calendar Ticket Button"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:11
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-date-and-time/fl-the-events-calendar-date-and-time.php:10
+msgid "Event Date and Time"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:21
+msgid "Event Start Date"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:33
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:64
+#: includes/page-data-post.php:162 modules/fl-post-info/fl-post-info.php:96
+msgid "Date Format"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:42
+msgid "Event Start Time"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:52
+msgid "Event End Date"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:73
+msgid "Event End Time"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:92
+msgid "Show Currency"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:105
+msgid "Event Website URL"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:115
+msgid "Event Website Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:125
+msgid "Event Full Address"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:135
+msgid "Event Map URL"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:145
+msgid "Event Map Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:165
+msgid "Event City"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:175
+msgid "Event State"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:185
+msgid "Event Region"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:195
+msgid "Event Zip"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:205
+msgid "Event Phone"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:225
+msgid "Event Venue Content"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:235
+msgid "Event Venue URL"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:245
+msgid "Event Venue Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:255
+msgid "Event Venue Website URL"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:265
+msgid "Event Venue Website Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:275
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-organizer/fl-the-events-calendar-organizer.php:15
+msgid "Event Organizer"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:285
+msgid "Event Organizer Content"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:295
+msgid "Event Organizer URL"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:305
+msgid "Event Organizer Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:315
+msgid "Event Organizer Website URL"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:325
+msgid "Event Organizer Website Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:335
+msgid "Event Organizer Phone"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:345
+msgid "Event Organizer Email"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:357
+msgid "Event Field"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:375
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-back-link/fl-the-events-calendar-link.php:10
+msgid "Events Back Link"
+msgstr ""
+
+#: extensions/the-events-calendar/includes/page-data-the-events-calendar.php:385
+msgid "Events Back URL"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:15
+msgid "Event Calendar"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:16
+msgid "Displays the event calendar view for event archives."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:36
+msgid "Foreground Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:38
+msgid ""
+"Sets the color of text and borders for elements with an accent background "
+"color."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:44
+msgid ""
+"Sets the background color for elements that have a default accent "
+"background color such as the calendar heading."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-archive-view/fl-the-events-calendar-archive-view.php:49
+msgid "Error Notices"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-back-link/fl-the-events-calendar-link.php:11
+msgid "Displays the link to go back to the event archives."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-cost/fl-the-events-calendar-cost.php:11
+msgid "Displays the cost for an event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:15
+msgid "Event Countdown"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:16
+msgid "Displays a countdown timer for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-countdown/fl-the-events-calendar-countdown.php:46
+msgid "Show Seconds"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-date-and-time/fl-the-events-calendar-date-and-time.php:11
+msgid "Displays the date and time for an event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-description/fl-the-events-calendar-description.php:15
+msgid "Event Description"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-description/fl-the-events-calendar-description.php:16
+msgid "Displays the description for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-details/fl-the-events-calendar-details.php:15
+msgid "Event Details"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-details/fl-the-events-calendar-details.php:16
+msgid "Displays the details for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:15
+msgid "Event Export Links"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:16
+msgid "Displays links to export the current event to your calendar."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:71
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:469
+msgid "Hover Text Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:79
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:460
+msgid "Hover Background Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:88
+msgid "Padding"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-export-links/fl-the-events-calendar-export-links.php:101
+msgid "Border Radius"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:15
+msgid "Event Map"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:16
+msgid "Displays the map for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:55
+msgid "Height"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:58
+msgid "Auto"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-map/fl-the-events-calendar-map.php:70
+msgid "Custom Height"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:15
+msgid "Event Navigation"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:16
+msgid "Displays prev/next events for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:36
+#: modules/fl-post-navigation/fl-post-navigation.php:50
+msgid "Previous Link"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/fl-the-events-calendar-navigation.php:42
+#: modules/fl-post-navigation/fl-post-navigation.php:51
+msgid "Next Link"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-navigation/includes/frontend.php:7
+#. translators: %s: Event Label
+msgid "%s Navigation"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:15
+msgid "Event Notices"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/fl-the-events-calendar-notices.php:16
+msgid "Displays any notices for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/includes/frontend.php:7
+msgid "Event notices will appear here."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-notices/includes/frontend.php:18
+#. translators: %s: event label
+msgid "This %s has passed."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-organizer/fl-the-events-calendar-organizer.php:16
+msgid "Displays the organizer details for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-posts/fl-the-events-calendar-posts.php:10
+msgid "Event Posts"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-posts/fl-the-events-calendar-posts.php:11
+msgid "Displays a grid of events for the current archive."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-related/fl-the-events-calendar-related.php:15
+msgid "Event Related Events"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-related/fl-the-events-calendar-related.php:16
+msgid "Displays the related events for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:15
+msgid "Event Tickets"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:16
+msgid "Displays the ticket form and info for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:51
+msgid "Separator Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:62
+msgid "Button"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:66
+msgid "Active Button Background Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:71
+msgid "Active Button Text Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:76
+msgid "Disabled Button Background Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/fl-the-events-calendar-tickets.php:86
+msgid "Disabled Button Text Color"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-tickets/includes/frontend.php:16
+msgid "View tickets form"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-title/fl-the-events-calendar-title.php:10
+msgid "Event Title"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-title/fl-the-events-calendar-title.php:11
+msgid "Displays the title for an event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-venue/fl-the-events-calendar-venue.php:16
+msgid "Displays the venue details for the current event."
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-website/fl-the-events-calendar-website.php:9
+msgid "Event Website"
+msgstr ""
+
+#: extensions/the-events-calendar/modules/fl-the-events-calendar-website/fl-the-events-calendar-website.php:10
+msgid "Displays website for the event"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:35
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:37
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:111
+msgid "Page"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:37
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:39
+msgid "Page Open"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:38
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:40
+msgid "Page Close"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:42
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:38
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:44
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:46
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:49
+#: includes/layout-admin-add-fields.php:8
+msgid "Header"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:44
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:40
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:46
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:48
+msgid "Before Header"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:45
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:43
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:48
+msgid "After Header"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:49
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:47
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:52
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:77
+#: includes/layout-admin-add-fields.php:11 includes/page-data-post.php:43
+msgid "Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:51
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:50
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:54
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:79
+msgid "Before Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:52
+msgid "Content Open"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:53
+msgid "Content Close"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:54
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:51
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:55
+msgid "After Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:58
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:56
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:59
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:84
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:87
+#: includes/layout-admin-add-fields.php:9
+msgid "Footer"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:60
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:58
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:61
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:86
+msgid "Before Footer"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:61
+msgid "Before Footer Widgets"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:62
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:60
+msgid "After Footer Widgets"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:63
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:62
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:62
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:88
+msgid "After Footer"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:69
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:76
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:100
+msgid "Before Post"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:70
+msgid "Before Post Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:71
+msgid "Post Top Meta Open"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:72
+msgid "Post Top Meta Close"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:73
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:80
+msgid "After Post Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:74
+msgid "Post Bottom Meta Open"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:75
+msgid "Post Bottom Meta Close"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:76
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:80
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:104
+msgid "After Post"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:77
+msgid "Comments Open"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-bb-theme.php:78
+msgid "Comments Close"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:41
+msgid "Before Header Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:42
+msgid "After Header Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:49
+msgid "Before Main Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:52
+msgid "After Main Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:59
+msgid "Before Footer Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:61
+msgid "After Footer Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:66
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:66
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:92
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:94
+msgid "Sidebar"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:68
+msgid "Before Right Sidebar Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:69
+msgid "After Right Sidebar Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:70
+msgid "Before Left Sidebar Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:71
+msgid "After Left Sidebar Content"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:77
+msgid "Before Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:78
+msgid "After Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:79
+msgid "After Title Header"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-generatepress.php:119
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:122
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:162
+msgid "Full Width"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:47
+msgid "Header Right"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:68
+msgid "Before Sidebar"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:69
+msgid "After Sidebar"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:75
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:118
+msgid "Before Loop"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:77
+msgid "Post Header"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:79
+msgid "Post Footer"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-genesis.php:81
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:119
+msgid "After Loop"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:42
+msgid "Before Site"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:53
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:55
+msgid "Homepage"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:56
+msgid "Before Product Categories"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:57
+msgid "After Product Categories Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:58
+msgid "After Product Categories"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:59
+msgid "Before Recent Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:60
+msgid "After Recent Products Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:61
+msgid "After Recent Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:62
+msgid "Before Featured Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:63
+msgid "After Featured Products Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:64
+msgid "After Featured Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:65
+msgid "Before Popular Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:66
+msgid "After Popular Products Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:67
+msgid "After Popular Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:68
+msgid "Before On Sale Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:69
+msgid "After On Sale Products Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:70
+msgid "After On Sale Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:71
+msgid "Before Best Selling Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:72
+msgid "After Best Selling Products Title"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:73
+msgid "After Best Selling Products"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:80
+msgid "Content Top"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:101
+msgid "Post Top"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:103
+msgid "Post Bottom"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:108
+msgid "Pages"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:110
+msgid "Before Page"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:112
+msgid "After Page"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:120
+msgid "Post Content Before"
+msgstr ""
+
+#: extensions/themes/classes/class-fl-theme-builder-support-storefront.php:121
+msgid "Post Content After"
+msgstr ""
+
+#: extensions/white-label/classes/class-fl-theme-builder-white-label.php:33
+msgid "Beaver Builder"
+msgstr ""
+
+#: extensions/white-label/classes/class-fl-theme-builder-white-label.php:34
+msgid "Page Builder"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-page-data-woocommerce.php:100
+msgid "Woocommerce Product Description"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:317
+#: extensions/woocommerce/includes/page-data-woocommerce.php:234
+msgid "Product Ordering"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:362
+msgid "Show Hidden Products"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:375
+msgid "WooCommerce Classes"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:376
+msgid "Add woocommerce and woocommerce-page classes to module wrapper."
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:389
+msgid "Product Sale Background"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:397
+msgid "Product Sale Text Color"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:405
+msgid "Product Rating Foreground"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:410
+msgid "Product Rating Background"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:415
+msgid "Product Rating Font Size"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:423
+msgid "Product Price Text Color"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:428
+msgid "Product Price Font Size"
+msgstr ""
+
+#: extensions/woocommerce/classes/class-fl-theme-builder-woocommerce-archive.php:438
+msgid "WooCommerce Cart Button"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:54
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:15
+msgid "Product Meta"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:63
+msgid "Product Weight"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:72
+msgid "Show Prefix"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:86
+#: extensions/woocommerce/includes/page-data-woocommerce.php:104
+msgid "Prefix Text"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:87
+msgid "Weight:"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:95
+msgid "Product SKU"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:107
+msgid "False"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:108
+msgid "True"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:118
+#: modules/fl-post-info/fl-post-info.php:112
+#: modules/fl-post-info/fl-post-info.php:148
+msgid "Prefix"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:119
+msgid "SKU:"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:149
+#: extensions/woocommerce/modules/fl-woo-product-tabs/fl-woo-product-tabs.php:15
+msgid "Product Tabs"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:159
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:15
+msgid "Product Upsells"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:189
+msgid "Store Breadcrumbs"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:206
+msgid "Category Image"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:215
+#: includes/page-data-post.php:54 includes/page-data-post.php:221
+#: includes/page-data-post.php:281 includes/page-data-post.php:534
+#: includes/page-data-post.php:555 includes/page-data-site.php:155
+#: includes/page-data-site.php:176
+msgid "Size"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:224
+msgid "Product Result Count"
+msgstr ""
+
+#: extensions/woocommerce/includes/page-data-woocommerce.php:244
+msgid "Product Gallery Images"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:15
+msgid "Breadcrumb"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:16
+msgid "Displays the WooCommerce breadcrumb for the current page."
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-breadcrumb/fl-woo-breadcrumb.php:64
+#: modules/fl-post-info/fl-post-info.php:272
+msgid "Link Color"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:16
+msgid "Displays the cart button for the current product."
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:47
+msgid "Text Hover Color"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-cart-button/fl-woo-cart-button.php:71
+msgid "Background Hover Color"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:15
+msgid "Woo Notices"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-notices/fl-woo-notices.php:16
+msgid "Displays the WooCommerce Notices."
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-notices/includes/frontend.php:4
+msgid "WooCommerce Notices"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:49
+msgid "Sale Flash"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-images/fl-woo-product-images.php:58
+msgid "Thumbnail Size"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-meta/fl-woo-product-meta.php:16
+msgid "Displays the meta info for the current product."
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:64
+msgid "Rating Foreground Color"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-rating/fl-woo-product-rating.php:74
+msgid "Rating Background Color"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-tabs/fl-woo-product-tabs.php:16
+msgid "Displays the data tabs for the current product."
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:16
+msgid "Displays upsells for the current product."
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:36
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:36
+msgid "Show Add To Cart Button(s)"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:55
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:55
+msgid "Heading Text Color"
+msgstr ""
+
+#: extensions/woocommerce/modules/fl-woo-product-upsells/fl-woo-product-upsells.php:65
+#: extensions/woocommerce/modules/fl-woo-related-products/fl-woo-related-products.php:65
+msgid "Heading Background Color"
+msgstr ""
+
+#: includes/admin-customize-js-templates.php:3
+msgid "Note:"
+msgstr ""
+
+#: includes/admin-customize-js-templates.php:5
+msgid ""
+"The header and footer for this page were created with a Themer layout. Some "
+"of these settings may not apply."
+msgstr ""
+
+#: includes/admin-customize-js-templates.php:7
+msgid ""
+"The header for this page was created with a Themer layout. Some of these "
+"settings may not apply."
+msgstr ""
+
+#: includes/admin-customize-js-templates.php:9
+msgid ""
+"The footer for this page was created with a Themer layout. Some of these "
+"settings may not apply."
+msgstr ""
+
+#: includes/admin-edit-location-rules.php:6
+#. translators: %s: singular_name
+msgid "Add locations for where this %s should appear."
+msgstr ""
+
+#: includes/admin-edit-location-rules.php:11
+msgid "Add Location Rule"
+msgstr ""
+
+#: includes/admin-edit-location-rules.php:14
+#: includes/admin-edit-location-rules.php:27
+msgid "Add Exclusion Rule"
+msgstr ""
+
+#: includes/admin-edit-location-rules.php:20
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin-edit-location-rules.php:22
+#. translators: %s: singular_name
+msgid "This %s will not appear at these locations."
+msgstr ""
+
+#: includes/admin-edit-user-rules.php:6
+#. translators: %s: singular_name
+msgid ""
+"Choose which users should be able to view this %1$s. If none are selected, "
+"all users will see this %1$s."
+msgstr ""
+
+#: includes/admin-edit-user-rules.php:11
+msgid "Add User Rule"
+msgstr ""
+
+#: includes/field-connection-js-templates.php:14
+msgid "Connect"
+msgstr ""
+
+#: includes/field-connection-js-templates.php:16
+msgid "Insert"
+msgstr ""
+
+#: includes/frontend-edit-preview-locations.php:6
+msgid "Preview As"
+msgstr ""
+
+#: includes/layout-admin-add-fields.php:3 includes/page-data-post.php:319
+msgid "Layout"
+msgstr ""
+
+#: includes/layout-admin-add-fields.php:7
+msgid "Structure"
+msgstr ""
+
+#: includes/layout-admin-add-fields.php:8
+#: includes/layout-admin-add-fields.php:9
+#: includes/layout-admin-add-fields.php:15
+msgid "(Unsupported)"
+msgstr ""
+
+#: includes/layout-admin-add-fields.php:13
+msgid "Singular"
+msgstr ""
+
+#: includes/layout-admin-add-fields.php:15
+msgid "Part"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:23
+msgid "Position"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:24
+msgid "The position on the page where this layout should appear."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:43
+msgid "The order of this Themer layout when others are present."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:52
+msgid "Sticky"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:53
+msgid "Stick this header to the top of the window as the page is scrolled."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:65
+msgid "Sticky Breakpoint"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:66
+msgid "The screen size at which the sticky header gets applied."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:74
+msgid "All screen sizes"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:75
+msgid "Extra Large Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:76
+msgid "Extra Large &amp; Large Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:77
+msgid "Extra Large, Large &amp; Medium Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:78
+msgid "Large Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:79
+msgid "Large &amp; Medium Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:80
+msgid "Medium Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:81
+msgid "Medium &amp; Small Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:82
+msgid "Small Devices Only"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:89
+msgid "Shrink"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:90
+msgid "Shrink this header when the page is scrolled."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:102
+msgid "Overlay"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:103
+msgid ""
+"Overlay this header on top of the page content with a transparent "
+"background."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:115
+msgid "Background"
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:116
+msgid ""
+"Use either the default background color or a transparent background color "
+"until the page is scrolled."
+msgstr ""
+
+#: includes/layout-admin-edit-settings.php:121
+msgid "Transparent"
+msgstr ""
+
+#: includes/page-data-archive.php:27
+msgid "Archive Count (Showing 1-5 of 25.)"
+msgstr ""
+
+#: includes/page-data-archive.php:34
+msgid "Archive Page Count (Page 1 of 3.)"
+msgstr ""
+
+#: includes/page-data-post.php:18
+msgid "Post ID"
+msgstr ""
+
+#: includes/page-data-post.php:44
+#: modules/fl-featured-image/fl-featured-image.php:10
+msgid "Featured Image"
+msgstr ""
+
+#: includes/page-data-post.php:73
+msgid "Length"
+msgstr ""
+
+#: includes/page-data-post.php:76
+msgid "Words"
+msgstr ""
+
+#: includes/page-data-post.php:81
+msgid "More Text"
+msgstr ""
+
+#: includes/page-data-post.php:101
+msgid "Post Link"
+msgstr ""
+
+#: includes/page-data-post.php:110
+msgid "Link Text"
+msgstr ""
+
+#: includes/page-data-post.php:124
+msgid "Custom Text"
+msgstr ""
+
+#: includes/page-data-post.php:125
+msgid "Read More..."
+msgstr ""
+
+#: includes/page-data-post.php:133
+msgid "Post URL"
+msgstr ""
+
+#: includes/page-data-post.php:143
+msgid "Post Slug"
+msgstr ""
+
+#: includes/page-data-post.php:153
+msgid "Post Date"
+msgstr ""
+
+#: includes/page-data-post.php:182
+msgid "Post Modified Date"
+msgstr ""
+
+#: includes/page-data-post.php:191 modules/fl-post-info/fl-post-info.php:131
+msgid "Modified Date Format"
+msgstr ""
+
+#: includes/page-data-post.php:203 modules/fl-post-info/fl-post-info.php:143
+msgid "3 days ago"
+msgstr ""
+
+#: includes/page-data-post.php:286 includes/page-data-post.php:563
+#: includes/page-data-site.php:184
+msgid "Default Image"
+msgstr ""
+
+#: includes/page-data-post.php:294
+msgid "Post Attached Images"
+msgstr ""
+
+#: includes/page-data-post.php:304
+msgid "Post Terms List"
+msgstr ""
+
+#: includes/page-data-post.php:322
+msgid "Use Separator"
+msgstr ""
+
+#: includes/page-data-post.php:325
+msgid "Div / Spans"
+msgstr ""
+
+#: includes/page-data-post.php:339 modules/fl-post-info/fl-post-info.php:234
+msgid "Slug"
+msgstr ""
+
+#: includes/page-data-post.php:344 modules/fl-post-info/fl-post-info.php:239
+#: modules/fl-post-info/fl-post-info.php:288
+msgid "Separator"
+msgstr ""
+
+#: includes/page-data-post.php:345 modules/fl-post-info/fl-post-info.php:240
+msgid ", "
+msgstr ""
+
+#: includes/page-data-post.php:350
+msgid "Limit"
+msgstr ""
+
+#: includes/page-data-post.php:352
+msgid "Limit number of terms returned."
+msgstr ""
+
+#: includes/page-data-post.php:362
+msgid "Link terms to their archive page."
+msgstr ""
+
+#: includes/page-data-post.php:370
+msgid "Comments Number"
+msgstr ""
+
+#: includes/page-data-post.php:385
+msgid "Link the comments text to the comments section for this post."
+msgstr ""
+
+#: includes/page-data-post.php:389 modules/fl-post-info/fl-post-info.php:195
+msgid "No Comments Text"
+msgstr ""
+
+#: includes/page-data-post.php:390 modules/fl-post-info/fl-post-info.php:196
+msgid "No Comments"
+msgstr ""
+
+#: includes/page-data-post.php:394 modules/fl-post-info/fl-post-info.php:200
+msgid "One Comment Text"
+msgstr ""
+
+#: includes/page-data-post.php:395 modules/fl-post-info/fl-post-info.php:201
+msgid "1 Comment"
+msgstr ""
+
+#: includes/page-data-post.php:399 modules/fl-post-info/fl-post-info.php:205
+msgid "Comments Text"
+msgstr ""
+
+#: includes/page-data-post.php:400 modules/fl-post-info/fl-post-info.php:206
+msgid "% Comments"
+msgstr ""
+
+#: includes/page-data-post.php:408
+msgid "Comments URL"
+msgstr ""
+
+#: includes/page-data-post.php:418
+msgid "Author Name"
+msgstr ""
+
+#: includes/page-data-post.php:479
+msgid "Author URL"
+msgstr ""
+
+#: includes/page-data-post.php:501
+msgid "Author Picture"
+msgstr ""
+
+#: includes/page-data-post.php:546
+msgid "Author Picture URL"
+msgstr ""
+
+#: includes/page-data-site.php:7
+msgid "Site Title"
+msgstr ""
+
+#: includes/page-data-site.php:17
+msgid "Site Tagline"
+msgstr ""
+
+#: includes/page-data-site.php:27
+msgid "Site URL"
+msgstr ""
+
+#: includes/page-data-site.php:37
+msgid "User Name"
+msgstr ""
+
+#: includes/page-data-site.php:71 includes/page-data-site.php:142
+msgid "Link to the archive or website for this user."
+msgstr ""
+
+#: includes/page-data-site.php:100
+msgid "User URL"
+msgstr ""
+
+#: includes/page-data-site.php:122
+msgid "User Picture"
+msgstr ""
+
+#: includes/page-data-site.php:167
+msgid "User Picture URL"
+msgstr ""
+
+#: includes/page-data-site.php:210
+msgid "User Logged In"
+msgstr ""
+
+#: includes/page-data-site.php:219
+msgid "Role/Roles"
+msgstr ""
+
+#: includes/page-data-site.php:220
+msgid ""
+"Comma separated list of WordPress roles, lowercase. This connection returns "
+"true or false, best used as a conditional shortcode."
+msgstr ""
+
+#: includes/page-data-site.php:229
+msgid "Current Year"
+msgstr ""
+
+#: modules/fl-archive-description/fl-archive-description.php:15
+msgid "Displays the description for the current archive."
+msgstr ""
+
+#: modules/fl-archive-title/fl-archive-title.php:11
+msgid "Displays the title for the current archive."
+msgstr ""
+
+#: modules/fl-attached-images/fl-attached-images.php:10
+msgid "Attached Images"
+msgstr ""
+
+#: modules/fl-attached-images/fl-attached-images.php:11
+msgid "Displays a gallery of images attached to the current post."
+msgstr ""
+
+#: modules/fl-author-bio/fl-author-bio.php:15
+msgid "Displays the author bio box for a post."
+msgstr ""
+
+#: modules/fl-comments/fl-comments.php:15
+msgid "Displays the comments for the current post."
+msgstr ""
+
+#: modules/fl-featured-image/fl-featured-image.php:11
+msgid "Displays the featured image for the current post."
+msgstr ""
+
+#: modules/fl-post-columns/fl-post-columns.php:10
+msgid "Post Columns"
+msgstr ""
+
+#: modules/fl-post-columns/fl-post-columns.php:11
+msgid "Displays a column grid of posts for the current archive."
+msgstr ""
+
+#: modules/fl-post-content/fl-post-content.php:15
+msgid "Displays the content for a post."
+msgstr ""
+
+#: modules/fl-post-gallery/fl-post-gallery.php:10
+msgid "Post Gallery"
+msgstr ""
+
+#: modules/fl-post-gallery/fl-post-gallery.php:11
+msgid "Displays a gallery grid of posts for the current archive."
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:13
+msgid "Post Info"
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:14
+msgid "Displays meta information for a post."
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:118
+#: modules/fl-post-info/fl-post-info.php:122
+#: modules/fl-post-info/fl-post-info.php:312
+msgid "Modified Date"
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:149
+msgid "Last Updated&nbsp;"
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:172
+msgid "Show author link"
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:211
+#: modules/fl-post-info/fl-post-info.php:215
+#: modules/fl-post-info/fl-post-info.php:315
+msgid "Terms"
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:255
+msgid "Typography"
+msgstr ""
+
+#: modules/fl-post-info/fl-post-info.php:264
+msgid "Color"
+msgstr ""
+
+#: modules/fl-post-list/fl-post-list.php:10
+msgid "Post List"
+msgstr ""
+
+#: modules/fl-post-list/fl-post-list.php:11
+msgid "Displays a list of posts for the current archive."
+msgstr ""
+
+#: modules/fl-post-masonry/fl-post-masonry.php:10
+msgid "Post Masonry"
+msgstr ""
+
+#: modules/fl-post-masonry/fl-post-masonry.php:11
+msgid "Displays a masonry grid of posts for the current archive."
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:14
+msgid "Post Navigation"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:15
+msgid "Displays the next / previous post navigation links."
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:28
+msgid "Settings"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:35
+msgid "Navigation Links"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:49
+msgid "Both Previous and Next Links"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:53
+msgid "Determine the navigation link to show."
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:57
+msgid "Previous Link Text"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:63
+msgid "Next Link Text"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:69
+msgid "Navigate in same taxonomy"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:71
+msgid "Whether to navigate in the same taxonomy as the current post or not."
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:78
+msgid "Enable"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:79
+msgid "Disable"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:87
+msgid "The default taxonomy is category."
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:96
+msgid "ARIA Label"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:101
+msgid "Screen Reader Text"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:116
+msgid "Text Padding"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:139
+msgid "Text Background Color"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:165
+msgid "Container Style"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:170
+msgid "Container Padding"
+msgstr ""
+
+#: modules/fl-post-navigation/fl-post-navigation.php:182
+msgid "Container Margins"
+msgstr ""
+
+#: modules/fl-post-title/fl-post-title.php:11
+msgid "Displays the title for the current post."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Beaver Themer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.wpbeaverbuilder.com/?utm_medium=bb-theme-builder&utm_"
+"source=plugins-admin-page&utm_campaign=plugins-admin-uri"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily build Themer layouts for your archives, posts, 404 pages and more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "The Beaver Builder Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.wpbeaverbuilder.com/?utm_medium=bb-theme-builder&utm_"
+"source=plugins-admin-page&utm_campaign=plugins-admin-author"
+msgstr ""
+
+#: classes/class-fl-page-data-archive.php:26
+#. translators: %s: Search results title
+msgctxt "Search results title."
+msgid "Search Results: %s"
+msgstr ""
+
+#: classes/class-fl-page-data-archive.php:79
+msgctxt "Showing 1-5 of 25"
+msgid "Showing"
+msgstr ""
+
+#: classes/class-fl-page-data-archive.php:80
+msgctxt "Showing 1-5 of 25"
+msgid "of"
+msgstr ""
+
+#: classes/class-fl-page-data-archive.php:98
+msgctxt "Page 1 of 5"
+msgid "Page"
+msgstr ""
+
+#: classes/class-fl-page-data-archive.php:99
+msgctxt "Page 1 of 5"
+msgid "of"
+msgstr ""
+
+#: classes/class-fl-page-data-post.php:62
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr ""
+
+#: classes/class-fl-theme-builder-frontend-edit.php:63
+#. translators: 1: post type label, 2: custom builder branding
+msgctxt "%1$s post type label. %2$s custom builder branding."
+msgid ""
+"This %1$s has a Themer layout assigned to it. Would you like %2$s to "
+"override the entire layout or only the content for this %1$s?"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-add.php:107
+#. translators: %s: action like Add, Edit or View
+msgctxt "%s is an action like Add, Edit or View."
+msgid "%s Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:93
+#. translators: %s: post or taxonomy name
+msgctxt "%s is the post or taxonomy name."
+msgid "All %s"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:95
+#. translators: 1: post title, 2: post label
+msgctxt "%1$s is the post title. %2$s is the post type label."
+msgid ""
+"This location has already been added to the \"%1$s\" %2$s. Would you like "
+"to remove it and add it to this %1$s?"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:97
+#. translators: %s: post title
+msgctxt "%s stands for post title."
+msgid "Assigned to %s"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:180
+#. translators: %s: post title
+msgctxt "% is a post title."
+msgid "The layout %s is assigned to the same location and may not show."
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-admin-edit.php:183
+#. translators: %s: post titles
+msgctxt "% is post titles."
+msgid "The layouts %s are assigned to the same location and may not show."
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:38
+#: classes/class-fl-theme-builder-layout-post-type.php:40
+msgctxt "Custom post type label."
+msgid "Themer Layouts"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:39
+#: classes/class-fl-theme-builder-layout-post-type.php:41
+msgctxt "Custom post type label."
+msgid "Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:42
+msgctxt "Custom post type label."
+msgid "Add New"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:43
+msgctxt "Custom post type label."
+msgid "Add New Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:44
+msgctxt "Custom post type label."
+msgid "New Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:45
+msgctxt "Custom post type label."
+msgid "Edit Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:46
+msgctxt "Custom post type label."
+msgid "View Themer Layout"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:47
+msgctxt "Custom post type label."
+msgid "All Themer Layouts"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:48
+msgctxt "Custom post type label."
+msgid "Search Themer Layouts"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:49
+msgctxt "Custom post type label."
+msgid "Parent Themer Layout:"
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:50
+msgctxt "Custom post type label."
+msgid "No Themer layouts found."
+msgstr ""
+
+#: classes/class-fl-theme-builder-layout-post-type.php:51
+msgctxt "Custom post type label."
+msgid "No Themer layouts found in Trash."
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:870
+#. translators: %s: singular post type name
+msgctxt "%s is a singular post type name"
+msgid "%s Parent"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:879
+#. translators: %s: singular post type name
+msgctxt "%s is a singular post type name"
+msgid "%s Ancestor"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:888
+#. translators: %s: singular post type name
+msgctxt "%s is a singular post type name"
+msgid "%s Archives"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:897
+#. translators: %s: singular post type name
+msgctxt "%s is a singular post type name"
+msgid "%s Archive"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:926
+#. translators: 1: post type label, 2: taxonomy label
+msgctxt "%1$s is post type label. %2$s is taxonomy label."
+msgid "%1$s %2$s Archive"
+msgstr ""
+
+#: classes/class-fl-theme-builder-rules-location.php:944
+#. translators: 1: post type label, 2: taxonomy label
+msgctxt "%1$s is post type label. %2$s is taxonomy label."
+msgid "%1$s %2$s Parent"
+msgstr ""
+
+#: extensions/bb-logic/rest/classes/class-bb-logic-rest-wordpress.php:300
+#. translators: %s: post type singular name
+msgctxt "%s post type singular name"
+msgid "%s Archive"
+msgstr ""

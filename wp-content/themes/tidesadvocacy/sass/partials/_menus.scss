@@ -1,0 +1,276 @@
+.fl-page-nav-wrap {
+  border: none !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fl-page-fixed-nav-wrap {
+  .fl-page-nav-wrap {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+/** Adding in extra components for mobile (shown on Shiftnav) - hiding for desktop */
+.search-topmenu-wrap {
+  display: none;
+}
+@media (min-width: 850px) {
+  .search-topmenu-wrap {
+    display: block;
+  }
+  .navbar-collapse .fl-page-header-logo,
+  .navbar-collapse #menu-top-bar-1,
+  .navbar-collapse .fl-page-nav-search {
+    display: none;
+  }
+}
+
+/** Move hamburger to the left */
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile .fl-page-nav .navbar-toggle {
+	left: 20px;
+}
+
+// remove top border of drop menu 
+.fl-page-nav-toggle-icon.fl-page-nav-toggle-visible-mobile .fl-page-nav-collapse {
+	border-top: none;
+  //padding: 20px 0 40px 0;
+  padding: 0;
+}
+
+
+/** BB Menu - mobile first (Shiftnav), then BB drop menu and fixed menu */
+ul#menu-top-bar-1 {
+  li {
+    a {
+      text-transform: uppercase;
+    }
+  }
+}
+
+/** Header/Primary menu and fixed menu */
+ul#menu-primary-1,
+ul#menu-primary {
+  li {
+    display: inline-block;
+    position: relative;
+    padding: 0 7px;
+    padding-bottom: 10px;
+    a {
+      text-transform: uppercase;
+      color: $pink;
+      z-index: 300;
+      font-weight: 700;
+      font-size: 19px;
+      font-family: $nowayitalic;
+      border-bottom: 3px solid transparent;
+      padding: 12px 0 0 0; //12px is to match button 2px border plus 10px padding
+      @include transition;
+      &:hover {
+        border-bottom: 3px solid $blue;
+      }
+    }
+    @media (min-width: 992px) {
+      padding: 0 12px;
+      a {
+        font-size: 21px;
+      }
+    }
+    @media (min-width: 1100px) {
+      padding: 0 15px;
+      a {
+        font-size: 21px;
+      }
+    }
+    ul {
+      border-top: none;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      position: absolute;
+      left: 0;
+      top: -30px; //go up to below logo
+      padding: 40px 1000em 30px 1000em; /* trick from css-tricks comments */
+      margin: 0 -1000em; /* trick from css-tricks comments */
+      z-index: 101;
+      visibility: hidden;
+      opacity: 0;
+      padding-top: 90px; //move back down to below menu since we have neg top
+      background: $lightblue;
+      li {
+        width: 300px;
+        padding: 5px 0 3px 5px;
+        a {
+          color: $blue;
+          font-weight: 500;
+          font-size: 18px;
+          padding: 0;
+          &:hover {
+            border-bottom: 3px solid transparent;
+            color: $pink;
+          }
+        }
+      }
+      li.current_page_item a {
+        border-bottom: 3px solid transparent;
+        color: $pink;
+      }
+    }
+  }
+  li.no-link > a {
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  li.current_page_item > a {
+    border-bottom: 3px solid $blue;
+  }
+  li:hover ul {
+    visibility: visible;
+    opacity: 1;
+  }
+  li.btn-menu {
+    padding-right: 0;
+    a {
+      @include btnsolid($white, $pink);
+      padding: 10px 7px;
+      margin-left: 0;
+      margin-top: 10px;
+      @media (min-width: 992px) {
+        // @include btnsolid($white, $pink);
+         padding: 10px 15px;
+         margin-left: 12px;
+         margin-top: 0;
+       }
+      @media (min-width: 1100px) {
+       // @include btnsolid($white, $pink);
+        padding: 10px 25px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+/** Fixed menu  */
+ul#menu-primary {
+  li {
+    a {
+      font-size: 16px;
+    }
+    ul {
+      padding-top: 75px;
+      padding-bottom: 20px;
+      li {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+/** Float menu right on desktop */
+@media (min-width: 850px) {
+  ul#menu-primary-1 {
+    float: right;
+  }
+}
+
+/** Mobile  */
+@media (max-width: 849px) {
+  ul#menu-primary-1,
+  ul#menu-top-bar-1 {
+    padding-top: 15px;
+    li {
+      float: none;
+      border: none;
+      a {
+        padding: 5px 0;
+      }
+    }
+    li.btn-menu {
+      a {
+        margin-left: 0;
+        display: inline-block;
+      }
+    }
+  }
+  ul#menu-top-bar-1 {
+    li {
+      a {
+        padding: 2px 0;
+      }
+    }
+  }
+  footer ul#menu-primary-2 {
+    li {
+      ul {
+        li {
+          a {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/** Search  */
+.search-topmenu-wrap {
+  margin-bottom: 40px;
+}
+.fl-page-nav-search {
+	bottom: 0;
+	display: inline-block;
+	position: relative;
+	right: 0;
+  top: 0;
+  float: right;
+}
+.fl-page-nav-search a.fa-search {
+	color: $gray;
+	font-size: 18px;
+	padding: 4px 8px;
+	position: absolute;
+	right: 0;
+  top: 2px;
+  &:hover {
+    color: $pink;
+  }
+}
+.fl-page-nav-bottom .fl-page-header-row {
+  padding: 0;
+  margin: 0;
+}
+.fl-page-nav-bottom .fl-page-header-row .col-md-6 {
+	display: table-cell;
+	float: none;
+  vertical-align: bottom;
+  padding-right: 0;
+}
+/** Top bar blue nav next to search  */
+.fl-page-bar-nav {
+  float: right;
+  li {
+    padding: 2px 0 0 6px;
+    margin: 0;
+    a {
+      text-transform: uppercase;
+      color: $blue;
+      font-size: 16px;
+      padding: 0;
+      margin: 0;
+      display: inline;
+      border-bottom: 2px solid transparent;
+      &:hover {
+       border-bottom: 2px solid $pink;
+      }
+    }
+  }
+  li.current_page_item {
+    a {
+      border-bottom: 2px solid $pink;
+    }
+  }
+}
+

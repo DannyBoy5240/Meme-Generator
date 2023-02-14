@@ -1,0 +1,42 @@
+/* Wrappers */
+#tribe-events-content.fl-builder-content {
+	margin: 0;
+	padding: 0;
+}
+#tribe-events-content.fl-builder-empty {
+	padding: 100px 20px;
+}
+
+/* Event Date and Time */
+.fl-module .recurringinfo {
+	display: none;
+}
+
+/* Event Meta */
+.fl-module .tribe-events-meta-group .tribe-events-single-section-title {
+	margin-top: 0;
+}
+.fl-module .tribe-events-meta-group dl {
+	margin-bottom: 0;
+}
+.fl-module .tribe-events-meta-group dd {
+	margin-bottom: 10px;
+}
+.fl-module .tribe-events-meta-group dd:last-child {
+	margin-bottom: 0;
+}
+
+/* Ticket Lists */
+.tribe-list .tribe-item:before,
+.tribe-list .tribe-item:after {
+	display: table;
+	content: " ";
+}
+.tribe-list .tribe-item:after {
+	clear: both;
+}
+
+/* Remove loading icon since TEC 6.0 */
+.tribe-events-ajax-loading {
+	display: none;
+}

@@ -1,0 +1,231 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M742.029 611.432l-112.788-26.713c38.586-47.49 65.299-103.884 77.171-166.214 14.841-92.012-5.936-186.991-59.362-264.162s-136.533-127.629-228.545-145.438c-92.012-14.841-186.991 5.936-264.162 59.362-74.203 56.394-127.629 136.533-142.47 228.545s5.936 186.991 59.362 264.162c53.426 77.171 136.533 127.629 228.545 145.438 20.777 2.968 41.554 5.936 59.362 5.936 97.948 0 189.959-41.554 255.258-109.82l50.458 121.693 430.377 290.875 71.235-115.757-424.441-287.907zM305.716 670.794c-83.107-14.841-157.31-59.362-204.8-130.597-50.458-68.267-68.267-154.342-53.426-237.449 11.872-83.107 59.362-157.31 127.629-204.8 53.426-38.586 118.725-59.362 184.023-59.362 17.809 0 35.617 2.968 56.394 5.936 83.107 14.841 157.31 62.33 204.8 130.597 50.458 68.267 68.267 154.342 53.426 237.449v0c-29.681 172.151-195.896 290.875-368.046 258.226zM1083.362 967.606l-391.791-264.162-29.681-74.203 65.299 14.841 394.759 267.13-38.586 56.394z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 1172,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Magnifying Glass"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 11,
+        "id": 0,
+        "name": "Magnifying-Glass",
+        "prevSize": 32,
+        "code": 59651
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M877.097 578.97l-30.245-30.245-375.899 380.219v-907.342h-43.207v907.342l-375.899-380.219-30.245 30.245 427.747 432.068z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(0, 0, 0)"
+          }
+        ],
+        "width": 899,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Blue Arrow"
+        ],
+        "colorPermutations": {
+          "11": [
+            {
+              "f": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(0, 0, 0)"
+        }
+      ],
+      "properties": {
+        "order": 8,
+        "id": 2,
+        "name": "ArrowDown",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M662.588 15.059l-35.137 35.137 441.725 441.725h-1054.118v50.196h1054.118l-441.725 436.706 35.137 35.137 501.961-496.941z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(0, 0, 0)"
+          }
+        ],
+        "width": 1170,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Pink Arrow"
+        ],
+        "colorPermutations": {
+          "11": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(0, 0, 0)"
+        }
+      ],
+      "properties": {
+        "order": 13,
+        "id": 1,
+        "name": "ArrowRight",
+        "prevSize": 32,
+        "code": 59649
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M507.412 1008.941l35.137-35.137-441.725-441.725h1054.118v-50.196l-1054.118-0 441.725-436.706-35.137-35.137-501.961 496.941z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(0, 0, 0)"
+          }
+        ],
+        "width": 1170,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Pink Arrow"
+        ],
+        "colorPermutations": {
+          "11": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(0, 0, 0)"
+        }
+      ],
+      "properties": {
+        "order": 15,
+        "id": 3,
+        "prevSize": 32,
+        "code": 59652,
+        "name": "ArrowLeft"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1013.657 41.374l-41.374-36.202-465.455 470.626-465.455-470.626-36.202 36.202 465.455 470.626-465.455 470.626 36.202 36.202 465.455-470.626 465.455 470.626 41.374-36.202-470.626-470.626z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(0, 0, 0)"
+          }
+        ],
+        "width": 1019,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "X"
+        ],
+        "colorPermutations": {
+          "11": [
+            {
+              "f": 0
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(0, 0, 0)"
+        }
+      ],
+      "properties": {
+        "order": 10,
+        "id": 0,
+        "name": "Cancel",
+        "prevSize": 32,
+        "code": 59650
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 3
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50,
+    "gridSize": 16
+  }
+}

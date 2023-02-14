@@ -1,0 +1,132 @@
+/** Special Classes */
+
+
+/** Photo/image */
+img.fl-photo-img {
+  @media (max-width: 460px) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .focus-areas-color .fl-col-group-nested,
+  .section-bluebkg-redsign .fl-col-group-nested {
+    position: relative;
+  }
+
+  .position-bottom .fl-col-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+}
+
+
+.hero {
+  .fl-row-content-wrap {
+    min-height: 500px;
+    background-size:cover;
+    @media (min-width: 768px) {
+      min-height: 500px;
+    }
+    @media (min-width: 992px) {
+      min-height: 800px;
+      background-size:cover;
+      width:100%;
+      min-height:500px;
+      height: calc(100vw * 995.0 / 1980.0);
+    }
+  }
+}
+
+.hero-2-line {
+  .ta-header {
+    //font-size: 12vw;
+    padding-top: 20%;
+    @media (min-width: 480px) {
+      //font-size: 10vw;
+    }
+    @media (min-width: 768px) {
+      //font-size: 9vw;
+      padding-top: 20%
+    }
+    @media (min-width: 992px) {
+      padding-top: 25%;
+    }
+    @media (min-width: 1440px) {
+      //font-size: 140px;
+    }
+  }
+}
+
+.hero-3-line {
+  .ta-header {
+    //font-size: 12vw;
+    padding-top: 40px;
+    @media (min-width: 480px) {
+      //font-size: 10vw;
+    }
+    @media (min-width: 768px) {
+     // font-size: 9vw;
+      padding-top: 7%
+    }
+    @media (min-width: 992px) {
+      padding-top: 7%;
+    }
+    @media (min-width: 1440px) {
+      //font-size: 140px;
+    }
+  }
+}
+
+.hero-4-line {
+  .ta-header {
+   // font-size: 12vw;
+    padding-top: 40px;
+    @media (min-width: 480px) {
+     // font-size: 10vw;
+    }
+    @media (min-width: 768px) {
+      //font-size: 8vw;
+      padding-top: 3.5%;
+    }
+    @media (min-width: 992px) {
+      padding-top: 3.5%;
+    }
+    @media (min-width: 1440px) {
+      padding-top: 5.5%;
+    }
+    @media (min-width: 1980px) {
+      padding-top: 12%;
+    }
+  }
+}
+
+/** Text image */
+.text-image {
+  img {
+    max-width: 80% !important;
+    @media (min-width: 480px) {
+      max-width: 75% !important;
+    }
+  }
+}
+ 
+/** Donate Partners  - load disabled*/
+.donate-partners {
+  a.ta-button.disabled {
+    border-color: $lightgray !important;
+    cursor: none;
+    background-color: $lightgray !important;
+    &:hover {
+      color: $white !important;
+      text-decoration: none;
+    }
+    &:focus {
+      outline: none;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,231 @@
+/** ShiftNav plugin overrides */
+.shiftnav .shiftnav-menu-image img {
+	max-width: 140px;
+	height: auto;
+}
+.shiftnav .shiftnav-menu-image-padded {
+	padding: 20px;
+}
+
+.shiftnav .shiftnav-panel-close {
+	background: transparent;
+}
+
+.shiftnav-nav {
+  padding: 20px;
+}
+
+.shiftnav li.menu-item.shiftnav-sub-accordion.shiftnav-active > ul.sub-menu {
+	padding-bottom: 5px;
+}
+
+#shiftnav-toggle-main {
+	background: $lightblue;
+  color: $blue;
+  height: 73px;
+  z-index: 500;
+  .shiftnav-main-toggle-content {
+    padding: 10px 40px 0 40px;
+    img {
+      max-width: 100px;
+    }
+  }
+  .fl-page-nav-search {
+    top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #shiftnav-toggle-main .shiftnav-toggle-burger, 
+  #shiftnav-toggle-main.shiftnav-toggle-main-entire-bar::before {
+    padding: 16px 40px;
+  }
+  .fl-page-nav-search a.fa-search {
+    padding: 4px 20px;
+  }
+}
+
+.shiftnav-toggle .fa-bars {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.shiftnav .shiftnav-submenu-activation i.fa {
+	margin-top: -12px;
+}
+.shiftnav .shiftnav-submenu-activation i.fa-arrow-up {
+	margin-left: 0;
+}
+
+#shiftnav-toggle-main .shiftnav-searchbar-drop {
+	width: 100%;
+	max-width: 100%;
+	box-shadow: none;;
+}
+
+/** remove shadow!!  */
+.shiftnav:after {
+  display: none;
+}
+
+/** add body overlay */
+.shiftnav-overlay {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1042;
+	overflow: hidden;
+	position: fixed;
+	background: $lightblue;
+	opacity: 0.8;
+  filter: alpha(opacity=80);
+  display: none;
+}
+
+
+
+/** Embedded builder Top Bar Menu */
+#shiftnav-main {
+  .fl-builder-content {
+    padding: 0 20px;
+    .fl-module-content {
+      margin: 0;
+      ul.menu {
+        li {
+          list-style-type: none;
+          a {
+            padding: 4px 0;
+            font-weight: 500;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/** Hide toggle bar when nav is open  */
+.shiftnav-open.shiftnav-open-left #shiftnav-toggle-main, .shiftnav-open.shiftnav-open-left .shiftnav-wrap, .shiftnav-open.shiftnav-open-left > .shiftnav-fixed-left {
+  display: none;
+  //add transition so it doesn't just blink away
+}
+/* Modified from Custom ShiftNav Skin Sample */
+
+.shiftnav.shiftnav-skin-custom {
+  font-size: 23px;
+  line-height: 1.3em;
+  background: $lightblue;
+  color: $pink;
+}
+.shiftnav.shiftnav-skin-custom .shiftnav-site-title {
+  font-size: 30px;
+  text-align: left;
+  padding: 40px 25px;
+  font-weight: normal;
+  color: $pink;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item > .shiftnav-target {
+  color: $pink;
+  font-size: 19px;
+  font-weight: 700;
+  border-top: none;
+  border-bottom: none;
+  text-shadow: 0;
+  text-transform: uppercase;
+  //ta theme
+  font-family: $nowayitalic;
+  padding: 5px 0;
+
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation {
+  background: $lightblue;
+  color: $pink;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation:hover {
+  background: $lightblue;
+  color: $pink;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-submenu-activation,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-submenu-activation {
+  background: $lightblue;
+  color: $pink;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-highlight > .shiftnav-target,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item ul.sub-menu .shiftnav-highlight > .shiftnav-target {
+  color: $blue;
+  background: transparent;
+  font-weight: normal;
+  font-size: 19px;
+  padding-top: 2px;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-target,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-target{
+  color: $pink;
+  background: $lightblue;
+  
+  //border-top-color: rgba(255, 255, 255, 0.2);
+  //border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.current-menu-item > .shiftnav-target,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item ul.sub-menu .current-menu-item .shiftnav-target {
+  color: $pink;
+  background: $lightblue;
+  color: $blue;
+  background: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 2px;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu > li.menu-item > .shiftnav-target {
+  text-transform: uppercase;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.shiftnav-retract .shiftnav-target {
+  background: $lightblue;
+  color: $pink;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu ul.sub-menu {
+  color: $pink;
+  background: $lightblue;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  color: $pink;
+  color: $blue;
+  background: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 4px 0;
+  line-height: 1.2;
+  //border-width: inherit;
+  //border-top-color: rgba(255, 255, 255, 0.05);
+  //border-bottom-color: rgba(0, 0, 0, 0.15);
+  //font-weight: normal;
+  //font-size: inherit;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 50px;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 75px;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 100px;
+}
+.shiftnav.shiftnav-skin-custom.shiftnav-left-edge {
+  border-right: none;
+}
+.shiftnav.shiftnav-skin-custom.shiftnav-right-edge {
+  border-left: none;
+}
+.shiftnav.shiftnav-skin-custom.shiftnav-nojs ul.shiftnav-menu li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-active-on-hover li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-custom.shiftnav-active-highlight ul.shiftnav-menu li.menu-item > .shiftnav-target:active {
+  color: $pink;
+  background: $lightblue;
+  //border-top-color: rgba(255, 255, 255, 0.2);
+  //border-bottom-color: rgba(0, 0, 0, 0.5);
+}

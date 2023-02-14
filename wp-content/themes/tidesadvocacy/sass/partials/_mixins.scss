@@ -1,0 +1,101 @@
+/** transition used on buttons and menus */
+@mixin transition($time: .25s) {
+  -webkit-transition: all $time ease;
+  -moz-transition: all $time ease;
+  -ms-transition: all $time ease;
+  -o-transition: all $time ease;
+  transition: all $time ease;
+}
+
+/** Button mixins */
+@mixin btnsolid($color, $bkgcolor) {
+  @include transition();
+  display: inline-block;
+  background-color: $bkgcolor;
+  border: 2px solid $bkgcolor;
+  color: $color;
+  padding: 10px 25px;
+  border-radius: 0;
+  font-family: $nowayitalic;
+  text-transform: uppercase;
+  font-weight: 700;
+  span {
+    color: $color;
+    font-family: $nowayitalic;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  &:hover {
+    background-color: $white;
+    border: 2px solid $bkgcolor;
+    color: $bkgcolor;
+    text-decoration: none;
+    span {
+      color: $bkgcolor;
+    }
+  }
+}
+
+@mixin btnmixed($color, $bordercolor) {
+  @include transition();
+  display: inline-block;
+  background-color: transparent;
+  border: 3px solid $bordercolor;
+  color: $color;
+  padding: 10px 25px;
+  border-radius: 0;
+  font-family: $nowayitalic;
+  text-transform: uppercase;
+  font-weight: 700;
+  span {
+    color: $color;
+    font-family: $nowayitalic;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  &:hover {
+    background-color: $white;
+    border: 3px solid $color;
+    color: $bordercolor;
+    text-decoration: none;
+    span {
+      color: $bordercolor;
+    }
+  }
+}
+
+@mixin btnghost($color, $hovercolor) {
+  @include transition();
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid $color;
+  color: $color;
+  padding: 10px 25px;
+  border-radius: 0;
+  font-family: $nowayitalic;
+  text-transform: uppercase;
+  font-weight: 700;
+  span {
+    color: $color;
+    font-family: $nowayitalic;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  &:hover {
+    background-color: $white;
+    border: 2px solid $hovercolor;
+    color: $hovercolor;
+    text-decoration: none;
+    span {
+      color: $hovercolor;
+    }
+  }
+}
+
+@mixin alpha-attribute($attribute, $color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  #{$attribute}: $solid-color;
+  #{$attribute}: $color;
+}
